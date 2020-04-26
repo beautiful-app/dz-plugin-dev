@@ -1,0 +1,80 @@
+后台设置伪静态开启后，请根据自己主机添加相应的伪静态规则即可.
+
+
+
+
+Apache Web Server(独立主机用户):
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^(.*)/page-([0-9]+)\.html$ $1/plugin.php?id=comiis_app_portal&pid=$2&%1
+</IfModule>
+
+
+
+
+
+
+
+Apache Web Server(虚拟主机用户):
+# 将 RewriteEngine 模式打开
+RewriteEngine On
+
+# 修改以下语句中的 /discuz 为您的论坛目录地址，如果程序放在根目录中，请将 /discuz 修改为 /
+RewriteBase /discuz
+
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^page-([0-9]+)\.html$ plugin.php?id=comiis_app_portal&pid=$1&%1
+
+
+
+
+
+
+
+IIS Web Server(独立主机用户):
+[ISAPI_Rewrite]
+
+# 3600 = 1 hour
+CacheClockRate 3600
+
+RepeatLimit 32
+
+# Protect httpd.ini and httpd.parse.errors files
+# from accessing through HTTP
+RewriteRule ^(.*)/page-([0-9]+)\.html(\?(.*))*$ $1/plugin\.php\?id=comiis_app_portal&pid=$2&$4
+
+
+
+
+
+
+IIS7 Web Server(独立主机用户):
+<rewrite>
+<rules>
+<rule name="page">
+<match url="^(.*/)*page-([0-9]+).html\?*(.*)$" />
+<action type="Rewrite" url="{R:1}/plugin.php\?id=comiis_app_portal&amp;pid={R:2}&amp;{R:3}" />
+</rule>
+</rules>
+</rewrite>
+
+
+
+
+
+Zeus Web Server:
+match URL into $ with ^(.*)/page-([0-9]+)\.html\?*(.*)$
+if matched then
+set URL = $1/plugin.php?id=comiis_app_portal&pid=$2&$3
+endif
+
+
+
+
+
+Nginx Web Server:
+rewrite ^([^\.]*)/page-([0-9]+)\.html$ $1/plugin.php?id=comiis_app_portal&pid=$2 last;
+if (!-e $request_filename) {
+return 404;
+}

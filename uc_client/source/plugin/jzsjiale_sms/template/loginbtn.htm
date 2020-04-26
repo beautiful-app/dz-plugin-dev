@@ -1,0 +1,12 @@
+<!--{block loginbtn}-->
+     <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_isopenpcloginextrabtn']}-->
+	<div class="fastlg_fm y" style="margin-right: 10px; padding-right: 10px">
+		<p><a href="plugin.php?id=jzsjiale_sms:homesms" onclick="showWindow('login', this.href);return false;"><img src="source/plugin/jzsjiale_sms/static/images/login.png" style="width:124px;height:24px;" class="vm" /></a></p>
+		<p class="hm xg1" style="padding-top: 2px;">{lang jzsjiale_sms:loginextratip}</p>
+	</div>
+	<!--{/if}-->
+	<!--{if !$_G['cache']['plugin']['jzsjiale_sms']['g_useownjquery']}-->
+    <script src="source/plugin/jzsjiale_sms/static/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">var jq=jQuery.noConflict();</script>
+    <!--{/if}-->
+<!--{/block}-->

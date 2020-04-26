@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="page">
+		<item id="id"><![CDATA[3]]></item>
+		<item id="name"><![CDATA[热图]]></item>
+		<item id="user"><![CDATA[yifan]]></item>
+		<item id="uid"><![CDATA[1]]></item>
+		<item id="dateline"><![CDATA[1540476042]]></item>
+		<item id="title"><![CDATA[]]></item>
+		<item id="description"><![CDATA[]]></item>
+		<item id="keywords"><![CDATA[]]></item>
+		<item id="default"><![CDATA[0]]></item>
+		<item id="show"><![CDATA[1]]></item>
+		<item id="loadforum"><![CDATA[1]]></item>
+		<item id="header"><![CDATA[1]]></item>
+		<item id="color"><![CDATA[#f3f3f3]]></item>
+		<item id="bgcolor"><![CDATA[#53bcf5]]></item>
+		<item id="fontcolor"><![CDATA[#ffffff]]></item>
+		<item id="css"><![CDATA[]]></item>
+		<item id="openre"><![CDATA[1]]></item>
+		<item id="rekey"><![CDATA[1]]></item>
+		<item id="rekeyurl"><![CDATA[]]></item>
+		<item id="comiisheader"><![CDATA[0]]></item>
+		<item id="comiisfooter"><![CDATA[0]]></item>
+		<item id="comiisstyle"><![CDATA[10]]></item>
+		<item id="fids"><![CDATA[a:10:{i:0;s:2:"62";i:1;s:2:"49";i:2;s:2:"48";i:3;s:1:"2";i:4;s:2:"37";i:5;s:2:"38";i:6;s:2:"39";i:7;s:2:"44";i:8;s:2:"45";i:9;s:2:"63";}]]></item>
+		<item id="tids"><![CDATA[]]></item>
+		<item id="pl"><![CDATA[views]]></item>
+		<item id="times"><![CDATA[0]]></item>
+		<item id="num"><![CDATA[20]]></item>
+		<item id="pages"><![CDATA[10]]></item>
+		<item id="comiispages"><![CDATA[1]]></item>
+		<item id="isimage"><![CDATA[1]]></item>
+	</item>
+	<item id="diydata">
+		<item id="0">
+			<item id="id"><![CDATA[38]]></item>
+			<item id="pid"><![CDATA[3]]></item>
+			<item id="bid"><![CDATA[49]]></item>
+			<item id="diyid"><![CDATA[61]]></item>
+			<item id="displayorder"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[自定义HTML]]></item>
+			<item id="type"><![CDATA[]]></item>
+			<item id="dir"><![CDATA[html]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[0]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[0]]></item>
+			<item id="borderbottom"><![CDATA[0]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+		</item>
+	</item>
+	<item id="block">
+		<item id="0">
+			<item id="id"><![CDATA[49]]></item>
+			<item id="name"><![CDATA[自定义HTML]]></item>
+			<item id="dir"><![CDATA[html]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="copyright"><![CDATA[http://www.comiis.com]]></item>
+			<item id="version"><![CDATA[1]]></item>
+		</item>
+	</item>
+	<item id="diy">
+		<item id="block">
+			<item id="61">
+				<item id="bid"><![CDATA[61]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[顶部导航]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[<div style="height:40px;"><div class="comiis_scrollTop_box"><div class="comiis_mh_navs bg_f b_b">
+<div class="comiis_mh_subbox">
+<div class="comiis_mh_sub">
+<ul class="comiis_flex">
+<li class="flex f_b"><a href="forum.php?forumlist=1">版区</a></li>
+<li class="flex f_b"><a href="plugin.php?id=comiis_app_portal&pid=2">最新</a></li>
+<li class="flex nvon b_0 f_0"><a href="plugin.php?id=comiis_app_portal&pid=3">热图</a></li>
+<li class="flex f_b"><a href="plugin.php?id=comiis_app_portal&pid=4">精选</a></li></ul>
+</div>
+</div>
+</div>
+</div></div>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[yifan]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<div style=\"height:40px;\"><div class=\"comiis_scrollTop_box\"><div class=\"comiis_mh_navs bg_f b_b\">
+<div class=\"comiis_mh_subbox\">
+<div class=\"comiis_mh_sub\">
+<ul class=\"comiis_flex\">
+<li class=\"flex f_b\"><a href=\"forum.php?forumlist=1\">版区</a></li>
+<li class=\"flex f_b\"><a href=\"plugin.php?id=comiis_app_portal&pid=2\">最新</a></li>
+<li class=\"flex nvon b_0 f_0\"><a href=\"plugin.php?id=comiis_app_portal&pid=3\">热图</a></li>
+<li class=\"flex f_b\"><a href=\"plugin.php?id=comiis_app_portal&pid=4\">精选</a></li></ul>
+</div>
+</div>
+</div>
+</div></div>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1541036019]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+		</item>
+		<item id="style">
+		</item>
+	</item>
+</root>

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Threadtypes]]></item>
+	<item id="Version"><![CDATA[X3.2]]></item>
+	<item id="Time"><![CDATA[2017-05-25 17:30]]></item>
+	<item id="From"><![CDATA[克米设计 http://www.comiis.com]]></item>
+	<item id="Data">
+		<item id="0">
+			<item id="optionid"><![CDATA[54]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[1]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[类别]]></item>
+			<item id="description"><![CDATA[二手物品求购]]></item>
+			<item id="identifier"><![CDATA[comiis_esxx_qgfl]]></item>
+			<item id="type"><![CDATA[select]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[求购物品]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_esxx_qg cl">
+    <div class="comiis_flxx_topimg cl"><em class="flxx_pcnone">{comiis_esxx_qgfl}: {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}" class="vm"></div>
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_tit comiis_flxx_zwxq bg_f cl"><h2 class="f_c b_b">求购详情</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <div class="comiis_flxx_xc"><span class="f_a"><em>￥</em>{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit} <em class="f_d">求购</em></span></div>
+            <ul>
+                <li class="f_c flxx_mobnone"><span>{comiis_esxx_qgfl}:</span> {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag"><span class="flxx_mobnone">要求: </span>{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</li>
+                <li class="foot_time"><span class="f_d y">[comiis_views]人浏览</span><span class="f_ok">[comiis_user]</span> <span class="f_d">发布于[comiis_time]</span></li>
+            </ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_pcnone bg_f cl"><h2 class="f_c b_b">联系方式</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul>	
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico01 f_0"><i class="comiis_font">&#xe61e</i></span>{comiis_esxx_qglx}: <span class="flxx_value">{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></li>
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_esxx_qgdh}: <span class="flxx_value">{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}</span></li>
+            </ul>
+        </div>
+        <div class="comiis_flxx_lxbox flxx_mobnone bg_f cl"><em></em>{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}<span>{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="comiis_tips comiis_flxx_tips bg_f b_t b_b mt10 cl"><div class="comiis_quote bg_h f_a">提示：刷信誉、淘宝刷钻、YY网络兼职、加YY联系的都是骗子！收取费用或押金都可能有欺诈嫌疑，请警惕！</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>分享</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>评论</a></li>
+            <li class="bg_a"><a href="tel:{comiis_esxx_qgdh_value}"><i class="comiis_font">&#xe6ae</i>电话</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_esxx_qgdh_value}"><h2>{comiis_esxx_qglx_value}</h2>{comiis_esxx_qgdh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">详细描述</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_es cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_es bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a">
+        <div class="z flxx_li_zimg"><em>{comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}{comiis_esxx_qgimg_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</p>
+            <p class="txt1 f_d"><span class="y flxx_pcnone">{dateline}</span><em class="f_a">￥</em><span class="f_a f16 flxx_li_sum">{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit}</span><em class="f_d">求购</em></p>
+        </div>
+    </a>
+    <div class="flxx_li_user flxx_mobnone"><p><span class="y">{views}人浏览</span><img src="{avatar_small}">{author} 发布于 {dateline}</p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[5]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[2]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[二手物品求购]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="choices"><![CDATA[1 = 电脑办公
+2 = 家具家电
+3 = 手机
+4 = 数码产品
+5 = 居家日常
+6 = 文体户外
+7 = 交通工具
+8 = 美容保健
+9 = 服装配饰
+10 = 儿童母婴
+11 = 其他]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="1">
+			<item id="optionid"><![CDATA[55]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[2]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[价格]]></item>
+			<item id="description"><![CDATA[二手物品求购]]></item>
+			<item id="identifier"><![CDATA[comiis_esxx_qgjg]]></item>
+			<item id="type"><![CDATA[text]]></item>
+			<item id="unit"><![CDATA[元]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[求购物品]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_esxx_qg cl">
+    <div class="comiis_flxx_topimg cl"><em class="flxx_pcnone">{comiis_esxx_qgfl}: {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}" class="vm"></div>
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_tit comiis_flxx_zwxq bg_f cl"><h2 class="f_c b_b">求购详情</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <div class="comiis_flxx_xc"><span class="f_a"><em>￥</em>{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit} <em class="f_d">求购</em></span></div>
+            <ul>
+                <li class="f_c flxx_mobnone"><span>{comiis_esxx_qgfl}:</span> {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag"><span class="flxx_mobnone">要求: </span>{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</li>
+                <li class="foot_time"><span class="f_d y">[comiis_views]人浏览</span><span class="f_ok">[comiis_user]</span> <span class="f_d">发布于[comiis_time]</span></li>
+            </ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_pcnone bg_f cl"><h2 class="f_c b_b">联系方式</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul>	
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico01 f_0"><i class="comiis_font">&#xe61e</i></span>{comiis_esxx_qglx}: <span class="flxx_value">{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></li>
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_esxx_qgdh}: <span class="flxx_value">{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}</span></li>
+            </ul>
+        </div>
+        <div class="comiis_flxx_lxbox flxx_mobnone bg_f cl"><em></em>{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}<span>{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="comiis_tips comiis_flxx_tips bg_f b_t b_b mt10 cl"><div class="comiis_quote bg_h f_a">提示：刷信誉、淘宝刷钻、YY网络兼职、加YY联系的都是骗子！收取费用或押金都可能有欺诈嫌疑，请警惕！</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>分享</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>评论</a></li>
+            <li class="bg_a"><a href="tel:{comiis_esxx_qgdh_value}"><i class="comiis_font">&#xe6ae</i>电话</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_esxx_qgdh_value}"><h2>{comiis_esxx_qglx_value}</h2>{comiis_esxx_qgdh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">详细描述</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_es cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_es bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a">
+        <div class="z flxx_li_zimg"><em>{comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}{comiis_esxx_qgimg_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</p>
+            <p class="txt1 f_d"><span class="y flxx_pcnone">{dateline}</span><em class="f_a">￥</em><span class="f_a f16 flxx_li_sum">{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit}</span><em class="f_d">求购</em></p>
+        </div>
+    </a>
+    <div class="flxx_li_user flxx_mobnone"><p><span class="y">{views}人浏览</span><img src="{avatar_small}">{author} 发布于 {dateline}</p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[5]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[二手物品求购]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="status"><![CDATA[0]]></item>
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxlength"><![CDATA[8]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+				<item id="profile"><![CDATA[]]></item>
+				<item id="defaultvalue"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="2">
+			<item id="optionid"><![CDATA[56]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[5]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[联系]]></item>
+			<item id="description"><![CDATA[二手物品求购]]></item>
+			<item id="identifier"><![CDATA[comiis_esxx_qglx]]></item>
+			<item id="type"><![CDATA[text]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[求购物品]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_esxx_qg cl">
+    <div class="comiis_flxx_topimg cl"><em class="flxx_pcnone">{comiis_esxx_qgfl}: {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}" class="vm"></div>
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_tit comiis_flxx_zwxq bg_f cl"><h2 class="f_c b_b">求购详情</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <div class="comiis_flxx_xc"><span class="f_a"><em>￥</em>{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit} <em class="f_d">求购</em></span></div>
+            <ul>
+                <li class="f_c flxx_mobnone"><span>{comiis_esxx_qgfl}:</span> {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag"><span class="flxx_mobnone">要求: </span>{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</li>
+                <li class="foot_time"><span class="f_d y">[comiis_views]人浏览</span><span class="f_ok">[comiis_user]</span> <span class="f_d">发布于[comiis_time]</span></li>
+            </ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_pcnone bg_f cl"><h2 class="f_c b_b">联系方式</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul>	
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico01 f_0"><i class="comiis_font">&#xe61e</i></span>{comiis_esxx_qglx}: <span class="flxx_value">{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></li>
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_esxx_qgdh}: <span class="flxx_value">{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}</span></li>
+            </ul>
+        </div>
+        <div class="comiis_flxx_lxbox flxx_mobnone bg_f cl"><em></em>{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}<span>{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="comiis_tips comiis_flxx_tips bg_f b_t b_b mt10 cl"><div class="comiis_quote bg_h f_a">提示：刷信誉、淘宝刷钻、YY网络兼职、加YY联系的都是骗子！收取费用或押金都可能有欺诈嫌疑，请警惕！</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>分享</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>评论</a></li>
+            <li class="bg_a"><a href="tel:{comiis_esxx_qgdh_value}"><i class="comiis_font">&#xe6ae</i>电话</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_esxx_qgdh_value}"><h2>{comiis_esxx_qglx_value}</h2>{comiis_esxx_qgdh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">详细描述</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_es cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_es bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a">
+        <div class="z flxx_li_zimg"><em>{comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}{comiis_esxx_qgimg_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</p>
+            <p class="txt1 f_d"><span class="y flxx_pcnone">{dateline}</span><em class="f_a">￥</em><span class="f_a f16 flxx_li_sum">{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit}</span><em class="f_d">求购</em></p>
+        </div>
+    </a>
+    <div class="flxx_li_user flxx_mobnone"><p><span class="y">{views}人浏览</span><img src="{avatar_small}">{author} 发布于 {dateline}</p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[5]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[输入您的名字]]></item>
+			<item id="ttdescription"><![CDATA[二手物品求购]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="status"><![CDATA[0]]></item>
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxlength"><![CDATA[]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+				<item id="profile"><![CDATA[]]></item>
+				<item id="defaultvalue"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="3">
+			<item id="optionid"><![CDATA[57]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[6]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[电话]]></item>
+			<item id="description"><![CDATA[二手物品求购]]></item>
+			<item id="identifier"><![CDATA[comiis_esxx_qgdh]]></item>
+			<item id="type"><![CDATA[text]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[求购物品]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_esxx_qg cl">
+    <div class="comiis_flxx_topimg cl"><em class="flxx_pcnone">{comiis_esxx_qgfl}: {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}" class="vm"></div>
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_tit comiis_flxx_zwxq bg_f cl"><h2 class="f_c b_b">求购详情</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <div class="comiis_flxx_xc"><span class="f_a"><em>￥</em>{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit} <em class="f_d">求购</em></span></div>
+            <ul>
+                <li class="f_c flxx_mobnone"><span>{comiis_esxx_qgfl}:</span> {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag"><span class="flxx_mobnone">要求: </span>{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</li>
+                <li class="foot_time"><span class="f_d y">[comiis_views]人浏览</span><span class="f_ok">[comiis_user]</span> <span class="f_d">发布于[comiis_time]</span></li>
+            </ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_pcnone bg_f cl"><h2 class="f_c b_b">联系方式</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul>	
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico01 f_0"><i class="comiis_font">&#xe61e</i></span>{comiis_esxx_qglx}: <span class="flxx_value">{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></li>
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_esxx_qgdh}: <span class="flxx_value">{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}</span></li>
+            </ul>
+        </div>
+        <div class="comiis_flxx_lxbox flxx_mobnone bg_f cl"><em></em>{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}<span>{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="comiis_tips comiis_flxx_tips bg_f b_t b_b mt10 cl"><div class="comiis_quote bg_h f_a">提示：刷信誉、淘宝刷钻、YY网络兼职、加YY联系的都是骗子！收取费用或押金都可能有欺诈嫌疑，请警惕！</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>分享</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>评论</a></li>
+            <li class="bg_a"><a href="tel:{comiis_esxx_qgdh_value}"><i class="comiis_font">&#xe6ae</i>电话</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_esxx_qgdh_value}"><h2>{comiis_esxx_qglx_value}</h2>{comiis_esxx_qgdh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">详细描述</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_es cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_es bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a">
+        <div class="z flxx_li_zimg"><em>{comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}{comiis_esxx_qgimg_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</p>
+            <p class="txt1 f_d"><span class="y flxx_pcnone">{dateline}</span><em class="f_a">￥</em><span class="f_a f16 flxx_li_sum">{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit}</span><em class="f_d">求购</em></p>
+        </div>
+    </a>
+    <div class="flxx_li_user flxx_mobnone"><p><span class="y">{views}人浏览</span><img src="{avatar_small}">{author} 发布于 {dateline}</p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[5]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[输入您的电话号码]]></item>
+			<item id="ttdescription"><![CDATA[二手物品求购]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="status"><![CDATA[0]]></item>
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxlength"><![CDATA[]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+				<item id="profile"><![CDATA[]]></item>
+				<item id="defaultvalue"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="4">
+			<item id="optionid"><![CDATA[60]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[3]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[标签]]></item>
+			<item id="description"><![CDATA[二手物品求购]]></item>
+			<item id="identifier"><![CDATA[comiis_esxx_qgtag]]></item>
+			<item id="type"><![CDATA[checkbox]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[求购物品]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_esxx_qg cl">
+    <div class="comiis_flxx_topimg cl"><em class="flxx_pcnone">{comiis_esxx_qgfl}: {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}" class="vm"></div>
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_tit comiis_flxx_zwxq bg_f cl"><h2 class="f_c b_b">求购详情</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <div class="comiis_flxx_xc"><span class="f_a"><em>￥</em>{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit} <em class="f_d">求购</em></span></div>
+            <ul>
+                <li class="f_c flxx_mobnone"><span>{comiis_esxx_qgfl}:</span> {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag"><span class="flxx_mobnone">要求: </span>{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</li>
+                <li class="foot_time"><span class="f_d y">[comiis_views]人浏览</span><span class="f_ok">[comiis_user]</span> <span class="f_d">发布于[comiis_time]</span></li>
+            </ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_pcnone bg_f cl"><h2 class="f_c b_b">联系方式</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul>	
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico01 f_0"><i class="comiis_font">&#xe61e</i></span>{comiis_esxx_qglx}: <span class="flxx_value">{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></li>
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_esxx_qgdh}: <span class="flxx_value">{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}</span></li>
+            </ul>
+        </div>
+        <div class="comiis_flxx_lxbox flxx_mobnone bg_f cl"><em></em>{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}<span>{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="comiis_tips comiis_flxx_tips bg_f b_t b_b mt10 cl"><div class="comiis_quote bg_h f_a">提示：刷信誉、淘宝刷钻、YY网络兼职、加YY联系的都是骗子！收取费用或押金都可能有欺诈嫌疑，请警惕！</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>分享</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>评论</a></li>
+            <li class="bg_a"><a href="tel:{comiis_esxx_qgdh_value}"><i class="comiis_font">&#xe6ae</i>电话</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_esxx_qgdh_value}"><h2>{comiis_esxx_qglx_value}</h2>{comiis_esxx_qgdh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">详细描述</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_es cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_es bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a">
+        <div class="z flxx_li_zimg"><em>{comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}{comiis_esxx_qgimg_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</p>
+            <p class="txt1 f_d"><span class="y flxx_pcnone">{dateline}</span><em class="f_a">￥</em><span class="f_a f16 flxx_li_sum">{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit}</span><em class="f_d">求购</em></p>
+        </div>
+    </a>
+    <div class="flxx_li_user flxx_mobnone"><p><span class="y">{views}人浏览</span><img src="{avatar_small}">{author} 发布于 {dateline}</p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[5]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[2]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[二手物品求购]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="choices"><![CDATA[1 = 无拆无修
+2 = 九成新
+3 = 尸体机
+4 = 零件]]></item>
+			</item>
+		</item>
+		<item id="5">
+			<item id="optionid"><![CDATA[61]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[4]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[图片]]></item>
+			<item id="description"><![CDATA[二手物品求购]]></item>
+			<item id="identifier"><![CDATA[comiis_esxx_qgimg]]></item>
+			<item id="type"><![CDATA[image]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[求购物品]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_esxx_qg cl">
+    <div class="comiis_flxx_topimg cl"><em class="flxx_pcnone">{comiis_esxx_qgfl}: {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}" class="vm"></div>
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_tit comiis_flxx_zwxq bg_f cl"><h2 class="f_c b_b">求购详情</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <div class="comiis_flxx_xc"><span class="f_a"><em>￥</em>{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit} <em class="f_d">求购</em></span></div>
+            <ul>
+                <li class="f_c flxx_mobnone"><span>{comiis_esxx_qgfl}:</span> {comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag"><span class="flxx_mobnone">要求: </span>{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</li>
+                <li class="foot_time"><span class="f_d y">[comiis_views]人浏览</span><span class="f_ok">[comiis_user]</span> <span class="f_d">发布于[comiis_time]</span></li>
+            </ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_pcnone bg_f cl"><h2 class="f_c b_b">联系方式</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul>	
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico01 f_0"><i class="comiis_font">&#xe61e</i></span>{comiis_esxx_qglx}: <span class="flxx_value">{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></li>
+                <li class="flxx_lxxx flxx_pcnone"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_esxx_qgdh}: <span class="flxx_value">{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}</span></li>
+            </ul>
+        </div>
+        <div class="comiis_flxx_lxbox flxx_mobnone bg_f cl"><em></em>{comiis_esxx_qgdh_value}{comiis_esxx_qgdh_unit}<span>{comiis_esxx_qglx_value}{comiis_esxx_qglx_unit}</span></div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="comiis_tips comiis_flxx_tips bg_f b_t b_b mt10 cl"><div class="comiis_quote bg_h f_a">提示：刷信誉、淘宝刷钻、YY网络兼职、加YY联系的都是骗子！收取费用或押金都可能有欺诈嫌疑，请警惕！</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>分享</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>评论</a></li>
+            <li class="bg_a"><a href="tel:{comiis_esxx_qgdh_value}"><i class="comiis_font">&#xe6ae</i>电话</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_esxx_qgdh_value}"><h2>{comiis_esxx_qglx_value}</h2>{comiis_esxx_qgdh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">详细描述</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_es cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_es bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a">
+        <div class="z flxx_li_zimg"><em>{comiis_esxx_qgfl_value}{comiis_esxx_qgfl_unit}</em><img src="{comiis_esxx_qgimg_value}{comiis_esxx_qgimg_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_esxx_qgtag_value}{comiis_esxx_qgtag_unit}</p>
+            <p class="txt1 f_d"><span class="y flxx_pcnone">{dateline}</span><em class="f_a">￥</em><span class="f_a f16 flxx_li_sum">{comiis_esxx_qgjg_value}{comiis_esxx_qgjg_unit}</span><em class="f_d">求购</em></p>
+        </div>
+    </a>
+    <div class="flxx_li_user flxx_mobnone"><p><span class="y">{views}人浏览</span><img src="{avatar_small}">{author} 发布于 {dateline}</p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[5]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[二手物品求购]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxwidth"><![CDATA[]]></item>
+				<item id="maxheight"><![CDATA[]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+			</item>
+		</item>
+	</item>
+</root>

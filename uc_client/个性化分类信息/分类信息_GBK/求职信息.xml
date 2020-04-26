@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Threadtypes]]></item>
+	<item id="Version"><![CDATA[X3.2]]></item>
+	<item id="Time"><![CDATA[2017-05-25 17:29]]></item>
+	<item id="From"><![CDATA[¿ËÃ×Éè¼Æ http://www.comiis.com]]></item>
+	<item id="Data">
+		<item id="0">
+			<item id="optionid"><![CDATA[39]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[1]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[ÐÕÃû]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_xm]]></item>
+			<item id="type"><![CDATA[text]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[ÊäÈëÄúµÄÐÕÃû]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="status"><![CDATA[0]]></item>
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxlength"><![CDATA[]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+				<item id="profile"><![CDATA[]]></item>
+				<item id="defaultvalue"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="1">
+			<item id="optionid"><![CDATA[40]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[3]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[ÐÔ±ð]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_xb]]></item>
+			<item id="type"><![CDATA[select]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[2]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="choices"><![CDATA[1 = ÄÐ
+2 = Å®]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="2">
+			<item id="optionid"><![CDATA[41]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[2]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[ÄêÁä]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_nl]]></item>
+			<item id="type"><![CDATA[number]]></item>
+			<item id="unit"><![CDATA[Ëê]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[ÊäÈëÄúµÄÄêÁä]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="status"><![CDATA[0]]></item>
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxnum"><![CDATA[]]></item>
+				<item id="minnum"><![CDATA[]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+				<item id="defaultvalue"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="3">
+			<item id="optionid"><![CDATA[42]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[4]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[Ñ§Àú]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_xl]]></item>
+			<item id="type"><![CDATA[select]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="choices"><![CDATA[1 = ²»ÏÞ
+2 = ¸ßÖÐ
+3 = ¼¼Ð£
+4 = ÖÐ×¨
+5 = ´ó×¨
+6 = ±¾¿Æ
+7 = Ë¶Ê¿
+8 = ²©Ê¿]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="4">
+			<item id="optionid"><![CDATA[43]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[5]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[¾­Ñé]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_jy]]></item>
+			<item id="type"><![CDATA[select]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="choices"><![CDATA[1 = ÎÞ¹¤×÷¾­Ñé
+2 = 1-2Äê¾­Ñé
+3 = 2-3Äê¾­Ñé
+4 = 3-5Äê¾­Ñé
+5 = 5ÄêÒÔÉÏ¾­Ñé]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="5">
+			<item id="optionid"><![CDATA[44]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[6]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[ÇóÖ°ÐÐÒµ]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_hy]]></item>
+			<item id="type"><![CDATA[select]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[2]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="choices"><![CDATA[1 = ¾Æµê²ÍÒû
+2 = ³§¿óÆóÒµ
+3 = Ò½ÁÆ±£½¡
+4 = ½¨Öþ¼Ò×°
+5 = Æû³µ·þÎñ
+6 = ½ðÈÚ±£ÏÕ
+7 = ¹ã¸æ´«Ã½
+8 = ½ÌÓýÅàÑµ
+9 = ÎïÁ÷ÔËÊä
+10 = ¼ÒÕþ°²±£
+11 = ÁãÊÛ°Ù»õ
+12 = ÓéÀÖÐÝÏÐ
+13 = ÆäËû]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="6">
+			<item id="optionid"><![CDATA[45]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[7]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[¼¼ÄÜ]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_tag]]></item>
+			<item id="type"><![CDATA[checkbox]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[2]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="choices"><![CDATA[1 = ¹µÍ¨Á¦Ç¿
+2 = Ñ§Ï°Á¦Ç¿
+3 = Ö´ÐÐÁ¦Ç¿
+4 = ÓÐÇ×ºÍÁ¦
+5 = ÓÐÔðÈÎÐÄ
+6 = ÄÜ³Ô¿à
+7 = ¿ªÀÊ½¡Ì¸
+8 = ´´Òµ¾­Àú
+9 = ³ÁÎÈÄÚÁ²
+10 = ÈËÂö¹ã·º]]></item>
+			</item>
+		</item>
+		<item id="7">
+			<item id="optionid"><![CDATA[46]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[9]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[µç»°]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_dh]]></item>
+			<item id="type"><![CDATA[text]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[ÊäÈëÄúµÄµç»°ºÅÂë]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="status"><![CDATA[0]]></item>
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxlength"><![CDATA[]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+				<item id="profile"><![CDATA[]]></item>
+				<item id="defaultvalue"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="8">
+			<item id="optionid"><![CDATA[47]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[11]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[QQ]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_qq]]></item>
+			<item id="type"><![CDATA[text]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[0]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[ÊäÈëÄúµÄQQºÅÂë]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="status"><![CDATA[0]]></item>
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxlength"><![CDATA[12]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+				<item id="profile"><![CDATA[]]></item>
+				<item id="defaultvalue"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="9">
+			<item id="optionid"><![CDATA[48]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[10]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="title"><![CDATA[Î¢ÐÅ]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_wx]]></item>
+			<item id="type"><![CDATA[text]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[0]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[ÊäÈëÄúµÄÎ¢ÐÅ]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+			<item id="__protect">
+				<item id="status"><![CDATA[0]]></item>
+				<item id="mode"><![CDATA[2]]></item>
+				<item id="usergroup"><![CDATA[]]></item>
+				<item id="verify"><![CDATA[]]></item>
+			</item>
+			<item id="__rules">
+				<item id="maxlength"><![CDATA[]]></item>
+				<item id="inputsize"><![CDATA[]]></item>
+				<item id="profile"><![CDATA[]]></item>
+				<item id="defaultvalue"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="10">
+			<item id="optionid"><![CDATA[49]]></item>
+			<item id="classid"><![CDATA[3]]></item>
+			<item id="displayorder"><![CDATA[8]]></item>
+			<item id="expiration"><![CDATA[0]]></item>
+			<item id="protect"><![CDATA[]]></item>
+			<item id="title"><![CDATA[ÕÕÆ¬]]></item>
+			<item id="description"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="identifier"><![CDATA[comiis_qzxx_img]]></item>
+			<item id="type"><![CDATA[image]]></item>
+			<item id="unit"><![CDATA[]]></item>
+			<item id="rules"><![CDATA[]]></item>
+			<item id="permprompt"><![CDATA[]]></item>
+			<item id="typeid"><![CDATA[4]]></item>
+			<item id="name"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="icon"><![CDATA[]]></item>
+			<item id="special"><![CDATA[1]]></item>
+			<item id="modelid"><![CDATA[0]]></item>
+			<item id="template"><![CDATA[<div class="comiis_flxx_esxx comiis_flxx_qzxx cl">
+    <div class="comiis_flxx_rbox cl">
+        <div class="comiis_flxx_body bg_f cl">
+            <div class="flxx_title">[comiis_subject]</div>
+            <ul><li class="foot_time"><span class="f_d y">[comiis_views]ÈËä¯ÀÀ</span><span class="f_ok">[comiis_user]</span> <span class="f_d">·¢²¼ÓÚ[comiis_time]</span></li></ul>
+            <div class="comiis_flxx_stamp">[comiis_stamp]</div>
+        </div>
+        <div class="comiis_flxx_tit flxx_qzxx_lxtit bg_f mt10 b_t cl"><span class="flxx_pcnone f_ok y">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</span><h2 class="f_c b_b">ÇóÖ°×ÊÁÏ</h2></div>
+        <div class="comiis_flxx_body bg_f cl">
+            <ul class="flxx_qzxx_tbox">
+                <div class="comiis_flxx_topimg y"><img src="{comiis_qzxx_img_value}" class="vm"></div>
+                <div class="comiis_flxx_xc"><span class="f_a">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span></div>
+                <li class="f_c f12">{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</li>
+                <li class="flxx_mobnone f_c">{comiis_qzxx_hy}: {comiis_qzxx_hy_value}{comiis_qzxx_hy_unit}</li>
+                <li class="comiis_flxx_color comiis_flxx_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico02 f_wb"><i class="comiis_font">&#xe6b6</i></span>{comiis_qzxx_dh}: <span class="flxx_value">{comiis_qzxx_dh_value}{comiis_qzxx_dh_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico03 f_wx"><i class="comiis_font">&#xe69f</i></span>{comiis_qzxx_wx}: <span class="flxx_value">{comiis_qzxx_wx_value}{comiis_qzxx_wx_unit}</span></li>
+                <li class="flxx_lxxx"><span class="flxx_ico flico04 f_qq"><i class="comiis_font">&#xe6a1</i></span>{comiis_qzxx_qq}: <span class="flxx_value">{comiis_qzxx_qq_value}{comiis_qzxx_qq_unit}</span></li>
+            </ul>            
+        </div>        
+    </div>
+    <div class="comiis_tips comiis_flxx_tips bg_f mt10 b_t b_b cl"><div class="comiis_quote bg_h f_a">ÌáÊ¾£ºË¢ÐÅÓþ¡¢ÌÔ±¦Ë¢×ê¡¢YYÍøÂç¼æÖ°¡¢¼ÓYYÁªÏµµÄ¶¼ÊÇÆ­×Ó£¡ÊÕÈ¡·ÑÓÃ»òÑº½ð¶¼¿ÉÄÜÓÐÆÛÕ©ÏÓÒÉ£¬Çë¾¯Ìè£¡</div></div>
+    <div class="comiis_flxx_footbox bg_f f_f">
+        <ul>        
+            <li class="bg_a"><a href="javascript:;" class="comiis_share_key"><i class="comiis_font">&#xe6b5</i>·ÖÏí</a></li>
+            <li class="bg_a"><a href="javascript:;" class="comiis_openrebox"><i class="comiis_font">&#xe667</i>ÆÀÂÛ</a></li>
+            <li class="bg_a"><a href="tel:{comiis_qzxx_dh_value}"><i class="comiis_font">&#xe6ae</i>µç»°</a></li>
+            <li class="flxx_tels bg_0"><a href="tel:{comiis_qzxx_dh_value}"><h2>{comiis_qzxx_xm_value}</h2>{comiis_qzxx_dh_value}</a></li>
+        </ul>
+    </div>
+    <div class="comiis_flxx_tit bg_f cl"><h2 class="f_c b_b">ÇóÖ°ÏêÇé</h2></div>
+</div>]]></item>
+			<item id="stemplate"><![CDATA[<div class="comiis_flxx_libox comiis_flxx_qz cl">
+<ul>
+[loop]
+<li class="comiis_flxx_li flxx_li_qz bg_f b_b cl">
+    <a href="{subject_url}" class="flxx_li_a flxx_fuser">
+        <div class="y flxx_li_zimg"><img src="{comiis_qzxx_img_value}{comiis_qzxx_img_unit}"></div>
+        <div class="flxx_li_rbox">
+            <h2>{subject}</h2>
+            <p class="txt1 f_d"><span class="flxx_mobnone">{comiis_qzxx_xm_value}{comiis_qzxx_xm_unit}</span><span class="flxx_mobnone f_e"> / </span>{comiis_qzxx_xb_value}{comiis_qzxx_xb_unit}<span class="f_e"> / </span>{comiis_qzxx_nl_value}{comiis_qzxx_nl_unit}<span class="f_e"> / </span>{comiis_qzxx_xl_value}{comiis_qzxx_xl_unit}<span class="f_e"> / </span>{comiis_qzxx_jy_value}{comiis_qzxx_jy_unit}</p>
+            <p class="comiis_flxx_color flxx_li_tag">{comiis_qzxx_tag_value}{comiis_qzxx_tag_unit}</p>
+        </div>
+    </a>
+    <div class="flxx_li_user"><p><span class="f_d y">{views}ÈËä¯ÀÀ</span><span class="f_ok z"><img src="{avatar_small}">{author}</span><span class="f_d z"> {dateline}</span></p></div>
+</li>
+[/loop]
+</ul>
+</div>]]></item>
+			<item id="ptemplate"><![CDATA[]]></item>
+			<item id="btemplate"><![CDATA[]]></item>
+			<item id="sortid"><![CDATA[4]]></item>
+			<item id="available"><![CDATA[1]]></item>
+			<item id="required"><![CDATA[1]]></item>
+			<item id="unchangeable"><![CDATA[0]]></item>
+			<item id="search"><![CDATA[0]]></item>
+			<item id="subjectshow"><![CDATA[1]]></item>
+			<item id="tpdescription"><![CDATA[]]></item>
+			<item id="ttdescription"><![CDATA[ÇóÖ°ÐÅÏ¢]]></item>
+			<item id="tpexpiration"><![CDATA[0]]></item>
+			<item id="ttexpiration"><![CDATA[0]]></item>
+		</item>
+	</item>
+</root>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{$_G['cache']['plugin']['jzsjiale_sms']['g_mtitle']}-{lang jzsjiale_sms:zhaohuimimatitle}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1,minimal-ui,user-scalable=no">
+<meta name="apple-mobile-web-app-status-bar-style" content="grey">
+<meta name="format-detection" content="telephone=no, email=no">
+<meta name="apple-mobile-web-app-title" content="{$_G['setting']['bbname']}-{lang jzsjiale_sms:zhaohuimimatitle}">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="msapplication-tap-highlight" content="no">
+<link type="text/css" rel="stylesheet" href="//at.alicdn.com/t/font_486221_tmioccamfsmdkj4i.css" />
+<link type="text/css" rel="stylesheet" href="source/plugin/jzsjiale_sms/static/css/basic2.css" />
+<script src="source/plugin/jzsjiale_sms/static/js/jquery-1.10.2.min.js"></script>
+<style type="text/css">
+header {
+    background: {$mobilecolor};
+}
+form .yes span {
+    background: {$mobilecolor};
+}
+form .red-btn {
+    background-color:{$mobilecolor};
+}
+form .white-btn {
+    background-color: #fff;
+    color: {$mobilecolor};
+    border: 1px solid {$mobilecolor};
+    margin-top: .3rem;
+}
+.warptopicon{
+	background: {$mobilecolor};
+}
+.warptopiconimg{
+	text-align:center;
+	width: {$mlogowidth};
+    height: {$mlogoheight};
+}
+</style>
+</head>
+
+<body>
+<!--{if !$_G['cache']['plugin']['jzsjiale_sms']['g_mtopnav']}-->
+<header>
+    <a href="javascript:history.go(-1);" class="icon-back-title"><i class="icon iconfont icon-back"></i>{lang jzsjiale_sms:fanhui}</a>
+    {$_G['setting']['bbname']}{$_G['cache']['plugin']['jzsjiale_sms']['g_mtitle']}
+</header>
+<!--{else}-->
+<style type="text/css">
+header {
+   height: 1rem;
+}
+</style>
+<header>
+</header>
+<!--{/if}-->
+<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_mlogo']}-->
+<div class="warptopicon">
+    <img src="{$_G['cache']['plugin']['jzsjiale_sms']['g_mlogo']}" class="warptopiconimg" />
+</div>
+<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_mlogoheight'] == "auto" || $_G['cache']['plugin']['jzsjiale_sms']['g_mlogoheight'] == "100%"}-->
+<br style="clear:both;" />
+<!--{else}-->
+<div style="clear:both;" ></div>
+<!--{/if}-->
+<!--{/if}-->
+<div class="wrap">
+		<form id="frm_phonelogin" method="post" autocomplete="off"  action="plugin.php?id=jzsjiale_sms:mobile&act=getpasswd&uid={$uid}&idstring={$hashid}&sign=$_GET[sign]&getpwsubmit=yes">
+        <input type="hidden" name="formhash" value="{FORMHASH}" />
+        <input type="hidden" name="referer" id="referer" value="{echo dreferer()}" />
+        
+        <div class="lb">
+	        <i class="icon iconfont icon-user"></i>
+	        <input class="inpt" type="text" readonly value="{lang username}&nbsp;&nbsp;:&nbsp;&nbsp;$member[username]" >
+	      </div>
+	      
+	      
+		  <div class="lb">
+		  	<i class="icon iconfont icon-password"></i>
+		  	<input type="password" id="newpasswd1" name="newpasswd1" size="25" class="inpt" placeholder="{lang jzsjiale_sms:new_password}" value="" >
+		  	<i class="err"></i>
+		  </div>
+		  <div class="lb">
+		  	<i class="icon iconfont icon-password"></i>
+		  	<input type="password" id="newpasswd2" name="newpasswd2" size="25" class="inpt" placeholder="{lang jzsjiale_sms:new_password_confirm}" value="" >
+		  	<i class="err"></i>
+		  </div>
+		  
+		  
+		  <p class="go-reg clearfix">
+			    
+		        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_openmobilelogin']}-->
+                <a href="member.php?mod=logging&action=login&mobile=2">{lang jzsjiale_sms:lijidenglu2}</a>
+                <!--{/if}-->
+        
+		        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_openmobileregister']}-->
+		        <a href="member.php?mod={$_G['setting']['regname']}&mobile=2" class="fr">{lang jzsjiale_sms:lijizhuce2}</a>
+		        <!--{/if}-->
+		 </p>
+		
+          <div class="lb"> 
+		    <a class="red-btn" href="javascript:void(0);" onclick="getpwsubmit_submit();">{lang submit}</span></a>
+		  </div>
+		</form>
+    </div>    
+   
+<script type="text/javascript">
+
+function getpwsubmit_submit() {
+	  var newpasswd1=$("#newpasswd1").val();
+	  var newpasswd2=$("#newpasswd2").val();
+	 
+	  if (newpasswd1 == "") {
+	        alert("{lang jzsjiale_sms:passwordnull}");
+	        return false;
+	  }
+	  if(newpasswd1.length<6){
+		  alert("{lang jzsjiale_sms:password6}");
+	        return false;
+	  }
+	  if (newpasswd2 == "") {
+	        alert("{lang jzsjiale_sms:password2null}");
+	        return false;
+	  }
+	  if(newpasswd2.length<6){
+		  alert("{lang jzsjiale_sms:password6}");
+	        return false;
+	  }
+	  if (newpasswd1 != newpasswd2) {
+	        alert("{lang jzsjiale_sms:passworderr}");
+	        return false;
+	  }
+	  
+	  $.ajax({
+	        type: "post",
+	        async: true,
+	        url: 'plugin.php?id=jzsjiale_sms:mobile&act=getpasswd&uid={$uid}&idstring={$hashid}&sign=$_GET[sign]&getpwsubmit=yes&formhash={FORMHASH}',
+	        data: {
+	        	newpasswd1: newpasswd1,
+	        	newpasswd2: newpasswd2
+	        },
+	        dataType: "json",
+	        complete: function(res) {},
+	        success: function (data) {
+	            if (data.code != "200") {
+	          	 
+	          	  if(data.data == "paramerror"){
+	          		  alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:paramerror}");
+	          	  }else if(data.data == "seccode_invalid"){
+	          		  alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccode_invalid}");
+	          	  }else if(data.data == "bind_phone_error"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:bind_phone_error}");
+	          	  }else if(data.data == "err_phonebind"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_phonebind}");
+	          	  }else if(data.data == "err_nouser"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_nouser}");
+	          	  }else if(data.data == "err_seccodexiane"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodexiane}");
+	          	  }else if(data.data == "generatecodeerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:generatecodeerror}");
+	          	  }else if(data.data == "peizhierror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:peizhierror}");
+	          	  }else if(data.data == "err_seccodefasong"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodefasong1}"+"{$_G['cache']['plugin']['jzsjiale_sms']['g_youxiaoqi']}"+"{lang jzsjiale_sms:err_seccodefasong2}");
+	          	  }else if(data.data == "notopenyanzheng"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenyanzheng}");
+	          	  }else if(data.data == "notopenregister"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenregister}");
+	          	  }else if(data.data == "notopenlogin"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenlogin}");
+	          	  }else if(data.data == "notopenmima"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmima}");
+	          	  }else if(data.data == "phonenull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:phonenull}");
+	          	  }else if(data.data == "err_seccodeguoqi"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodeguoqi}");
+	          	  }else if(data.data == "seccodenull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccodenull}");
+	          	  }else if(data.data == "phonecunzai"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:phonecunzai}");
+	          	  }else if(data.data == "registererror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registererror}");
+	          	  }else if(data.data == "registersuccess"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registersuccess}");
+	          	  }else if(data.data == "registersuccess_phoneerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registersuccess_phoneerror}");
+	          	  }else if(data.data == "err_seccodeerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodeerror}");
+	          	  }else if(data.data == "notopenmobile"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmobile}");
+	          	  }else if(data.data == "err_location_login_force_qq"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_force_qq}");
+	          	  }else if(data.data == "err_location_login_force_mail"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_force_mail}");
+	          	  }else if(data.data == "err_location_login_outofdate"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_outofdate}");
+	          		window.location = "home.php?mod=spacecp&ac=profile&op=password&resend=1&type=1";
+	          	  }else if(data.data == "err_getpasswd_account_notmatch"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_getpasswd_account_notmatch}");
+	          	  }else if(data.data == "err_getpasswd_account_invalid"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_getpasswd_account_invalid}");
+	          	  }else if(data.data == "getpasswdillegal"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:getpasswdillegal}");
+	          	  }else if(data.data == "profilepasswd_illegal"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:profilepasswd_illegal}");
+	          	  }else if(data.data == "password6"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:password6}");
+	          	  }else if(data.data == "err_zhanghaoseccodexiane"){
+	            	alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_zhanghaoseccodexiane}");
+	          	  }else if(data.data == "err_checkiperror"){
+	            	alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:checkiperror}");
+	          	  }else{
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:lostpwerror}");
+	          	  }
+	            } else {
+	            	alert("{lang jzsjiale_sms:getpasswdsucceed}");
+	            	window.location = (data.url != "")?data.url:"{$_G['siteurl']}";
+	            }
+	        },
+	        error: function (data) {
+	      	  
+	        	if(data.data == "paramerror"){
+	        		  alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:paramerror}");
+	        	  }else if(data.data == "seccode_invalid"){
+	        		  alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccode_invalid}");
+	        	  }else if(data.data == "bind_phone_error"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:bind_phone_error}");
+	        	  }else if(data.data == "err_phonebind"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_phonebind}");
+	        	  }else if(data.data == "err_nouser"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_nouser}");
+	        	  }else if(data.data == "err_seccodexiane"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodexiane}");
+	        	  }else if(data.data == "generatecodeerror"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:generatecodeerror}");
+	        	  }else if(data.data == "peizhierror"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:peizhierror}");
+	        	  }else if(data.data == "err_seccodefasong"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodefasong1}"+"{$_G['cache']['plugin']['jzsjiale_sms']['g_youxiaoqi']}"+"{lang jzsjiale_sms:err_seccodefasong2}");
+	        	  }else if(data.data == "notopenyanzheng"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenyanzheng}");
+	        	  }else if(data.data == "notopenregister"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenregister}");
+	        	  }else if(data.data == "notopenlogin"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenlogin}");
+	        	  }else if(data.data == "notopenmima"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmima}");
+	        	  }else if(data.data == "phonenull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:phonenull}");
+	          	  }else if(data.data == "err_seccodeguoqi"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodeguoqi}");
+	          	  }else if(data.data == "seccodenull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccodenull}");
+	          	  }else if(data.data == "phonecunzai"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:phonecunzai}");
+	          	  }else if(data.data == "registererror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registererror}");
+	          	  }else if(data.data == "registersuccess"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registersuccess}");
+	          	  }else if(data.data == "registersuccess_phoneerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registersuccess_phoneerror}");
+	          	  }else if(data.data == "err_seccodeerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodeerror}");
+	          	  }else if(data.data == "notopenmobile"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmobile}");
+	          	  }else if(data.data == "err_location_login_force_qq"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_force_qq}");
+	          	  }else if(data.data == "err_location_login_force_mail"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_force_mail}");
+	          	  }else if(data.data == "err_location_login_outofdate"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_outofdate}");
+	          		window.location = "home.php?mod=spacecp&ac=profile&op=password&resend=1&type=1";
+	          	  }else if(data.data == "err_getpasswd_account_notmatch"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_getpasswd_account_notmatch}");
+	          	  }else if(data.data == "err_getpasswd_account_invalid"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_getpasswd_account_invalid}");
+	          	  }else if(data.data == "getpasswdillegal"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:getpasswdillegal}");
+	          	  }else if(data.data == "profilepasswd_illegal"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:profilepasswd_illegal}");
+	          	  }else if(data.data == "password6"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:password6}");
+	          	  }else if(data.data == "err_zhanghaoseccodexiane"){
+	            	alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_zhanghaoseccodexiane}");
+	          	  }else if(data.data == "err_checkiperror"){
+	            	alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:checkiperror}");
+	          	  }else{
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:lostpwerror}");
+	        	  }
+	            
+	        }
+	    });
+	  return false;
+}
+
+</script>
+</body>
+</html>

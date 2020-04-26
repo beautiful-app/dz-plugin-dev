@@ -1,0 +1,17 @@
+<!--{template common/header}-->
+<div id="sendseccodeformdiv">
+<h3 class="flb"> <em>{lang jzsjiale_sms:sendseccodetitle}</em> <span><a href="javascript:;" class="flbc" onclick="hideWindow('$_GET['handlekey']')" title="{lang close}">{lang close}</a></span> </h3>
+<form id="sendseccodeform" action="" method="post" autocomplete="off" onkeydown="if(event.keyCode==13){return false;}">
+  <div class="c altw">
+    <!--{eval $seccodecheck = 1;}-->
+    <!--{eval $sectpl = '<div><sec>:<sec></div><p class="d"><sec></p>';}-->
+    <!--{subtemplate common/seccheck}-->
+  </div>
+  <b id='sendseccode_error_msg' style='margin-top:5px;color:red'></b>
+  <p class="o pns">
+    <button class="pn pnc" type="button" id="sendseccodebtn" onclick="sendseccode_submit()"><strong>{lang submit}</strong></button>
+  </p>
+</form>
+</div>
+
+<!--{template common/footer}-->

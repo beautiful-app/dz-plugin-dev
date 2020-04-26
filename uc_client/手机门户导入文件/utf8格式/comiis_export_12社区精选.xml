@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="page">
+		<item id="id"><![CDATA[12]]></item>
+		<item id="name"><![CDATA[社区精选]]></item>
+		<item id="user"><![CDATA[comiis.com]]></item>
+		<item id="uid"><![CDATA[2]]></item>
+		<item id="dateline"><![CDATA[1545801125]]></item>
+		<item id="title"><![CDATA[社区精选]]></item>
+		<item id="description"><![CDATA[向您推荐一个有趣的栏目，快来看看吧！]]></item>
+		<item id="keywords"><![CDATA[]]></item>
+		<item id="default"><![CDATA[0]]></item>
+		<item id="show"><![CDATA[1]]></item>
+		<item id="loadforum"><![CDATA[1]]></item>
+		<item id="header"><![CDATA[1]]></item>
+		<item id="color"><![CDATA[#f3f3f3]]></item>
+		<item id="bgcolor"><![CDATA[#53bcf5]]></item>
+		<item id="fontcolor"><![CDATA[]]></item>
+		<item id="css"><![CDATA[]]></item>
+		<item id="openre"><![CDATA[0]]></item>
+		<item id="rekey"><![CDATA[0]]></item>
+		<item id="rekeyurl"><![CDATA[]]></item>
+		<item id="comiisheader"><![CDATA[0]]></item>
+		<item id="comiisfooter"><![CDATA[1]]></item>
+		<item id="comiisstyle"><![CDATA[3]]></item>
+		<item id="fids"><![CDATA[a:43:{i:0;s:1:"2";i:1;s:2:"36";i:2;s:2:"37";i:3;s:2:"38";i:4;s:2:"39";i:5;s:2:"40";i:6;s:2:"41";i:7;s:2:"42";i:8;s:2:"44";i:9;s:2:"45";i:10;s:2:"46";i:11;s:2:"47";i:12;s:2:"49";i:13;s:2:"50";i:14;s:2:"51";i:15;s:2:"52";i:16;s:2:"53";i:17;s:2:"54";i:18;s:2:"55";i:19;s:2:"56";i:20;s:2:"57";i:21;s:2:"58";i:22;s:2:"59";i:23;s:2:"60";i:24;s:2:"61";i:25;s:2:"62";i:26;s:2:"63";i:27;s:2:"64";i:28;s:2:"66";i:29;s:2:"67";i:30;s:2:"68";i:31;s:2:"69";i:32;s:2:"71";i:33;s:2:"72";i:34;s:2:"73";i:35;s:2:"74";i:36;s:2:"76";i:37;s:2:"77";i:38;s:2:"78";i:39;s:2:"79";i:40;s:2:"81";i:41;s:2:"82";i:42;s:2:"83";}]]></item>
+		<item id="tids"><![CDATA[]]></item>
+		<item id="pl"><![CDATA[views]]></item>
+		<item id="times"><![CDATA[0]]></item>
+		<item id="num"><![CDATA[20]]></item>
+		<item id="pages"><![CDATA[10]]></item>
+		<item id="comiispages"><![CDATA[1]]></item>
+		<item id="isimage"><![CDATA[0]]></item>
+		<item id="hcolor"><![CDATA[#53bcf5]]></item>
+		<item id="image"><![CDATA[]]></item>
+		<item id="icon2"><![CDATA[]]></item>
+		<item id="icon"><![CDATA[]]></item>
+		<item id="icon_url"><![CDATA[]]></item>
+		<item id="uptime"><![CDATA[5]]></item>
+		<item id="moresetup"><![CDATA[a:4:{s:17:"open_displayorder";i:0;s:10:"open_video";i:1;s:10:"open_color";i:1;s:9:"open_post";i:1;}]]></item>
+	</item>
+	<item id="diydata">
+		<item id="0">
+			<item id="id"><![CDATA[128]]></item>
+			<item id="pid"><![CDATA[12]]></item>
+			<item id="bid"><![CDATA[0]]></item>
+			<item id="diyid"><![CDATA[348]]></item>
+			<item id="displayorder"><![CDATA[20]]></item>
+			<item id="name"><![CDATA[4格静态文字模块]]></item>
+			<item id="type"><![CDATA[]]></item>
+			<item id="dir"><![CDATA[gezi04]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[1]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[1]]></item>
+			<item id="borderbottom"><![CDATA[1]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+			<item id="indenttop"><![CDATA[0]]></item>
+			<item id="indentbottom"><![CDATA[0]]></item>
+		</item>
+		<item id="1">
+			<item id="id"><![CDATA[129]]></item>
+			<item id="pid"><![CDATA[12]]></item>
+			<item id="bid"><![CDATA[0]]></item>
+			<item id="diyid"><![CDATA[347]]></item>
+			<item id="displayorder"><![CDATA[15]]></item>
+			<item id="name"><![CDATA[图片幻灯片-带头像]]></item>
+			<item id="type"><![CDATA[]]></item>
+			<item id="dir"><![CDATA[img14]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[0]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[0]]></item>
+			<item id="borderbottom"><![CDATA[1]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+			<item id="indenttop"><![CDATA[0]]></item>
+			<item id="indentbottom"><![CDATA[0]]></item>
+		</item>
+		<item id="2">
+			<item id="id"><![CDATA[130]]></item>
+			<item id="pid"><![CDATA[12]]></item>
+			<item id="bid"><![CDATA[0]]></item>
+			<item id="diyid"><![CDATA[346]]></item>
+			<item id="displayorder"><![CDATA[10]]></item>
+			<item id="name"><![CDATA[静态带焦点导航]]></item>
+			<item id="type"><![CDATA[]]></item>
+			<item id="dir"><![CDATA[nav04]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[0]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[0]]></item>
+			<item id="borderbottom"><![CDATA[0]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+			<item id="indenttop"><![CDATA[0]]></item>
+			<item id="indentbottom"><![CDATA[0]]></item>
+		</item>
+	</item>
+	<item id="diy">
+		<item id="block">
+			<item id="346">
+				<item id="bid"><![CDATA[346]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[静态带焦点导航_DDUU]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[<li class="flex f_b"><a href="forum.php?forumlist=1">版区</a></li>
+<li class="flex f_b"><a href="plugin.php?id=comiis_app_portal&pid=10">新帖</a></li>
+<li class="flex f_b"><a href="plugin.php?id=comiis_app_portal&pid=11">热图</a></li>
+<li class="flex f_0"><em class="bg_0"></em><a href="javascript:;">精选</a></li>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[鱼乐圈]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<li class=\"flex f_b\"><a href=\"forum.php?forumlist=1\">版区</a></li>
+<li class=\"flex f_b\"><a href=\"plugin.php?id=comiis_app_portal&pid=10\">新帖</a></li>
+<li class=\"flex f_b\"><a href=\"plugin.php?id=comiis_app_portal&pid=11\">热图</a></li>
+<li class=\"flex f_0\"><em class=\"bg_0\"></em><a href=\"javascript:;\">精选</a></li>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1545805277]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="347">
+				<item id="bid"><![CDATA[347]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[图片幻灯片-带头像_Hn4J]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[鱼乐圈]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[1]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[0]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[url]]></item>
+						<item id="1"><![CDATA[title]]></item>
+						<item id="2"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]{url}{title}{pic}{picwidth}{picheight}[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus"><![CDATA[
+						]]></item>
+						<item id="index"><![CDATA[
+						]]></item>
+						<item id="orderplus"><![CDATA[
+						]]></item>
+						<item id="order"><![CDATA[
+						]]></item>
+						<item id="loopplus"><![CDATA[
+						]]></item>
+						<item id="loop"><![CDATA[{url}{title}{pic}{picwidth}{picheight}]]></item>
+					</item>
+					<item id="hash"><![CDATA[4e087b0b]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[500]]></item>
+				<item id="picheight"><![CDATA[280]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[thread]]></item>
+				<item id="param">
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+					<item id="items"><![CDATA[5]]></item>
+				</item>
+				<item id="shownum"><![CDATA[5]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1545805277]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="348">
+				<item id="bid"><![CDATA[348]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[4格静态文字模块_B11X]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[<div class="comiis_mh_txt4 cl">
+<li class="b_t"><a href="#" class="b_r"><img src="source/plugin/comiis_app_portal/image/a01.png">#网友爆料#</a></li>
+<li class="b_t"><a href="#"><img src="source/plugin/comiis_app_portal/image/a03.png">#头条早知道#</a></li>
+<li class="b_t"><a href="#" class="b_r"><img src="source/plugin/comiis_app_portal/image/a11.png">#赚金币赢大礼#</a></li>
+<li class="b_t"><a href="#"><img src="source/plugin/comiis_app_portal/image/a12.png">#社区小卖部#</a></li>
+</div>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[鱼乐圈]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<div class=\"comiis_mh_txt4 cl\">
+<li class=\"b_t\"><a href=\"#\" class=\"b_r\"><img src=\"source/plugin/comiis_app_portal/image/a01.png\">#网友爆料#</a></li>
+<li class=\"b_t\"><a href=\"#\"><img src=\"source/plugin/comiis_app_portal/image/a03.png\">#头条早知道#</a></li>
+<li class=\"b_t\"><a href=\"#\" class=\"b_r\"><img src=\"source/plugin/comiis_app_portal/image/a11.png\">#赚金币赢大礼#</a></li>
+<li class=\"b_t\"><a href=\"#\"><img src=\"source/plugin/comiis_app_portal/image/a12.png\">#社区小卖部#</a></li>
+</div>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1545805277]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+		</item>
+		<item id="style">
+		</item>
+	</item>
+</root>

@@ -1,0 +1,1722 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5,X3,X3.1,X3.2,X3.3,X3.4]]></item>
+	<item id="Time"><![CDATA[2018-10-09 09:44]]></item>
+	<item id="From"><![CDATA[www.huaidanwangluo.com]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[阿里雲短信手機登錄]]></item>
+			<item id="identifier"><![CDATA[jzsjiale_sms]]></item>
+			<item id="description"><![CDATA[使用阿里雲短信服務進行手機驗證碼發送實現手機注冊、登錄、手機綁定、找回密碼的功能]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[jzsjiale_sms/]]></item>
+			<item id="copyright"><![CDATA[www.huaidanwangluo.com]]></item>
+			<item id="version"><![CDATA[5.3.7]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[smssend]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[短信發送測試]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[smslist]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[短信發送記錄]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[dzuser]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[統一用戶手機綁定管理]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[3]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="3">
+					<item id="name"><![CDATA[dzverify]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[手機認證管理]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[4]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="4">
+					<item id="name"><![CDATA[smsuser]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[本插件手機綁定記錄]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[30]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="5">
+					<item id="name"><![CDATA[yuyan]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[<span style="color:red;">模板語言包修改</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[40]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="6">
+					<item id="name"><![CDATA[home]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[手機綁定]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[7]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[40]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="7">
+					<item id="name"><![CDATA[pc]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[50]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="8">
+					<item id="name"><![CDATA[mobile]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[28]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[60]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="9">
+					<item id="name"><![CDATA[xiufu]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[<span style="color:green;">數據庫錯誤修復</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[70]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="10">
+					<item id="name"><![CDATA[wenti]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[<span style="color:blue;">教程及常見問題匯總</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[888]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="11">
+					<item id="name"><![CDATA[apps]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[<span style="color:blue;">應用中心</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[999]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2,X3.3,X3.4,F1.0]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[短信平台-接口選擇]]></item>
+				<item id="description"><![CDATA[默認使用阿里雲短信服務，如需更改請自己調整相關設置。例如︰如果使用阿里大于的話，請將大于對應的appkey、簽名、模板code等，填到與阿里雲短信服務同樣的位置即可。]]></item>
+				<item id="variable"><![CDATA[g_smsapi]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[aliyun]]></item>
+				<item id="extra"><![CDATA[aliyun=阿里雲短信服務
+dayu=阿里大于-雲通信]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[阿里雲AccessKeyId]]></item>
+				<item id="description"><![CDATA[阿里雲AccessKeyId,本插件采用阿里雲短信服務接口開發，前往https://www.aliyun.com/product/sms開通短信服務。阿里大于雲通信https://dayu.aliyun.com/對應的appkey也是填到此處。]]></item>
+				<item id="variable"><![CDATA[g_accesskeyid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[阿里雲AccessKeySecret]]></item>
+				<item id="description"><![CDATA[阿里雲AccessKeySecret,本插件采用阿里雲短信服務接口開發，前往https://www.aliyun.com/product/sms開通短信服務。阿里大于雲通信https://dayu.aliyun.com/對應的app secret也是填到此處。]]></item>
+				<item id="variable"><![CDATA[g_accesskeysecret]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[統一用戶手機綁定表]]></item>
+				<item id="description"><![CDATA[如果統一了用戶手機綁定表，那麼登錄/注冊時會查discuz系統帶的“common_member_profile”資料表，以“mobile”字段作為驗證字段。用于兼容其他手機短信插件，同時防止因插件問題造成數據丟失。請確定discuz的資料表中的手機號來源一定正確、唯一！]]></item>
+				<item id="variable"><![CDATA[g_tongyiuser]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[產品名/網站名]]></item>
+				<item id="description"><![CDATA[非必須!企業用戶(模板可使用多變量的用戶)可以在短信模板中增加${product}變量，用于顯示此處設置的“產品名/變量名”，因阿里雲接口變動，新申請的驗證碼模板，此處將不再支持使用中文，對于早先用戶已申請成功的模板包含該變量的可以繼續使用中文，以阿里雲最新政策為準。]]></item>
+				<item id="variable"><![CDATA[g_product]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[sitename]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[開啟注冊短信驗證碼發送]]></item>
+				<item id="description"><![CDATA[開啟注冊短信驗證碼發送功能,涉及電腦版、手機版。不開啟此開關，涉及注冊的功能無法發送手機短信。]]></item>
+				<item id="variable"><![CDATA[g_openregister]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[注冊短信模板CODE]]></item>
+				<item id="description"><![CDATA[注冊短信模板CODE,務必更改,請到阿里雲短信服務-配置短信模板中，找到已經通過審核的模板CODE填寫到此處。短信模板CODE，傳入的模板必須是在“阿里雲短信服務-短信模板管理”中的可用模板。注意驗證碼變量用 ${code} 表示。]]></item>
+				<item id="variable"><![CDATA[g_registerid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[SMS_78730221]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[注冊用簽名]]></item>
+				<item id="description"><![CDATA[必須,短信簽名，傳入的短信簽名必須是在“阿里雲短信服務-配置短信簽名”中的可用簽名。如“阿里雲短信服務”已在短信簽名管理中通過審核，則可傳入”阿里雲短信服務“（傳參時去掉引號）作為短信簽名。短信效果示例︰【阿里雲短信服務】歡迎使用阿里雲短信服務。]]></item>
+				<item id="variable"><![CDATA[g_registersign]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[糖果說]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[注冊模板使用product變量]]></item>
+				<item id="description"><![CDATA[如果你是企業用戶，並且注冊用短信模板中包含${product}變量的話，則會從設置“產品名/網站名”中讀取參數內容，發送短信後替換${product}變量，否則請不要開啟此項。]]></item>
+				<item id="variable"><![CDATA[g_openregisterproduct]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[開啟登錄短信驗證碼發送]]></item>
+				<item id="description"><![CDATA[開啟登錄短信驗證碼發送功能,涉及電腦版、手機版。不開啟此開關，涉及登錄的功能無法發送手機短信。]]></item>
+				<item id="variable"><![CDATA[g_openlogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[10]]></item>
+				<item id="title"><![CDATA[登錄短信模板CODE]]></item>
+				<item id="description"><![CDATA[登錄短信模板CODE,務必更改,請到阿里雲短信服務-配置短信模板中，找到已經通過審核的模板CODE填寫到此處。短信模板CODE，傳入的模板必須是在“阿里雲短信服務-短信模板管理”中的可用模板。注意驗證碼變量用 ${code} 表示。]]></item>
+				<item id="variable"><![CDATA[g_loginid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[SMS_78730221]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[11]]></item>
+				<item id="title"><![CDATA[登錄用簽名]]></item>
+				<item id="description"><![CDATA[必須,短信簽名，傳入的短信簽名必須是在“阿里雲短信服務-配置短信簽名”中的可用簽名。如“阿里雲短信服務”已在短信簽名管理中通過審核，則可傳入”阿里雲短信服務“（傳參時去掉引號）作為短信簽名。短信效果示例︰【阿里雲短信服務】歡迎使用阿里雲短信服務。]]></item>
+				<item id="variable"><![CDATA[g_loginsign]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[糖果說]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="12">
+				<item id="displayorder"><![CDATA[12]]></item>
+				<item id="title"><![CDATA[登錄模板使用product變量]]></item>
+				<item id="description"><![CDATA[如果你是企業用戶，並且登錄用短信模板中包含${product}變量的話，則會從設置“產品名/網站名”中讀取參數內容，發送短信後替換${product}變量，否則請不要開啟此項。]]></item>
+				<item id="variable"><![CDATA[g_openloginproduct]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="13">
+				<item id="displayorder"><![CDATA[13]]></item>
+				<item id="title"><![CDATA[開啟身份驗證短信驗證碼發 ...]]></item>
+				<item id="description"><![CDATA[開啟身份驗證短信驗證碼發送,涉及電腦版、手機版。不開啟此開關，涉及手機綁定或其他驗證類功能無法發送手機短信。]]></item>
+				<item id="variable"><![CDATA[g_openyanzheng]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="14">
+				<item id="displayorder"><![CDATA[14]]></item>
+				<item id="title"><![CDATA[身份驗證短信模板CODE]]></item>
+				<item id="description"><![CDATA[身份驗證短信模板CODE,務必更改,請到阿里雲短信服務-配置短信模板中，找到已經通過審核的模板CODE填寫到此處。短信模板CODE，傳入的模板必須是在“阿里雲短信服務-短信模板管理”中的可用模板。注意驗證碼變量用 ${code} 表示。]]></item>
+				<item id="variable"><![CDATA[g_yanzhengid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[SMS_78730221]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="15">
+				<item id="displayorder"><![CDATA[15]]></item>
+				<item id="title"><![CDATA[身份驗證用簽名]]></item>
+				<item id="description"><![CDATA[必須,短信簽名，傳入的短信簽名必須是在“阿里雲短信服務-配置短信簽名”中的可用簽名。如“阿里雲短信服務”已在短信簽名管理中通過審核，則可傳入”阿里雲短信服務“（傳參時去掉引號）作為短信簽名。短信效果示例︰【阿里雲短信服務】歡迎使用阿里雲短信服務。]]></item>
+				<item id="variable"><![CDATA[g_yanzhengsign]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[糖果說]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="16">
+				<item id="displayorder"><![CDATA[16]]></item>
+				<item id="title"><![CDATA[身份驗證使用product變量]]></item>
+				<item id="description"><![CDATA[如果你是企業用戶，並且身份驗證用短信模板中包含${product}變量的話，則會從設置“產品名/網站名”中讀取參數內容，發送短信後替換${product}變量，否則請不要開啟此項。]]></item>
+				<item id="variable"><![CDATA[g_openyanzhengproduct]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="17">
+				<item id="displayorder"><![CDATA[17]]></item>
+				<item id="title"><![CDATA[開啟找回密碼短信驗證碼發  ...]]></item>
+				<item id="description"><![CDATA[開啟找回密碼短信驗證碼發送功能,目前涉及電腦版、手機版找回密碼功能。不開啟此開關，涉及找回密碼功能無法發送手機短信。]]></item>
+				<item id="variable"><![CDATA[g_openmima]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="18">
+				<item id="displayorder"><![CDATA[18]]></item>
+				<item id="title"><![CDATA[找回密碼短信模板CODE]]></item>
+				<item id="description"><![CDATA[找回密碼功能短信模板CODE,務必更改,請到阿里雲短信服務-配置短信模板中，找到已經通過審核的模板CODE填寫到此處。短信模板CODE，傳入的模板必須是在“阿里雲短信服務-短信模板管理”中的可用模板。注意驗證碼變量用 ${code} 表示。]]></item>
+				<item id="variable"><![CDATA[g_mimaid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[SMS_78730221]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="19">
+				<item id="displayorder"><![CDATA[19]]></item>
+				<item id="title"><![CDATA[找回密碼用簽名]]></item>
+				<item id="description"><![CDATA[必須,短信簽名，傳入的短信簽名必須是在“阿里雲短信服務-配置短信簽名”中的可用簽名。如“阿里雲短信服務”已在短信簽名管理中通過審核，則可傳入”阿里雲短信服務“（傳參時去掉引號）作為短信簽名。短信效果示例︰【阿里雲短信服務】歡迎使用阿里雲短信服務。]]></item>
+				<item id="variable"><![CDATA[g_mimasign]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[糖果說]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="20">
+				<item id="displayorder"><![CDATA[20]]></item>
+				<item id="title"><![CDATA[密碼模板使用product變量]]></item>
+				<item id="description"><![CDATA[如果你是企業用戶，並且找回密碼短信模板中包含${product}變量的話，則會從設置“產品名/網站名”中讀取參數內容，發送短信後替換${product}變量，否則請不要開啟此項。]]></item>
+				<item id="variable"><![CDATA[g_openmimaproduct]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="21">
+				<item id="displayorder"><![CDATA[21]]></item>
+				<item id="title"><![CDATA[開啟電腦版手機注冊功能]]></item>
+				<item id="description"><![CDATA[開啟電腦版手機注冊功能總開關。注意︰啟用“電腦版強制手機號獨立注冊”功能後，discuz後台-全局-注冊與訪問控制 中的“同一 IP 注冊間隔限制(小時)”、“同一 IP 在 24 小時允許注冊的最大次數”設置是有效的。]]></item>
+				<item id="variable"><![CDATA[g_openpcregister]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="22">
+				<item id="displayorder"><![CDATA[22]]></item>
+				<item id="title"><![CDATA[開啟電腦版手機登錄功能]]></item>
+				<item id="description"><![CDATA[開啟電腦版手機登錄功能總開關。]]></item>
+				<item id="variable"><![CDATA[g_openpclogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="23">
+				<item id="displayorder"><![CDATA[23]]></item>
+				<item id="title"><![CDATA[開啟電腦版手機綁定功能]]></item>
+				<item id="description"><![CDATA[開啟電腦版手機綁定功能總開關。]]></item>
+				<item id="variable"><![CDATA[g_openpcbangding]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="24">
+				<item id="displayorder"><![CDATA[24]]></item>
+				<item id="title"><![CDATA[開啟電腦版找回密碼功能]]></item>
+				<item id="description"><![CDATA[開啟電腦版找回密碼功能總開關。]]></item>
+				<item id="variable"><![CDATA[g_openpczhaohui]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="25">
+				<item id="displayorder"><![CDATA[25]]></item>
+				<item id="title"><![CDATA[開啟手機版手機注冊功能]]></item>
+				<item id="description"><![CDATA[開啟手機版手機注冊功能總開關。注意︰啟用“手機版強制手機號獨立注冊”功能後，discuz後台-全局-注冊與訪問控制 中的“同一 IP 注冊間隔限制(小時)”、“同一 IP 在 24 小時允許注冊的最大次數”設置是有效的。]]></item>
+				<item id="variable"><![CDATA[g_openmobileregister]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="26">
+				<item id="displayorder"><![CDATA[26]]></item>
+				<item id="title"><![CDATA[開啟手機版手機登錄功能]]></item>
+				<item id="description"><![CDATA[開啟手機版手機登錄功能總開關。]]></item>
+				<item id="variable"><![CDATA[g_openmobilelogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="27">
+				<item id="displayorder"><![CDATA[27]]></item>
+				<item id="title"><![CDATA[開啟手機版手機綁定功能]]></item>
+				<item id="description"><![CDATA[開啟手機版手機綁定功能總開關。]]></item>
+				<item id="variable"><![CDATA[g_openmobilebangding]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="28">
+				<item id="displayorder"><![CDATA[28]]></item>
+				<item id="title"><![CDATA[開啟手機版找回密碼功能]]></item>
+				<item id="description"><![CDATA[開啟手機版找回密碼功能總開關。]]></item>
+				<item id="variable"><![CDATA[g_openmobilezhaohui]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="29">
+				<item id="displayorder"><![CDATA[29]]></item>
+				<item id="title"><![CDATA[每條短信驗證碼有效期]]></item>
+				<item id="description"><![CDATA[時間單位（秒）,為空默認︰600，每條短信驗證碼在多長時間內有效。]]></item>
+				<item id="variable"><![CDATA[g_youxiaoqi]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[600]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="30">
+				<item id="displayorder"><![CDATA[30]]></item>
+				<item id="title"><![CDATA[每天發送短信總限額]]></item>
+				<item id="description"><![CDATA[用于控制每天發送短信總條數，默認︰0，填寫0表示不限額，如需設定，請填寫大于0的正整數。達到當日限額後，再發送短信時則會提示“抱歉，短信驗證碼發送失敗”。後台短信發送測試不受功能限制，但同樣進行統計。]]></item>
+				<item id="variable"><![CDATA[g_zongxiane]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="31">
+				<item id="displayorder"><![CDATA[31]]></item>
+				<item id="title"><![CDATA[每個賬號每天短信限額]]></item>
+				<item id="description"><![CDATA[每個論壇賬號每天發送短信限額，防止用戶使用不同手機號刷短信，僅用于限制登錄後的用戶發送短信，0表示不限制。]]></item>
+				<item id="variable"><![CDATA[g_zhanghaoxiane]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="32">
+				<item id="displayorder"><![CDATA[32]]></item>
+				<item id="title"><![CDATA[每個手機每天短信限額]]></item>
+				<item id="description"><![CDATA[0-10，根據阿里雲短信服務流量控制規則
+使用同一個簽名，對同一個手機號碼發送短信驗證碼，1條/分鐘，5條/小時，10條/天。一個手機號碼通過阿里雲短信服務平台只能收到40條/天。此處可強制限制每天使用條數，最大10，分鐘、小時限制按阿里雲規則執行。]]></item>
+				<item id="variable"><![CDATA[g_xiane]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="33">
+				<item id="displayorder"><![CDATA[33]]></item>
+				<item id="title"><![CDATA[手機號段黑名單]]></item>
+				<item id="description"><![CDATA[優先驗證，英文逗號“,”分隔多個手機號段，不限號段位數，從左側第一位開始驗證，手機號中左側包含限制號段的，將無法從網站發送短信，會默認返回“發送失敗”提示。前台後台都有效,發送信息會記錄到發送記錄，顯示“hao duan hei ming dan ! ”，示例︰18,170,1543]]></item>
+				<item id="variable"><![CDATA[g_haoduanheimingdan]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="34">
+				<item id="displayorder"><![CDATA[34]]></item>
+				<item id="title"><![CDATA[手機號黑名單]]></item>
+				<item id="description"><![CDATA[手機號黑名單，英文逗號“,”分隔多個手機號，此處存在的手機號，將無法從網站發送短信，會默認返回“發送失敗”提示。前台後台都有效,發送信息會記錄到發送記錄，顯示“hei ming dan !!!”。
+示例︰18999999999,18812345678,18822223333]]></item>
+				<item id="variable"><![CDATA[g_mobileheimingdan]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="35">
+				<item id="displayorder"><![CDATA[35]]></item>
+				<item id="title"><![CDATA[開啟ip地址檢測]]></item>
+				<item id="description"><![CDATA[開啟後，本插件發送短信驗證碼功能會對ip進行檢測，配合下面的地區限制使用。檢測優先級︰國家>省份>城市。使用淘寶ip地址庫進行檢查，http://ip.taobao.com/service/getIpInfo.php?ip=[ip地址字串]，可使用本接口測試、查看對應的地區名稱。]]></item>
+				<item id="variable"><![CDATA[g_checkip]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="36">
+				<item id="displayorder"><![CDATA[36]]></item>
+				<item id="title"><![CDATA[限制訪問地區（國家）]]></item>
+				<item id="description"><![CDATA[限制訪問地區（國家,多個中間用'|'隔開），需開啟“開啟ip地址檢測”開關，此處填寫的國家將不被允許使用對應功能，可使用上述接口查詢國家名稱，返回信息中的country值。填寫示例︰巴勒斯坦|新加坡]]></item>
+				<item id="variable"><![CDATA[g_checkipcountry]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[俄羅斯|巴勒斯坦|新加坡]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="37">
+				<item id="displayorder"><![CDATA[37]]></item>
+				<item id="title"><![CDATA[限制訪問地區（省份）]]></item>
+				<item id="description"><![CDATA[限制訪問地區（省份,多個中間用'|'隔開），需開啟“開啟ip地址檢測”開關，此處填寫的省份將不被允許使用對應功能，可使用上述接口查詢省份名稱，返回信息中的region值。填寫示例︰江甦|河北]]></item>
+				<item id="variable"><![CDATA[g_checkipregion]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="38">
+				<item id="displayorder"><![CDATA[38]]></item>
+				<item id="title"><![CDATA[限制訪問地區（城市）]]></item>
+				<item id="description"><![CDATA[限制訪問地區（城市,多個中間用'|'隔開），需開啟“開啟ip地址檢測”開關，此處填寫的城市將不被允許使用對應功能，可使用上述接口查詢城市名稱，返回信息中的city值。填寫示例︰南京|深圳]]></item>
+				<item id="variable"><![CDATA[g_checkipcity]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="39">
+				<item id="displayorder"><![CDATA[39]]></item>
+				<item id="title"><![CDATA[發短信時間間隔（秒）]]></item>
+				<item id="description"><![CDATA[發短信時間間隔,單位︰秒，默認︰60，該功能僅用于前端頁面，兩次發送短信間倒計時顯示用，不做驗證。請填寫大于等于60的數，否則默認60。]]></item>
+				<item id="variable"><![CDATA[g_sendsmsjiange]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[60]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="40">
+				<item id="displayorder"><![CDATA[40]]></item>
+				<item id="title"><![CDATA[電腦版手機號獨立注冊功能]]></item>
+				<item id="description"><![CDATA[開啟本功能後，電腦端注冊頁面會以Tab選項卡的方式，顯示手機號獨立注冊的功能，用戶可以僅使用手機號進行注冊。]]></item>
+				<item id="variable"><![CDATA[g_pcregphonetab]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="41">
+				<item id="displayorder"><![CDATA[41]]></item>
+				<item id="title"><![CDATA[電腦版強制手機號獨立注冊]]></item>
+				<item id="description"><![CDATA[新模式！如果開啟該功能，將徹底關閉普通郵箱注冊功能，強制使用手機號注冊，使用本功能必須同時開啟“開啟電腦版手機注冊功能”、“電腦版手機號獨立注冊功能”，同時以下設置將失效“電腦版顯示郵箱注冊功能”、“電腦版郵箱注冊驗證手機”、“電腦版注冊默認注冊類型”]]></item>
+				<item id="variable"><![CDATA[g_pcregqzmobile]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="42">
+				<item id="displayorder"><![CDATA[42]]></item>
+				<item id="title"><![CDATA[電腦獨立注冊需填寫用戶名]]></item>
+				<item id="description"><![CDATA[電腦版注冊如果開啟“電腦版手機號獨立注冊”功能的話，是否需要手工填寫用戶名，不開啟此項，用戶名會隨機生成。]]></item>
+				<item id="variable"><![CDATA[g_pcregphoneusername]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="43">
+				<item id="displayorder"><![CDATA[43]]></item>
+				<item id="title"><![CDATA[電腦版獨立注冊用戶名前綴]]></item>
+				<item id="description"><![CDATA[適用于電腦版獨立注冊，功能設置為不需要手工填寫用戶名，隨機生成用戶名時的用戶名前綴，最多填寫6位。]]></item>
+				<item id="variable"><![CDATA[g_pcregphoneqianzhui]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[pcsms_]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="44">
+				<item id="displayorder"><![CDATA[44]]></item>
+				<item id="title"><![CDATA[手機版強制手機號獨立注冊]]></item>
+				<item id="description"><![CDATA[新模式！如果開啟該功能，將徹底關閉普通郵箱注冊功能，強制使用手機號注冊，使用本功能必須同時開啟“開啟手機版手機注冊功能”，同時以下設置將失效“手機版注冊必須填寫郵箱”]]></item>
+				<item id="variable"><![CDATA[g_mregqzmobile]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="45">
+				<item id="displayorder"><![CDATA[45]]></item>
+				<item id="title"><![CDATA[手機獨立注冊需填寫用戶名]]></item>
+				<item id="description"><![CDATA[手機版插件手機號注冊功能，是否需要手工填寫用戶名，不開啟此項，用戶名會隨機生成。]]></item>
+				<item id="variable"><![CDATA[g_mregphoneusername]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="46">
+				<item id="displayorder"><![CDATA[46]]></item>
+				<item id="title"><![CDATA[手機版獨立注冊用戶名前綴]]></item>
+				<item id="description"><![CDATA[適用于手機版版獨立注冊，功能設置為不需要手工填寫用戶名，隨機生成用戶名時的用戶名前綴，最多填寫6位。]]></item>
+				<item id="variable"><![CDATA[g_mregphoneqianzhui]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[msms_]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="47">
+				<item id="displayorder"><![CDATA[47]]></item>
+				<item id="title"><![CDATA[手機版注冊必須填寫郵箱]]></item>
+				<item id="description"><![CDATA[使用插件獨立頁面的注冊功能注冊用戶時，是否需要填寫郵箱，默認關閉，關閉後郵箱內容由系統隨機給出。使用本功能需要關閉“手機版強制手機號獨立注冊”開關。如果開啟此項，並且在後台--全局--注冊與訪問控制中，針對“新用戶注冊驗證”采用“Email 驗證”的話，會同時發送 ...]]></item>
+				<item id="variable"><![CDATA[g_isopenmemail]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="48">
+				<item id="displayorder"><![CDATA[48]]></item>
+				<item id="title"><![CDATA[隨機時手機號作為用戶名]]></item>
+				<item id="description"><![CDATA[當電腦版、手機版開啟手機號獨立注冊功能，並且不需要用戶自行填寫用戶名時，如果開啟此開關，默認將用戶用戶名設置為當前使用的手機號，如果手機號作為用戶名重復，則隨機給出用戶名。]]></item>
+				<item id="variable"><![CDATA[g_phoneisusername]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="49">
+				<item id="displayorder"><![CDATA[49]]></item>
+				<item id="title"><![CDATA[電腦版顯示郵箱注冊功能]]></item>
+				<item id="description"><![CDATA[電腦版是否開啟顯示郵箱注冊功能，如果開啟，並同時開啟手機獨立注冊功能的話，會以Tab選項卡的方式顯示出來，可以使用discuz自帶的郵箱注冊功能進行用戶注冊。>>>本功能僅在開啟電腦版獨立手機號注冊功能時有效<<<，如果關閉僅是前台隱藏郵箱注冊表單。]]></item>
+				<item id="variable"><![CDATA[g_pcregemail]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="50">
+				<item id="displayorder"><![CDATA[50]]></item>
+				<item id="title"><![CDATA[電腦版郵箱注冊驗證手機]]></item>
+				<item id="description"><![CDATA[電腦版discuz自帶的郵箱注冊功能是否驗證手機號。開啟此開關後會在原有discuz注冊表單後面追加手機號+短信驗證碼驗證，使用此模式可以配合原有注冊表單項同時使用。]]></item>
+				<item id="variable"><![CDATA[g_pcregemailphone]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="51">
+				<item id="displayorder"><![CDATA[51]]></item>
+				<item id="title"><![CDATA[電腦版注冊默認注冊類型]]></item>
+				<item id="description"><![CDATA[電腦版如果手機獨立注冊、郵箱注冊兩個功能都開啟的話，注冊界面默認顯示的注冊類型。>>>本功能僅在開啟電腦版獨立手機號注冊功能時有效<<<]]></item>
+				<item id="variable"><![CDATA[g_pcregleixing]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[1=手機注冊
+2=郵箱注冊]]></item>
+			</item>
+			<item id="52">
+				<item id="displayorder"><![CDATA[52]]></item>
+				<item id="title"><![CDATA[電腦版Tab選項卡登錄方式]]></item>
+				<item id="description"><![CDATA[電腦版登錄是否以Tab選項卡登錄方式顯示，開啟此開關必須同時開啟電腦版手機號登錄相關功能才可使用。如果模板樣式特殊，出現錯位等問題，可以配合下方“電腦版調整css樣式”功能進行調整。]]></item>
+				<item id="variable"><![CDATA[g_pcloginphonetab]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="53">
+				<item id="displayorder"><![CDATA[53]]></item>
+				<item id="title"><![CDATA[用戶手機號登錄方式設置]]></item>
+				<item id="description"><![CDATA[默認手機號+密碼方式登錄，設置後，電腦版、手機版手機登錄界面將使用此處選擇的登錄方式來讓用戶進行登錄。]]></item>
+				<item id="variable"><![CDATA[g_phonemimalogin]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[0=手機號+短信驗證碼方式登錄
+1=手機號+密碼方式登錄]]></item>
+			</item>
+			<item id="54">
+				<item id="displayorder"><![CDATA[54]]></item>
+				<item id="title"><![CDATA[未綁定手機登錄時同步注冊]]></item>
+				<item id="description"><![CDATA[默認︰否。此功能用于使用手機號+短信驗證碼方式登錄時，如果用戶輸入的手機號並未在網站進行注冊或綁定，則直接使用該手機號進行注冊新用戶，並直接登錄，用戶名隨機，密碼為登錄時收到的驗證碼數字。適用于插件電腦版、手機版。]]></item>
+				<item id="variable"><![CDATA[g_phoneloginreg]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="55">
+				<item id="displayorder"><![CDATA[55]]></item>
+				<item id="title"><![CDATA[電腦版默認使用手機登錄]]></item>
+				<item id="description"><![CDATA[開啟後訪問電腦版登錄界面，默認使用手機登錄功能，不開啟，直接使用discuz原有用戶名登錄功能。]]></item>
+				<item id="variable"><![CDATA[g_pcmorenphonelogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="56">
+				<item id="displayorder"><![CDATA[56]]></item>
+				<item id="title"><![CDATA[手機版默認使用手機登錄]]></item>
+				<item id="description"><![CDATA[開啟後訪問手機版登錄界面，默認使用手機登錄功能，不開啟，直接使用discuz原有用戶名登錄功能。]]></item>
+				<item id="variable"><![CDATA[g_mmorenphonelogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="57">
+				<item id="displayorder"><![CDATA[57]]></item>
+				<item id="title"><![CDATA[手機版默認插件用戶名登錄]]></item>
+				<item id="description"><![CDATA[本開關用于設置手機版登錄頁面是否默認使用插件風格用戶名登錄功能，使用本功能必須關閉上面的“手機版默認使用手機登錄”開關，同時必須開啟下面的“手機版插件風格用戶名登錄”開關。]]></item>
+				<item id="variable"><![CDATA[g_mmorenpluginlogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="58">
+				<item id="displayorder"><![CDATA[58]]></item>
+				<item id="title"><![CDATA[開啟發短信圖形驗證碼驗證]]></item>
+				<item id="description"><![CDATA[默認開啟狀態，關閉後，發送手機短信驗證碼前將不再進行圖文驗證碼驗證，強烈建議開啟此功能！如有特殊需要請自行調整此處設置。]]></item>
+				<item id="variable"><![CDATA[g_isopenimgcode]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="59">
+				<item id="displayorder"><![CDATA[59]]></item>
+				<item id="title"><![CDATA[開啟手機+密碼登錄圖形驗證 ...]]></item>
+				<item id="description"><![CDATA[如果使用“手機+密碼”登錄方式的話，是否開啟圖形驗證碼驗證。]]></item>
+				<item id="variable"><![CDATA[g_isopenmimaimgcode]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="60">
+				<item id="displayorder"><![CDATA[60]]></item>
+				<item id="title"><![CDATA[手機號登錄後的跳轉方式]]></item>
+				<item id="description"><![CDATA[電腦版、手機版手機號登錄成功後的跳轉方式，如果選擇“跳轉到自定義頁面url”，需要填寫下面的url路徑，此時自定義路徑如果為空，默認跳來路頁面。]]></item>
+				<item id="variable"><![CDATA[g_mtiaozhuanhome]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[shouye]]></item>
+				<item id="extra"><![CDATA[shouye=跳轉到首頁
+lailu=跳轉到來路頁面
+diy=跳轉到自定義頁面url]]></item>
+			</item>
+			<item id="61">
+				<item id="displayorder"><![CDATA[61]]></item>
+				<item id="title"><![CDATA[電腦版自定義跳轉頁面url]]></item>
+				<item id="description"><![CDATA[使用此功能，需要上面的“手機號登錄後的跳轉方式”功能選擇為“跳轉到自定義頁面url”，如果選擇了“跳轉到自定義頁面url”方式，而此處沒有填寫，則默認跳來路頁面。]]></item>
+				<item id="variable"><![CDATA[g_pcdiyurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="62">
+				<item id="displayorder"><![CDATA[62]]></item>
+				<item id="title"><![CDATA[手機版自定義跳轉頁面url]]></item>
+				<item id="description"><![CDATA[使用此功能，需要上面的“手機號登錄後的跳轉方式”功能選擇為“跳轉到自定義頁面url”，如果選擇了“跳轉到自定義頁面url”方式，而此處沒有填寫，則默認跳來路頁面。]]></item>
+				<item id="variable"><![CDATA[g_mdiyurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="63">
+				<item id="displayorder"><![CDATA[69]]></item>
+				<item id="title"><![CDATA[修改綁定手機完成跳轉首頁]]></item>
+				<item id="description"><![CDATA[解除綁定、修改綁定操作頁面操作成功後跳轉首頁，默認︰否。目前僅適用于電腦版綁定相關功能。]]></item>
+				<item id="variable"><![CDATA[g_jiechutiaozhuanhome]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="64">
+				<item id="displayorder"><![CDATA[70]]></item>
+				<item id="title"><![CDATA[開啟安全問題驗證]]></item>
+				<item id="description"><![CDATA[電腦版、手機版如果使用手機號+密碼方式登錄的話，是否開啟安全問題驗證功能，默認開啟狀態，如果不開啟的話，一旦有用戶設置了登錄時的安全問題，那麼這個用戶使用本功能將無法正常登錄。]]></item>
+				<item id="variable"><![CDATA[g_isopenanquanwenti]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="65">
+				<item id="displayorder"><![CDATA[71]]></item>
+				<item id="title"><![CDATA[解綁時必須綁定新手機號]]></item>
+				<item id="description"><![CDATA[開啟後，用戶在個人設置里面解綁手機號時必須綁定新的手機號才能解綁舊手機號，不開啟，則輸入密碼就可以解綁。]]></item>
+				<item id="variable"><![CDATA[g_jiebangnewphone]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="66">
+				<item id="displayorder"><![CDATA[72]]></item>
+				<item id="title"><![CDATA[解綁時必須驗證舊手機號]]></item>
+				<item id="description"><![CDATA[解綁時必須驗證舊手機號，開啟此功能，解綁舊手機，或重新綁定手機號時，必須往舊手機上發送短信驗證碼，來驗證舊手機號。]]></item>
+				<item id="variable"><![CDATA[g_jiebangyzoldphone]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="67">
+				<item id="displayorder"><![CDATA[73]]></item>
+				<item id="title"><![CDATA[電腦端手機綁定時密碼驗證]]></item>
+				<item id="description"><![CDATA[主要用于電腦版綁定手機號時的操作，是否開啟論壇密碼驗證。關閉後，綁定、解綁操作都不會驗證登錄密碼，強烈建議開啟！]]></item>
+				<item id="variable"><![CDATA[g_isopenbangdingmima]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="68">
+				<item id="displayorder"><![CDATA[74]]></item>
+				<item id="title"><![CDATA[手機端手機綁定時密碼驗證]]></item>
+				<item id="description"><![CDATA[主要用于手機版綁定手機號時的操作，是否開啟論壇密碼驗證。關閉後，綁定、解綁操作都不會驗證登錄密碼，強烈建議開啟！]]></item>
+				<item id="variable"><![CDATA[g_isopenmbangdingmima]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="69">
+				<item id="displayorder"><![CDATA[75]]></item>
+				<item id="title"><![CDATA[手機綁定後自動認證]]></item>
+				<item id="description"><![CDATA[手機綁定後是否自動完成手機認證項，無需審核，開啟此項請務必同時設置下面的“手機認證關聯系統認證項”選項，否則同樣無法自動認證。本功能開啟後，適合開啟手機驗證的新注冊用戶、新綁定用戶。針對老用戶請到插件認證管理中操作。]]></item>
+				<item id="variable"><![CDATA[g_isopenautoverify]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="70">
+				<item id="displayorder"><![CDATA[76]]></item>
+				<item id="title"><![CDATA[手機認證關聯系統認證項]]></item>
+				<item id="description"><![CDATA[請選擇一個自動完成手機認證的認證代號。請前往discuz後台--用戶--認證設置，設置手機認證項目，確保該認證項目僅包含手機號一項數據，並開啟的認證項目。此處一旦選錯，同樣會直接認證成功，請謹慎選擇。]]></item>
+				<item id="variable"><![CDATA[g_mobileverify]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[1=verify1
+2=verify2
+3=verify3
+4=verify4
+5=verify5
+6=verify6
+7=verify7]]></item>
+			</item>
+			<item id="71">
+				<item id="displayorder"><![CDATA[77]]></item>
+				<item id="title"><![CDATA[電腦版強制綁定手機]]></item>
+				<item id="description"><![CDATA[電腦版強制綁定手機總開關，開啟後，對于電腦版的訪問門戶、論壇、群組功能時，如果當前登錄用戶未綁定手機，就會跳到綁定手機的頁面。適用于老用戶強制綁定手機場景。默認關閉。如果僅開啟此開關，不開啟下面“電腦版僅發帖回帖提示”開關，那麼在瀏覽任意界面時都會提示。]]></item>
+				<item id="variable"><![CDATA[g_pcqiangzhibangding]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="72">
+				<item id="displayorder"><![CDATA[78]]></item>
+				<item id="title"><![CDATA[電腦版僅發帖回帖提示]]></item>
+				<item id="description"><![CDATA[電腦版僅發帖回帖提示,使用此功能，必須同時開啟上面的“電腦版強制綁定手機”功能，開啟後，僅在用戶進行“發帖、回帖”操作時提示綁定手機，適用于門戶、論壇、群組。瀏覽頁面時將不再提示。]]></item>
+				<item id="variable"><![CDATA[g_pconlyfatie]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="73">
+				<item id="displayorder"><![CDATA[79]]></item>
+				<item id="title"><![CDATA[電腦版強制手機綁定提示]]></item>
+				<item id="description"><![CDATA[電腦版強制手機綁定提示]]></item>
+				<item id="variable"><![CDATA[g_pcqiangzhitip]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[請先進行手機綁定！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="74">
+				<item id="displayorder"><![CDATA[80]]></item>
+				<item id="title"><![CDATA[開啟電腦版回帖框上方提示]]></item>
+				<item id="description"><![CDATA[開啟電腦版回帖框上方提示後，會在帖子詳情頁，底部回帖框上方，顯示綁定手機提示文字。文字內容，請在下方“電腦版回帖框上方提示文字”設置。]]></item>
+				<item id="variable"><![CDATA[g_isopenhuitietip]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="75">
+				<item id="displayorder"><![CDATA[81]]></item>
+				<item id="title"><![CDATA[電腦版回帖框上方提示文字]]></item>
+				<item id="description"><![CDATA[支持簡單html。電腦版手機綁定頁面地址︰home.php?mod=spacecp&ac=plugin&id=jzsjiale_sms:home]]></item>
+				<item id="variable"><![CDATA[g_huitieshangfangtip]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[您需要綁定手機號才可以回帖！<a href="home.php?mod=spacecp&ac=plugin&id=jzsjiale_sms:home" style="color:blue;">立即綁定手機號</a>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="76">
+				<item id="displayorder"><![CDATA[82]]></item>
+				<item id="title"><![CDATA[電腦版帖子評分檢測綁定]]></item>
+				<item id="description"><![CDATA[電腦版對帖子評分時是否檢測手機綁定。]]></item>
+				<item id="variable"><![CDATA[g_pcpingfenjiance]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="77">
+				<item id="displayorder"><![CDATA[83]]></item>
+				<item id="title"><![CDATA[電腦版發站內消息強制綁定]]></item>
+				<item id="description"><![CDATA[電腦版發站內消息是否強制綁定手機,使用此功能，必須同時開啟上面的“電腦版強制綁定手機”功能，設置“限制強制綁定手機用戶組”，提示語句使用“電腦版強制手機綁定提示”設置。“不強制綁定用戶uid白名單”有效。]]></item>
+				<item id="variable"><![CDATA[g_isopenpcdxxqz]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="78">
+				<item id="displayorder"><![CDATA[84]]></item>
+				<item id="title"><![CDATA[手機版強制綁定手機]]></item>
+				<item id="description"><![CDATA[手機版強制綁定手機總開關，開啟後，對于手機版的訪問門戶、論壇、群組功能時，如果當前登錄用戶未綁定手機，就會跳到綁定手機的頁面。適用于老用戶強制綁定手機場景。默認關閉。如果僅開啟此開關，不開啟下面“手機版僅發帖回帖提示”開關，那麼在瀏覽任意界面時都會提示。]]></item>
+				<item id="variable"><![CDATA[g_mqiangzhibangding]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="79">
+				<item id="displayorder"><![CDATA[85]]></item>
+				<item id="title"><![CDATA[手機版僅發帖回帖提示]]></item>
+				<item id="description"><![CDATA[手機版僅發帖回帖提示,使用此功能，必須同時開啟上面的“手機版強制綁定手機”功能，開啟後，僅在用戶進行“發帖、回帖”操作時提示綁定手機，適用于門戶、論壇、群組。瀏覽頁面時將不再提示。]]></item>
+				<item id="variable"><![CDATA[g_monlyfatie]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="80">
+				<item id="displayorder"><![CDATA[86]]></item>
+				<item id="title"><![CDATA[手機版強制手機綁定提示]]></item>
+				<item id="description"><![CDATA[手機版強制手機綁定提示]]></item>
+				<item id="variable"><![CDATA[g_mqiangzhitip]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[請先進行手機綁定！再進行操作！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="81">
+				<item id="displayorder"><![CDATA[87]]></item>
+				<item id="title"><![CDATA[手機版發站內消息強制綁定]]></item>
+				<item id="description"><![CDATA[手機版發站內消息是否強制綁定手機,使用此功能，必須同時開啟上面的“手機版強制綁定手機”功能，設置“限制強制綁定手機用戶組”，提示語句使用“手機版強制手機綁定提示”設置。“不強制綁定用戶uid白名單”有效。]]></item>
+				<item id="variable"><![CDATA[g_isopenmdxxqz]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="82">
+				<item id="displayorder"><![CDATA[88]]></item>
+				<item id="title"><![CDATA[涉及空間互動功能強制綁定]]></item>
+				<item id="description"><![CDATA[適用于電腦版、手機版，涉及空間互動相關的功能是否需要強制綁定手機。]]></item>
+				<item id="variable"><![CDATA[g_isopenkjhdqz]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="83">
+				<item id="displayorder"><![CDATA[89]]></item>
+				<item id="title"><![CDATA[限制強制綁定手機用戶組]]></item>
+				<item id="description"><![CDATA[限制強制綁定手機號用戶組，勾選後，這些用戶組的用戶訪問門戶、論壇、群組三大功能時會檢測，沒有綁定手機號的，會跳轉到手機號綁定界面。]]></item>
+				<item id="variable"><![CDATA[g_qiangzhigroups]]></item>
+				<item id="type"><![CDATA[groups]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[]]></item>
+					<item id="1"><![CDATA[9]]></item>
+					<item id="2"><![CDATA[10]]></item>
+					<item id="3"><![CDATA[11]]></item>
+					<item id="4"><![CDATA[12]]></item>
+					<item id="5"><![CDATA[13]]></item>
+					<item id="6"><![CDATA[14]]></item>
+					<item id="7"><![CDATA[15]]></item>
+					<item id="8"><![CDATA[20]]></item>
+					<item id="9"><![CDATA[16]]></item>
+					<item id="10"><![CDATA[17]]></item>
+					<item id="11"><![CDATA[18]]></item>
+					<item id="12"><![CDATA[19]]></item>
+					<item id="13"><![CDATA[1]]></item>
+					<item id="14"><![CDATA[2]]></item>
+					<item id="15"><![CDATA[3]]></item>
+					<item id="16"><![CDATA[4]]></item>
+					<item id="17"><![CDATA[5]]></item>
+					<item id="18"><![CDATA[6]]></item>
+					<item id="19"><![CDATA[7]]></item>
+					<item id="20"><![CDATA[8]]></item>
+				</item>
+			</item>
+			<item id="84">
+				<item id="displayorder"><![CDATA[90]]></item>
+				<item id="title"><![CDATA[不強制綁定用戶uid白名單]]></item>
+				<item id="description"><![CDATA[在此設置不強制綁定手機的用戶uid白名單，多個uid用英文逗號“,”（不含引號），例如︰1,2,3,4,5]]></item>
+				<item id="variable"><![CDATA[g_notqzuidbai]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="85">
+				<item id="displayorder"><![CDATA[91]]></item>
+				<item id="title"><![CDATA[手機版普通登錄頁顯示按鈕]]></item>
+				<item id="description"><![CDATA[是否在discuz自帶普通登錄界面顯示手機號登錄按鈕。]]></item>
+				<item id="variable"><![CDATA[g_isopenmobileloginbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="86">
+				<item id="displayorder"><![CDATA[92]]></item>
+				<item id="title"><![CDATA[手機版顯示用戶名登錄按鈕]]></item>
+				<item id="description"><![CDATA[手機版手機號登錄等界面是否開啟顯示“用戶名登錄”按鈕，“用戶名登錄按鈕”點擊鏈接到discuz自帶登錄界面。該按鈕統一在插件手機版登錄頁面第三方登錄方式里面顯示。]]></item>
+				<item id="variable"><![CDATA[g_isopenqitalogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="87">
+				<item id="displayorder"><![CDATA[93]]></item>
+				<item id="title"><![CDATA[手機版插件風格用戶名登錄]]></item>
+				<item id="description"><![CDATA[手機版使用插件風格用戶名登錄功能，需要同時開啟上面的“手機版顯示用戶名登錄按鈕”開關，開啟本開關，用戶名+密碼登錄方式跳轉插件風格界面，關閉此開關，跳轉discuz自帶用戶名登錄界面。此功能僅適用于“簡潔風格2”手機模板。]]></item>
+				<item id="variable"><![CDATA[g_mloginusernameplugin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="88">
+				<item id="displayorder"><![CDATA[94]]></item>
+				<item id="title"><![CDATA[手機版開啟未登錄綁定功能]]></item>
+				<item id="description"><![CDATA[手機版登錄等界面是否開啟顯示“已有論壇賬號，立即綁定手機”按鈕。開啟此項，必須同時開啟“開啟手機版手機綁定功能”功能。]]></item>
+				<item id="variable"><![CDATA[g_isopennologinbind]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="89">
+				<item id="displayorder"><![CDATA[95]]></item>
+				<item id="title"><![CDATA[已綁定界面默認隱藏其他表 ...]]></item>
+				<item id="description"><![CDATA[目前僅用于電腦版手機綁定界面，該功能用于已綁定手機號的用戶，為防止用戶綁定後仍然繼續發送短信，是否默認隱藏解綁、或重新綁定等表單，通過按鈕點擊方式展現出來。]]></item>
+				<item id="variable"><![CDATA[g_bangdingyincang]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="90">
+				<item id="displayorder"><![CDATA[96]]></item>
+				<item id="title"><![CDATA[電腦版顯示手機綁定按鈕]]></item>
+				<item id="description"><![CDATA[用戶電腦版登錄後，檢測用戶未綁定手機號時，是否顯示頂部的“手機號綁定”按鈕。默認開啟。]]></item>
+				<item id="variable"><![CDATA[g_isopenbangdingbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="91">
+				<item id="displayorder"><![CDATA[97]]></item>
+				<item id="title"><![CDATA[PC版顯示郵箱找回密碼按鈕]]></item>
+				<item id="description"><![CDATA[本功能僅適用于電腦版，電腦版手機號找回密碼界面是否顯示使用郵箱找回密碼的按鈕。默認開啟，關閉後則不顯示。]]></item>
+				<item id="variable"><![CDATA[g_isopenemailzhaohui]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="92">
+				<item id="displayorder"><![CDATA[98]]></item>
+				<item id="title"><![CDATA[後台批量認證單次處理條數]]></item>
+				<item id="description"><![CDATA[後台 手機認證管理-- 一鍵全部認證(已綁定手機號用戶) 功能，執行時，單次處理用戶條數，默認︰50，可根據自己服務器情況自己調整。]]></item>
+				<item id="variable"><![CDATA[g_verifynum]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[50]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="93">
+				<item id="displayorder"><![CDATA[99]]></item>
+				<item id="title"><![CDATA[手機登錄窗口顯示注冊按鈕]]></item>
+				<item id="description"><![CDATA[該功能用于控制電腦版彈窗手機登錄窗口，是否顯示立即注冊按鈕。]]></item>
+				<item id="variable"><![CDATA[g_pcisopenloginregbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="94">
+				<item id="displayorder"><![CDATA[100]]></item>
+				<item id="title"><![CDATA[手機版顯示手機綁定按鈕]]></item>
+				<item id="description"><![CDATA[手機版個人資料頁面，底部是否顯示手機綁定按鈕，純文本按鈕，樣式自行調整。關閉後僅不顯示按鈕，不影響功能。手機端可使用此url自己在模板增加按鈕，手機綁定、重新綁定、解綁頁面地址︰plugin.php?id=jzsjiale_sms:mobile&act=bangding]]></item>
+				<item id="variable"><![CDATA[g_openmobilebangdingbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="95">
+				<item id="displayorder"><![CDATA[101]]></item>
+				<item id="title"><![CDATA[電腦版顯示手機登錄按鈕]]></item>
+				<item id="description"><![CDATA[電腦版頂部是否顯示“手機號登錄”快捷登錄按鈕，默認︰開啟，因部分模板樣式特殊，顯示此按鈕影響布局，所以在此增加這個開關，可以後台控制是否顯示這個按鈕。]]></item>
+				<item id="variable"><![CDATA[g_isopenpcloginextrabtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="96">
+				<item id="displayorder"><![CDATA[102]]></item>
+				<item id="title"><![CDATA[隱藏手機版頂部標題欄]]></item>
+				<item id="description"><![CDATA[默認︰否，是否隱藏插件手機版相關頁面頂部涉及 返回按鈕、標題按鈕 的標題欄。僅適合手機版“簡潔風格2”模板。]]></item>
+				<item id="variable"><![CDATA[g_mtopnav]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="97">
+				<item id="displayorder"><![CDATA[103]]></item>
+				<item id="title"><![CDATA[手機頁面頂部網站標題]]></item>
+				<item id="description"><![CDATA[用于顯示在插件手機版相關頁面頂部的網站標題，考慮到部分用戶discuz全局中設置的網站名稱過長，造成手機版頁面文字溢出的問題，此處可單獨設置，僅適用于"簡潔風格2"模板。]]></item>
+				<item id="variable"><![CDATA[g_mtitle]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="98">
+				<item id="displayorder"><![CDATA[104]]></item>
+				<item id="title"><![CDATA[手機頁面主色調]]></item>
+				<item id="description"><![CDATA[手機頁面主色調，請填寫顏色代碼，例如︰藍色默認#4eabe8      紅色#f24850]]></item>
+				<item id="variable"><![CDATA[g_mobilecolor]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#4eabe8]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="99">
+				<item id="displayorder"><![CDATA[105]]></item>
+				<item id="title"><![CDATA[網站服務條款]]></item>
+				<item id="description"><![CDATA[用于顯示到手機版手機注冊頁面的網站服務條款，支持書寫簡單html、css。電腦版涉及網站服務條款的地方，請到 discuz後台--全局--注冊與訪問控制--網站服務條款中設置內容。]]></item>
+				<item id="variable"><![CDATA[g_tiaokuan]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<p style="text-align:center;font-size:24px;">網站服務條款</p>
+<p>這里是網站服務條款正文。</p>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="100">
+				<item id="displayorder"><![CDATA[106]]></item>
+				<item id="title"><![CDATA[用戶設置手機綁定右側提示]]></item>
+				<item id="description"><![CDATA[用戶登錄後，在用戶設置欄--手機綁定功能，右側的提示語句，支持簡單html，建議按默認格式書寫。]]></item>
+				<item id="variable"><![CDATA[g_homebindtip]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<dl class="xld">
+      <h2 class="xi1 xs2">使用手機號綁定本站，您可以...</h2>
+      <dt>用手機輕松登錄</dt>
+      <dd class="xg1">無需記住本站的帳號和密碼，隨時使用手機短信驗證碼輕松登錄</dd>
+      <dt>使用手機號作為用戶名登錄</dt>
+      <dd class="xg1">網絡帳號太多，使用手機號登錄省去忘記用戶名的煩惱</dd>
+      <dt>找回帳號密碼更便捷</dt>
+      <dd class="xg1">通過手機短信驗證碼找回帳號密碼，簡單快捷、同時增強帳號安全</dd>
+    </dl>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="101">
+				<item id="displayorder"><![CDATA[107]]></item>
+				<item id="title"><![CDATA[頂部嵌入點js補全]]></item>
+				<item id="description"><![CDATA[針對某些模板刪除了部分discuz官方要求嵌入點，插件無法正常植入js，造成登錄、找回密碼功能無法正常使用的問題，使用該功能可以使用global_header嵌入點補全js引用，請自行測試。]]></item>
+				<item id="variable"><![CDATA[g_isopenjs]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="102">
+				<item id="displayorder"><![CDATA[108]]></item>
+				<item id="title"><![CDATA[尾部嵌入點js補全]]></item>
+				<item id="description"><![CDATA[針對某些模板刪除了部分discuz官方要求嵌入點，插件無法正常植入js，造成登錄、找回密碼功能無法正常使用的問題，使用該功能可以使用global_footer嵌入點補全js引用，請自行測試。]]></item>
+				<item id="variable"><![CDATA[g_isopenweijs]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="103">
+				<item id="displayorder"><![CDATA[109]]></item>
+				<item id="title"><![CDATA[電腦版使用網站自帶jquery]]></item>
+				<item id="description"><![CDATA[默認︰否。禁止自己修改此項！！！如果你的網站使用了較高版本的jquery，並且同時使用var jq=jQuery.noConflict();進行了相同的重定義，如果有此種情況，並造成了一些問題，可以嘗試開啟此項！不了解請不要擅自修改此項！！]]></item>
+				<item id="variable"><![CDATA[g_useownjquery]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="104">
+				<item id="displayorder"><![CDATA[110]]></item>
+				<item id="title"><![CDATA[字符轉換為HTML實體]]></item>
+				<item id="description"><![CDATA[對短信簽名等預定義字符文本是否進行HTML實體轉換，默認開啟，如果沒有特殊需要，請不要擅自改動此項！！！]]></item>
+				<item id="variable"><![CDATA[g_isopenhtmlspecialchars]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="105">
+				<item id="displayorder"><![CDATA[111]]></item>
+				<item id="title"><![CDATA[檢測西瓜手機版插件]]></item>
+				<item id="description"><![CDATA[對于安裝有西瓜的手機版插件(xigua_wsq)的用戶，在西瓜插件發帖屬于他插件自有的功能，使用本開關，可以嘗試對他插件的發帖進行攔截。使用本功能必須開啟“電腦版強制綁定手機”並進行用戶組設置。但畢竟他屬于第三方插件，如無法攔截可能屬于他插件做了變動，不是本插件問題 ...]]></item>
+				<item id="variable"><![CDATA[g_isopenxiguawsq]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="106">
+				<item id="displayorder"><![CDATA[112]]></item>
+				<item id="title"><![CDATA[檢測電腦版【DSU】每日簽到]]></item>
+				<item id="description"><![CDATA[對于安裝有“【DSU】每日簽到”插件（dsu_paulsign）的用戶，在電腦版手動簽到進行攔截。使用本功能必須開啟“電腦版強制綁定手機”並進行用戶組設置。但畢竟他屬于第三方插件，如無法攔截可能屬于他插件做了變動，不是本插件問題。]]></item>
+				<item id="variable"><![CDATA[g_isopendsuqdpc]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="107">
+				<item id="displayorder"><![CDATA[113]]></item>
+				<item id="title"><![CDATA[檢測手機版【DSU】每日簽到]]></item>
+				<item id="description"><![CDATA[對于安裝有“【DSU】每日簽到”插件（dsu_paulsign）的用戶，在手機版手動簽到進行攔截。使用本功能必須開啟“手機版強制綁定手機”並進行用戶組設置。但畢竟他屬于第三方插件，如無法攔截可能屬于他插件做了變動，不是本插件問題。]]></item>
+				<item id="variable"><![CDATA[g_isopendsuqdm]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="108">
+				<item id="displayorder"><![CDATA[114]]></item>
+				<item id="title"><![CDATA[開啟微信自動登錄時不跳轉]]></item>
+				<item id="description"><![CDATA[如果你安裝的有微信自動登錄插件，開啟本插件手機版手機登錄功能後，無法在微信端實現微信自動登錄功能，可以開啟此開關。開啟微信自動登錄相關插件並開啟此開關後，檢測用戶是微信端訪問，則不自動往手機登錄頁面跳轉。該開關必須和微信自動登錄功能，同時開，同時關！]]></item>
+				<item id="variable"><![CDATA[g_wxautologin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="109">
+				<item id="displayorder"><![CDATA[115]]></item>
+				<item id="title"><![CDATA[電腦版第三方登錄按鈕補全]]></item>
+				<item id="description"><![CDATA[由于插件電腦版手機登錄界面、強制手機獨立注冊頁面無法自動調用第三方登錄按鈕，利用本功能可以手工填寫第三方登錄按鈕區域HTML代碼，插件會直接將該HTML代碼顯示到提交按鈕下方。示例代碼在“教程及問題匯總中”查看。]]></item>
+				<item id="variable"><![CDATA[g_qitaloginhtml]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="110">
+				<item id="displayorder"><![CDATA[116]]></item>
+				<item id="title"><![CDATA[QQ快捷登錄網址url]]></item>
+				<item id="description"><![CDATA[如果填寫此項，會在插件手機版登錄頁面多出“QQ快捷登錄”的按鈕，請在此手工填寫QQ快捷登錄網址url。此功能僅適用于“簡潔風格2”手機模板。url可使用谷歌瀏覽器，模擬手機版，對相關按鈕右鍵-審核元素進行查看。]]></item>
+				<item id="variable"><![CDATA[g_qqloginurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="111">
+				<item id="displayorder"><![CDATA[117]]></item>
+				<item id="title"><![CDATA[微信快捷登錄網址url]]></item>
+				<item id="description"><![CDATA[如果填寫此項，會在插件手機版登錄頁面多出“微信快捷登錄”的按鈕，請在此手工填寫微信快捷登錄網址url。此功能僅適用于“簡潔風格2”手機模板。url可使用谷歌瀏覽器，模擬手機版，對相關按鈕右鍵-審核元素進行查看。]]></item>
+				<item id="variable"><![CDATA[g_weixinloginurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="112">
+				<item id="displayorder"><![CDATA[118]]></item>
+				<item id="title"><![CDATA[僅微信中顯示微信快捷登錄]]></item>
+				<item id="description"><![CDATA[是否僅在微信客戶端中顯示微信登錄按鈕，使用此功能需填寫上面的“微信快捷登錄網址url”]]></item>
+				<item id="variable"><![CDATA[g_onlywxshowwxbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="113">
+				<item id="displayorder"><![CDATA[119]]></item>
+				<item id="title"><![CDATA[微博快捷登錄網址url]]></item>
+				<item id="description"><![CDATA[如果填寫此項，會在插件手機版登錄頁面多出“微博快捷登錄”的按鈕，請在此手工填寫微博快捷登錄網址url。此功能僅適用于“簡潔風格2”手機模板。url可使用谷歌瀏覽器，模擬手機版，對相關按鈕右鍵-審核元素進行查看。]]></item>
+				<item id="variable"><![CDATA[g_weibologinurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="114">
+				<item id="displayorder"><![CDATA[120]]></item>
+				<item id="title"><![CDATA[手機版logo網址url]]></item>
+				<item id="description"><![CDATA[默認︰空，即不顯示logo，本功能僅適用于手機版“簡潔風格v2”模板，設置logo圖片網址後，手機版會在頂部顯示此處設置的logo圖片，不設置不顯示，配合下面logo寬高值使用，具體請根據實際情況制作。]]></item>
+				<item id="variable"><![CDATA[g_mlogo]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="115">
+				<item id="displayorder"><![CDATA[121]]></item>
+				<item id="title"><![CDATA[手機版logo圖片寬度]]></item>
+				<item id="description"><![CDATA[手機版logo圖片寬度，請根據實際情況自行調整，支持 px 、rem、100%、auto 設置。例如  180px、3rem、100%、auto，設置後對應的css分別為，width:180px;、width:3rem;、width:100%;、width:auto;]]></item>
+				<item id="variable"><![CDATA[g_mlogowidth]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[3rem]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="116">
+				<item id="displayorder"><![CDATA[122]]></item>
+				<item id="title"><![CDATA[手機版logo圖片高度]]></item>
+				<item id="description"><![CDATA[手機版logo圖片高度，請根據實際情況自行調整，支持 px 、rem、100%、auto 設置。例如  180px、3rem、100%、auto，設置後對應的css分別為，height:180px;、height:3rem;、height:100%;、height:auto;]]></item>
+				<item id="variable"><![CDATA[g_mlogoheight]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[1rem]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="117">
+				<item id="displayorder"><![CDATA[123]]></item>
+				<item id="title"><![CDATA[自行修改模板語言]]></item>
+				<item id="description"><![CDATA[是否自己修改插件模板語言包，啟用後請到“模板語言包修改”功能中設置相關變量對應的語言內容。關閉本功能後，語言包自動恢復到默認語言包。]]></item>
+				<item id="variable"><![CDATA[g_isopenyuyan]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="118">
+				<item id="displayorder"><![CDATA[124]]></item>
+				<item id="title"><![CDATA[電腦版調整css樣式]]></item>
+				<item id="description"><![CDATA[電腦版是利用discuz嵌入點進行功能植入，屬于通用功能，與部分風格獨特的模板配合出現一些錯位問題屬于正常情況，可在這里自己根據自己模板情況重寫對應錯位區域的css樣式即可！書寫時請自己加上<style type="text/css"></style>。此功能不做任何指導！]]></item>
+				<item id="variable"><![CDATA[g_pccss]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="119">
+				<item id="displayorder"><![CDATA[125]]></item>
+				<item id="title"><![CDATA[手機版風格模板]]></item>
+				<item id="description"><![CDATA[手機版風格模板，涉及插件登錄、注冊、手機綁定、找回密碼等功能頁面模板。]]></item>
+				<item id="variable"><![CDATA[g_mstyle]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[v2]]></item>
+				<item id="extra"><![CDATA[v1=簡潔風格1
+v2=簡潔風格2]]></item>
+			</item>
+			<item id="120">
+				<item id="displayorder"><![CDATA[126]]></item>
+				<item id="title"><![CDATA[使用discuz F1.0版本]]></item>
+				<item id="description"><![CDATA[如果你使用的是最新版的discuz F1.0版本，並且注冊功能上出現注冊失敗問題的話，開啟此開關。]]></item>
+				<item id="variable"><![CDATA[g_discuzf]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="121">
+				<item id="displayorder"><![CDATA[127]]></item>
+				<item id="title"><![CDATA[開啟短信發送調試模式]]></item>
+				<item id="description"><![CDATA[務必看參數介紹，了解後再開啟！！！！管理員調試各功能時用，默認︰否，如果開啟此開關，前台、後台所有涉及發短信驗證碼的功能，都將直接返回發送成功狀態，但不會真正發送短信，不會產生短信費用，管理員可以在後台短信發送記錄中查看發送的短信驗證碼。]]></item>
+				<item id="variable"><![CDATA[g_smsdebug]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="smslist"><![CDATA[短信發送記錄]]></item>
+				<item id="smslisttitle">
+					<item id="0"><![CDATA[ID]]></item>
+					<item id="1"><![CDATA[手機號]]></item>
+					<item id="2"><![CDATA[用戶uid]]></item>
+					<item id="3"><![CDATA[驗證碼]]></item>
+					<item id="4"><![CDATA[發送類型]]></item>
+					<item id="5"><![CDATA[發送狀態]]></item>
+					<item id="6"><![CDATA[發送時間]]></item>
+					<item id="7"><![CDATA[返回信息]]></item>
+					<item id="8"><![CDATA[短信發送IP]]></item>
+				</item>
+				<item id="ipchecktip"><![CDATA[短信發送IP地址，只有在開啟了“開啟ip地址檢測”功\能開關後才會記錄，後台測試短信發送不進行記錄。]]></item>
+				<item id="typeceshi"><![CDATA[測試]]></item>
+				<item id="typedenglu"><![CDATA[登錄]]></item>
+				<item id="typezhuce"><![CDATA[注冊]]></item>
+				<item id="typeshenfenyanzheng"><![CDATA[身份驗證]]></item>
+				<item id="typexiugaimima"><![CDATA[修改密碼]]></item>
+				<item id="qingliweek1"><![CDATA[清空一星期前的記錄]]></item>
+				<item id="delqingliweek1"><![CDATA[<span style="color:red;">確定要清空一星期前的記錄嗎？清空後無法恢復！</span>]]></item>
+				<item id="qingliweek1ok"><![CDATA[<span style="color:green;">已經成功\清空一星期前的記錄</span>]]></item>
+				<item id="statusall"><![CDATA[全部]]></item>
+				<item id="statussuccess"><![CDATA[發送成功\]]></item>
+				<item id="statuserror"><![CDATA[發送失敗]]></item>
+				<item id="smsphone"><![CDATA[手機號︰]]></item>
+				<item id="smsstarttime"><![CDATA[起始時間︰]]></item>
+				<item id="smsstatus"><![CDATA[發送狀態︰]]></item>
+				<item id="aboutyuyan"><![CDATA[關于模板語言包修改的相關說明]]></item>
+				<item id="yuyandescription"><![CDATA[1、本功\能用于修改本插件所包含的前台模板各功\能語言變量對應的語言內容。<br/>2、本功\能是動態改變本插件語言緩存，可通過參數設置中“自行修改模板語言”功\能開關決定是否啟用本功\能，關閉後將自動還原成默認語言包。<br/>3、<span style="color:red;">語言內容不要過長，請懂的人使用！</span><br/>]]></item>
+				<item id="aboutsmssend"><![CDATA[關于阿里雲短信發送測試的相關說明]]></item>
+				<item id="smssenddescription"><![CDATA[1、後台“短信發送測試”功\能，默認使用插件設置中<span style="color:blue;">身份驗證</span>對應的短信模板code和簽名發送測試短信。<br/>2、請輸入接收手機號發送即可。<br/>3、<span style="color:red;">如果點擊本頁面（“短信發送測試”頁面）直接白屏，說明服務器php版本不符合要求，檢查服務器php版本是否大于5.3。</span><br/>4、<span style="color:red;">如果點擊本頁面（“短信發送測試”頁面）可以顯示填寫手機號頁面，但是輸入手機號，點擊發送後白屏，查看瀏覽器控制台是否報500錯誤，這種情況，檢查服務器 php配置文件中curl擴展有沒有開啟。</span><br/>5、如果後台測試短信發送，顯示“發送成功\”，卻收不到短信，請檢查是否開啟了插件設置最下面的“開啟短信發送調試模式”開關，此開關<span style="color:red;">不能開</span>，具體用法參考參數介紹。<br/>6、請確保從您的服務器上能ping通阿里雲短信接口地址，阿里雲短信服務︰dysmsapi.aliyuncs.com，阿里大于︰gw.api.taobao.com。<br/>]]></item>
+				<item id="smsapitest"><![CDATA[<span style="color:blue;">測試您的服務器與短信接口通信是否正常</span>（需服務器有exec()執行權限，測試需要十幾秒鐘的時間，請耐心等待，結果會顯示在當前頁面）]]></item>
+				<item id="smsapitestsms"><![CDATA[阿里雲短信服務接口通信測試]]></item>
+				<item id="smsapitestdy"><![CDATA[阿里大于接口通信測試]]></item>
+				<item id="smsapitestok"><![CDATA[<span style="color:green;">通信正常</span>]]></item>
+				<item id="smsapitesterror"><![CDATA[<span style="color:red;">通信失敗</span>]]></item>
+				<item id="aboutsmsuser"><![CDATA[關于手機綁定用戶管理功\能的相關說明]]></item>
+				<item id="smsuserdescription"><![CDATA[<span style="color:red;">1、本插件從2.0版本開始統一了用戶手機綁定表，那麼登錄/注冊時會查discuz系統帶的“common_member_profile”資料表，以“mobile”字段作為驗證字段。用于兼容其他手機短信插件，同時防止因插件問題造成數據丟失。請確定discuz的資料表中的手機號來源一定正確、唯一！</span><br/>2、從設置中可以關閉統一用戶綁定表功\能，則使用插件自帶表綁定數據，但非常不建議。<br/>3、本功\能僅記錄使用本插件相關功\能綁定的用戶手機號。<br/>4、本功\能中添加手機綁定時以“手機綁定後自動認證”開啟狀態為準，此開關開啟，則新綁定手機的用戶同步完成手機認證，否則不同步認證；解除綁定不受此開關限制，都會清除手機認證。<br/>]]></item>
+				<item id="aboutdzuser"><![CDATA[關于統一資料表手機綁定用戶管理功\能的相關說明]]></item>
+				<item id="dzuserdescription"><![CDATA[<span style="color:red;">1、本插件從2.0版本開始統一了用戶手機綁定表，那麼登錄/注冊時會查discuz系統帶的“common_member_profile”資料表，以“mobile”字段作為驗證字段。用于兼容其他手機短信插件，同時防止因插件問題造成數據丟失。請確定discuz的資料表中的手機號來源一定正確、唯一！</span><br/>2、本功\能將顯示所有discuz會員，用于在後台統一管理discuz自帶資料表的手機綁定。<br/>3、本功\能中添加手機綁定時以“手機綁定後自動認證”開啟狀態為準，此開關開啟，則新綁定手機的用戶同步完成手機認證，否則不同步認證；解除綁定不受此開關限制，包括“批量刪除discuz資料表用戶手機號”功\能，均會清除手機認證。<br/>]]></item>
+				<item id="aboutdzverify"><![CDATA[關于手機認證管理功\能的相關說明]]></item>
+				<item id="dzverifydescription"><![CDATA[<span style="color:red;">1、本插件支持新注冊用戶、或新綁定手機號用戶自動完成手機認證功\能，對于老用戶的手機認證管理，在此“手機認證管理”功\能中進行管理。</span><br/>2、請在插件設置“手機認證關聯系統認證項”中選擇一個自動完成手機認證的認證代號。請前往discuz後台--用戶--認證設置，設置手機認證項目，確保該認證項目僅包含手機號一項數據，並開啟的認證項目。此處一旦選錯，同樣會直接認證成功\，請謹慎選擇。<br/>]]></item>
+				<item id="copyright"><![CDATA[<a href="mailto:836333583@qq.com" target="_blank">jzsjiale <836333583@qq.com></a>]]></item>
+				<item id="smssendtitle"><![CDATA[短信發送測試]]></item>
+				<item id="smssendphone"><![CDATA[接收手機號]]></item>
+				<item id="smssendphone_msg"><![CDATA[<span style="color:red;">必須</span>,請輸入11位接收手機號]]></item>
+				<item id="smssendphone_null"><![CDATA[接收手機號不能為空]]></item>
+				<item id="smssendphoneerror_null"><![CDATA[接收手機號格式錯誤]]></item>
+				<item id="fasong"><![CDATA[發送]]></item>
+				<item id="noappkey"><![CDATA[請先配置參數阿里雲AccessKeyId、AccessKeySecret]]></item>
+				<item id="generatecodeerror"><![CDATA[生成驗證碼失敗]]></item>
+				<item id="noopenregister"><![CDATA[未開啟短信驗證碼身份驗證]]></item>
+				<item id="noregisterid"><![CDATA[請先設置注冊模板ID]]></item>
+				<item id="noregistersign"><![CDATA[請先設置注冊簽名]]></item>
+				<item id="noopenlogin"><![CDATA[未開啟短信驗證碼登錄]]></item>
+				<item id="nologinid"><![CDATA[請先設置登錄模板ID]]></item>
+				<item id="nologinsign"><![CDATA[請先設置登錄簽名]]></item>
+				<item id="noopenyanzheng"><![CDATA[未開啟短信驗證碼身份驗證]]></item>
+				<item id="noyanzhengid"><![CDATA[請先設置身份驗證模板ID]]></item>
+				<item id="noyanzhengsign"><![CDATA[請先設置身份驗證簽名]]></item>
+				<item id="noopenmima"><![CDATA[未開啟短信驗證碼修改密碼]]></item>
+				<item id="nomimaid"><![CDATA[請先設置修改密碼模板ID]]></item>
+				<item id="nomimasign"><![CDATA[請先設置修改密碼簽名]]></item>
+				<item id="smsxiane"><![CDATA[該手機號短信發送條數達到今天上限！]]></item>
+				<item id="smssuccess"><![CDATA[發送成功\]]></item>
+				<item id="smserror"><![CDATA[發送失敗]]></item>
+				<item id="smsBUSINESS_LIMIT_CONTROL"><![CDATA[短信發送受到條數限制，請稍後再試！]]></item>
+				<item id="isvMOBILE_NUMBER_ILLEGAL"><![CDATA[非法手機號，請檢查手機號格式！]]></item>
+				<item id="isvSMS_TEMPLATE_ILLEGAL"><![CDATA[短信模板不合法，請查看插件設置身份驗證對應的短信模板是否為阿里雲短信服務中審核通過的模板，並且短信模板內容中驗證碼用${code}變量表示！]]></item>
+				<item id="isvSMS_SIGNATURE_ILLEGAL"><![CDATA[短信簽名不合法，請查看插件設置身份驗證對應的短信簽名和阿里雲短信服務後台審核通過的簽名是否一樣！]]></item>
+				<item id="isvAMOUNT_NOT_ENOUGH"><![CDATA[賬戶余額不足！]]></item>
+				<item id="isvOUT_OF_SERVICE"><![CDATA[阿里雲短信服務業務停機，請檢查余額是否充足，或直接聯系阿里雲客服！]]></item>
+				<item id="isvINVALID_PARAMETERS"><![CDATA[變量中不得傳入中文，請檢查阿里雲短信模板內容！]]></item>
+				<item id="ispRAM_PERMISSION_DENY"><![CDATA[請在阿里雲訪問控制中檢查，是否為子賬號分配了AliyunDysmsFullAccess用于管理短信服務(SMS)的權限！]]></item>
+				<item id="SignatureDoesNotMatch"><![CDATA[簽名加密錯誤，請檢查簽名、accessKeyId和accessKeySecret填寫是否正確！]]></item>
+				<item id="InvalidTimeStampExpired"><![CDATA[時間戳錯誤，請檢查服務器時間和時區是否正確,目前網關使用的時間是GMT時間！]]></item>
+				<item id="smsuserlist"><![CDATA[手機用戶綁定管理]]></item>
+				<item id="smsuserlisttitle">
+					<item id="0"><![CDATA[ID]]></item>
+					<item id="1"><![CDATA[用戶uid]]></item>
+					<item id="2"><![CDATA[用戶名]]></item>
+					<item id="3"><![CDATA[手機號]]></item>
+					<item id="4"><![CDATA[綁定時間]]></item>
+					<item id="5"><![CDATA[操作]]></item>
+				</item>
+				<item id="dzuserlist"><![CDATA[統一資料表手機用戶綁定管理]]></item>
+				<item id="dzuserlisttitle">
+					<item id="0"><![CDATA[用戶uid]]></item>
+					<item id="1"><![CDATA[用戶名]]></item>
+					<item id="2"><![CDATA[手機號]]></item>
+					<item id="3"><![CDATA[注冊時間]]></item>
+					<item id="4"><![CDATA[操作]]></item>
+				</item>
+				<item id="dzverifylist"><![CDATA[手機認證管理]]></item>
+				<item id="dzverifylisttitle">
+					<item id="0"><![CDATA[用戶uid]]></item>
+					<item id="1"><![CDATA[用戶名]]></item>
+					<item id="2"><![CDATA[手機號]]></item>
+					<item id="3"><![CDATA[認證狀態]]></item>
+					<item id="4"><![CDATA[注冊時間]]></item>
+					<item id="5"><![CDATA[操作]]></item>
+				</item>
+				<item id="quxiaorenzheng"><![CDATA[取消認證]]></item>
+				<item id="lijirenzheng"><![CDATA[立即認證]]></item>
+				<item id="bangding"><![CDATA[添加綁定]]></item>
+				<item id="jiechubangding"><![CDATA[解除綁定]]></item>
+				<item id="lijibangding"><![CDATA[立即綁定]]></item>
+				<item id="userphone"><![CDATA[用戶名或手機號︰]]></item>
+				<item id="chazhaochongfu"><![CDATA[查找重復手機號用戶]]></item>
+				<item id="piliangshanchu"><![CDATA[批量刪除discuz資料表用戶手機號]]></item>
+				<item id="quedingpiliangshanchu"><![CDATA[確定要批量刪除discuz資料表用戶手機號嗎？清除後無法恢復！此功\能批量刪除手機號會同時刪除插件表手機綁定關系，請謹慎操作！]]></item>
+				<item id="piliangshanchuok"><![CDATA[批量刪除手機號成功\]]></item>
+				<item id="addbangdingtitle"><![CDATA[添加用戶綁定]]></item>
+				<item id="dusername"><![CDATA[用戶名]]></item>
+				<item id="dusername_msg"><![CDATA[<span style="color:red;">必須</span>,用戶名]]></item>
+				<item id="dusername_null"><![CDATA[用戶名不能為空]]></item>
+				<item id="dphone"><![CDATA[綁定手機號]]></item>
+				<item id="dphone_msg"><![CDATA[<span style="color:red;">必須</span>,請輸入11位綁定手機號]]></item>
+				<item id="dphone_null"><![CDATA[綁定手機號不能為空]]></item>
+				<item id="dphoneerror_null"><![CDATA[綁定手機號格式錯誤]]></item>
+				<item id="nousername"><![CDATA[未找到該用戶]]></item>
+				<item id="phonecunzai"><![CDATA[該手機號已被別人綁定]]></item>
+				<item id="addok"><![CDATA[添加成功\]]></item>
+				<item id="delok"><![CDATA[刪除成功\]]></item>
+				<item id="error"><![CDATA[出現錯誤，請重試]]></item>
+				<item id="empty"><![CDATA[未找到數據]]></item>
+				<item id="useruid"><![CDATA[用戶uid︰]]></item>
+				<item id="username"><![CDATA[用戶名︰]]></item>
+				<item id="delbangding"><![CDATA[刪除用戶【{username}】的手機綁定]]></item>
+				<item id="jiechuok"><![CDATA[解除綁定成功\]]></item>
+				<item id="newbind_phone"><![CDATA[待綁定新手機號]]></item>
+				<item id="bind_phone"><![CDATA[待綁定手機號]]></item>
+				<item id="bind_seccode"><![CDATA[手機驗證碼]]></item>
+				<item id="oldbind_seccode"><![CDATA[已綁定手機驗證碼]]></item>
+				<item id="bind_password"><![CDATA[驗證登錄密碼]]></item>
+				<item id="bind_phone_error"><![CDATA[手機號格式不正確]]></item>
+				<item id="bind_seccode_error"><![CDATA[手機驗證碼不正確]]></item>
+				<item id="oldbind_seccode_error"><![CDATA[已綁定手機驗證碼不正確]]></item>
+				<item id="bind_password_error"><![CDATA[登錄密碼不正確]]></item>
+				<item id="paramerror"><![CDATA[手機驗證︰缺少參數或參數錯誤!]]></item>
+				<item id="seccode_invalid"><![CDATA[您輸入的圖形驗證碼不正確]]></item>
+				<item id="mimaerror"><![CDATA[您的登錄密碼不正確]]></item>
+				<item id="err_seccodeguoqi"><![CDATA[短信驗證碼已過期]]></item>
+				<item id="err_seccodeerror"><![CDATA[短信驗證碼填寫錯誤]]></item>
+				<item id="err_oldseccodeguoqi"><![CDATA[已綁定手機號驗證，短信驗證碼已過期]]></item>
+				<item id="err_oldseccodeerror"><![CDATA[已綁定手機號驗證，短信驗證碼填寫錯誤]]></item>
+				<item id="notopenyanzheng"><![CDATA[未開啟身份驗證短信發送功\能]]></item>
+				<item id="notopenregister"><![CDATA[未開啟注冊驗證短信發送功\能]]></item>
+				<item id="notopenlogin"><![CDATA[未開啟登錄驗證短信發送功\能]]></item>
+				<item id="notopenmima"><![CDATA[未開啟修改密碼驗證短信發送功\能]]></item>
+				<item id="err_yibangding"><![CDATA[該用戶名已綁定手機]]></item>
+				<item id="bangdingok"><![CDATA[綁定成功\]]></item>
+				<item id="bangdingerror"><![CDATA[綁定失敗]]></item>
+				<item id="jiechuerror"><![CDATA[解除綁定失敗]]></item>
+				<item id="chongxinbangdingok"><![CDATA[重新綁定手機號成功\]]></item>
+				<item id="err_weibangding"><![CDATA[該手機號尚未在網站進行注冊]]></item>
+				<item id="err_notopenphonemimalogin"><![CDATA[網站目前不允許\使用手機號+密碼登錄]]></item>
+				<item id="err_gongnengweikaiqi"><![CDATA[該功\能未開啟]]></item>
+				<item id="passwordnull"><![CDATA[請輸入密碼]]></item>
+				<item id="password2null"><![CDATA[請輸入確認密碼]]></item>
+				<item id="passworderr"><![CDATA[兩次密碼不一致]]></item>
+				<item id="password6"><![CDATA[密碼過于簡單，不得小于6位]]></item>
+				<item id="err_systemerror"><![CDATA[抱歉，系統錯誤，無法繼續執行該操作]]></item>
+				<item id="loginerror"><![CDATA[登錄失敗]]></item>
+				<item id="answerset"><![CDATA[您設置了安全問題，請選擇安全問題，並填寫正確的答案！]]></item>
+				<item id="answernull"><![CDATA[您選擇了安全問題，請填寫答案！]]></item>
+				<item id="logintoomanyerror"><![CDATA[密碼錯誤次數過多，請15分鐘後登陸！]]></item>
+				<item id="anquanyanzheng"><![CDATA[安全驗證]]></item>
+				<item id="anquanyanzhengdaan"><![CDATA[答案]]></item>
+				<item id="getoldmobilenull"><![CDATA[未獲取到已綁定手機號信息，請重試]]></item>
+				<item id="getoldseccodenull"><![CDATA[未獲取到已綁定手機號的短信驗證碼信息，請重試]]></item>
+				<item id="zongxiane"><![CDATA[您限定的短信每日總發送條數︰]]></item>
+				<item id="zongxianebuxiane"><![CDATA[不限額]]></item>
+				<item id="jinrifasong"><![CDATA[今日已成功\發送總條數︰]]></item>
+				<item id="renzhengchenggong"><![CDATA[認證成功\]]></item>
+				<item id="weirenzheng"><![CDATA[未完成認證]]></item>
+				<item id="qingshezhiverify"><![CDATA[請在插件設置欄設置“手機認證關聯系統認證項”]]></item>
+				<item id="delrenzheng"><![CDATA[取消用戶【{username}】的手機認證]]></item>
+				<item id="lijirenzhengtip"><![CDATA[為用戶【{username}】進行手機認證]]></item>
+				<item id="delrenzhengok"><![CDATA[取消手機認證成功\]]></item>
+				<item id="renzhengnomobile"><![CDATA[該用戶並未綁定手機號，無法進行手機認證]]></item>
+				<item id="yijianquanburenzheng"><![CDATA[一鍵全部認證(已綁定手機號用戶)]]></item>
+				<item id="yijianquanbuquxiaorenzheng"><![CDATA[一鍵全部取消認證]]></item>
+				<item id="qingchuwushoujihaorenzheng"><![CDATA[一鍵清除無手機號的用戶認證]]></item>
+				<item id="caozuowancheng"><![CDATA[操作完成]]></item>
+				<item id="loginpopuptitle"><![CDATA[手機登錄]]></item>
+				<item id="curr_createverify"><![CDATA[正在批量為已存在手機號的用戶進行認證,總用戶數【{count}】名用戶      ]]></item>
+				<item id="curr_cancelverify"><![CDATA[需要檢測的總用戶數【{count}】名用戶      ]]></item>
+				<item id="phonenull"><![CDATA[請輸入手機號]]></item>
+				<item id="seccodenull"><![CDATA[請輸入手機驗證碼]]></item>
+				<item id="usernamenull"><![CDATA[請輸入用戶名]]></item>
+				<item id="usernamecunzai"><![CDATA[該用戶名已存在]]></item>
+				<item id="registererror"><![CDATA[注冊失敗]]></item>
+				<item id="registersuccess"><![CDATA[注冊成功\]]></item>
+				<item id="registersuccess_phoneerror"><![CDATA[注冊成功\,但手機綁定失敗]]></item>
+				<item id="registersuccesssendemailerror"><![CDATA[注冊成功\,但注冊驗證郵件發送失敗,請前往電腦版重新發送驗證！]]></item>
+				<item id="registersuccessemailyanzheng"><![CDATA[注冊成功\,請前往郵箱進行郵件驗證！]]></item>
+				<item id="registeremailillegal"><![CDATA[郵箱格式不合法]]></item>
+				<item id="registeremailduplicate"><![CDATA[郵箱重復]]></item>
+				<item id="err_pcregphonetabweikaiqi"><![CDATA[電腦版手機號獨立注冊功\能未開啟]]></item>
+				<item id="username_len_invalid_error"><![CDATA[用戶名過短或過長]]></item>
+				<item id="password_len_invalid_error"><![CDATA[密碼過短或過長]]></item>
+				<item id="recache"><![CDATA[更新緩存]]></item>
+				<item id="cache_success"><![CDATA[更新緩存成功\]]></item>
+				<item id="cache_error"><![CDATA[更新緩存失敗]]></item>
+				<item id="huanyuanyuyan"><![CDATA[恢復初始語言包內容]]></item>
+				<item id="huanyuanyuyan_success"><![CDATA[恢復初始語言包內容成功\]]></item>
+				<item id="huanyuanyuyan_error"><![CDATA[恢復初始語言包內容失敗]]></item>
+				<item id="yuyanweiqiyong"><![CDATA[模板語言包修改功\能暫未啟用，無法操作！<br/>請到插件設置中最下面找到“自行修改模板語言”開關，並啟用！]]></item>
+				<item id="yuyantitle"><![CDATA[模板語言包修改]]></item>
+				<item id="smstpllang_msg1"><![CDATA[用于修改模板中 ]]></item>
+				<item id="smstpllang_msg2"><![CDATA[ 變量位置對應的內容。]]></item>
+				<item id="update_success"><![CDATA[更新成功\]]></item>
+				<item id="xiufuok"><![CDATA[本插件數據表修復成功\]]></item>
+				<item id="xiufuerror"><![CDATA[本插件數據表修復失敗]]></item>
+				<item id="checkiperror"><![CDATA[您所在的地區暫未開放本功\能, 如有疑問請聯系管理員!]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="homebangdingtitle"><![CDATA[手機綁定]]></item>
+				<item id="homebangdingcontent"><![CDATA[請輸入本人手機號進行綁定，且每個手機號只能綁定一個論壇賬戶。<br/><span style="color:red;">綁定手機後，你可以使用手機號作為用戶名登錄。</span>]]></item>
+				<item id="homebangdingcontent2"><![CDATA[請輸入本人手機號進行綁定，且每個手機號只能綁定一個論壇賬戶。]]></item>
+				<item id="phone"><![CDATA[手機號]]></item>
+				<item id="seccode"><![CDATA[短信驗證碼]]></item>
+				<item id="newbind_phone"><![CDATA[待綁定新手機號]]></item>
+				<item id="bind_phone"><![CDATA[待綁定手機號]]></item>
+				<item id="bind_seccode"><![CDATA[手機驗證碼]]></item>
+				<item id="oldbind_seccode"><![CDATA[已綁定手機驗證碼]]></item>
+				<item id="bind_password"><![CDATA[驗證登錄密碼]]></item>
+				<item id="bind_phone_tip"><![CDATA[請輸入11位的手機號]]></item>
+				<item id="bind_phone_error"><![CDATA[手機號格式不正確]]></item>
+				<item id="bind_seccode_error"><![CDATA[手機驗證碼不正確]]></item>
+				<item id="oldbind_seccode_error"><![CDATA[已綁定手機驗證碼不正確]]></item>
+				<item id="bind_password_error"><![CDATA[登錄密碼不正確]]></item>
+				<item id="send_seccode"><![CDATA[發送短信驗證碼]]></item>
+				<item id="sendseccodetitle"><![CDATA[發送短信驗證碼]]></item>
+				<item id="sendseccodetitle2"><![CDATA[(驗證已綁定手機號)發送短信驗證碼]]></item>
+				<item id="tip_imgsec"><![CDATA[請輸入圖形驗證碼]]></item>
+				<item id="tip_seccode"><![CDATA[請輸入手機驗證碼]]></item>
+				<item id="err_phonebind"><![CDATA[該手機號碼已被其他用戶綁定使用，請更換其他手機號碼]]></item>
+				<item id="err_oldphonebind"><![CDATA[未獲取到已綁定手機號數據，請重試]]></item>
+				<item id="err_seccodefasong"><![CDATA[同一手機號碼1分鐘內只允許\發送一次驗證碼，1小時內只允許\發送5條，驗證碼{youxiaoqi}秒內有效]]></item>
+				<item id="err_seccodefasong1"><![CDATA[同一手機號碼1分鐘內只允許\發送一次驗證碼，1小時內只允許\發送5條，驗證碼]]></item>
+				<item id="err_seccodefasong2"><![CDATA[秒內有效]]></item>
+				<item id="err_seccodexiane"><![CDATA[抱歉，您的手機使用短信驗證碼超過每日限額]]></item>
+				<item id="err_zhanghaoseccodexiane"><![CDATA[抱歉，您的賬號使用短信驗證碼超過每日限額]]></item>
+				<item id="err_seccodezongxiane"><![CDATA[抱歉，短信驗證碼發送失敗]]></item>
+				<item id="err_nouser"><![CDATA[抱歉，該手機號暫未在網站進行注冊，請先注冊再登錄。]]></item>
+				<item id="error_nouser"><![CDATA[抱歉，不存在該用戶名]]></item>
+				<item id="generatecodeerror"><![CDATA[生成驗證碼失敗]]></item>
+				<item id="paramerror"><![CDATA[手機驗證︰缺少參數或參數錯誤!]]></item>
+				<item id="seccode_invalid"><![CDATA[您輸入的圖形驗證碼不正確]]></item>
+				<item id="mimaerror"><![CDATA[您的登錄密碼不正確]]></item>
+				<item id="peizhierror"><![CDATA[服務器短信配置錯誤]]></item>
+				<item id="smssuccess"><![CDATA[發送成功\]]></item>
+				<item id="smserror"><![CDATA[發送失敗]]></item>
+				<item id="smsBUSINESS_LIMIT_CONTROL"><![CDATA[短信發送受到條數限制，請稍後再試！]]></item>
+				<item id="isvMOBILE_NUMBER_ILLEGAL"><![CDATA[非法手機號！]]></item>
+				<item id="isvBUSINESS_LIMIT_CONTROL"><![CDATA[您操作太頻繁啦,請稍等片刻再發送！]]></item>
+				<item id="resendsec"><![CDATA[重發短信驗證碼]]></item>
+				<item id="resendtip"><![CDATA[秒後可重新發送]]></item>
+				<item id="notopenpc"><![CDATA[電腦版此功\能未開啟]]></item>
+				<item id="notopenmobile"><![CDATA[手機版此功\能未開啟]]></item>
+				<item id="notopenyanzheng"><![CDATA[未開啟身份驗證短信發送功\能]]></item>
+				<item id="notopenregister"><![CDATA[未開啟注冊驗證短信發送功\能]]></item>
+				<item id="notopenlogin"><![CDATA[未開啟登錄驗證短信發送功\能]]></item>
+				<item id="notopenmima"><![CDATA[未開啟修改密碼驗證短信發送功\能]]></item>
+				<item id="yibangdingphone"><![CDATA[已綁定手機號]]></item>
+				<item id="shifoujiechu"><![CDATA[解除綁定後可綁定新手機號,輸入登錄密碼,提交解除!]]></item>
+				<item id="jiechusubmit"><![CDATA[解除綁定]]></item>
+				<item id="jiechuok"><![CDATA[解除綁定成功\]]></item>
+				<item id="jiechuerror"><![CDATA[解除綁定失敗]]></item>
+				<item id="chongxinbangdingok"><![CDATA[重新綁定手機號成功\]]></item>
+				<item id="loginextratip"><![CDATA[手機號碼，快捷登錄]]></item>
+				<item id="loginpopuptitle"><![CDATA[手機登錄]]></item>
+				<item id="login_guest"><![CDATA[沒有帳號？{$_G[setting][reglinkname]}]]></item>
+				<item id="smslostpw"><![CDATA[手機短信找回密碼]]></item>
+				<item id="lostpwbyemail"><![CDATA[通過郵箱找回密碼]]></item>
+				<item id="jiazaizhong"><![CDATA[加載中...]]></item>
+				<item id="fanhui"><![CDATA[返回]]></item>
+				<item id="zhuce"><![CDATA[手機注冊]]></item>
+				<item id="denglu"><![CDATA[手機登錄]]></item>
+				<item id="denglu2"><![CDATA[登錄]]></item>
+				<item id="zhaohuimimatitle"><![CDATA[找回密碼]]></item>
+				<item id="zhaohuimimabtn"><![CDATA[立即找回]]></item>
+				<item id="xiugaibangdingtitle"><![CDATA[修改綁定手機]]></item>
+				<item id="bangdingtitle"><![CDATA[綁定手機]]></item>
+				<item id="bangdingbtn"><![CDATA[立即綁定]]></item>
+				<item id="denglubtn"><![CDATA[登錄]]></item>
+				<item id="qitadenglubtn"><![CDATA[其他登錄方式]]></item>
+				<item id="shouye"><![CDATA[首頁]]></item>
+				<item id="yonghuzhuce"><![CDATA[提交]]></item>
+				<item id="changyongphone"><![CDATA[您的手機號]]></item>
+				<item id="yonghuming"><![CDATA[用戶名]]></item>
+				<item id="passwordtip"><![CDATA[請輸入密碼]]></item>
+				<item id="repasswordtip"><![CDATA[確認密碼]]></item>
+				<item id="new_password"><![CDATA[新密碼]]></item>
+				<item id="new_password_confirm"><![CDATA[確認密碼]]></item>
+				<item id="oldphonenull"><![CDATA[未獲取到已綁定手機號，請刷新頁面重試]]></item>
+				<item id="oldphoneerr"><![CDATA[已綁定手機號格式錯誤]]></item>
+				<item id="phonenull"><![CDATA[請輸入手機號]]></item>
+				<item id="seccodenull"><![CDATA[請輸入手機驗證碼]]></item>
+				<item id="oldseccodenull"><![CDATA[已綁定手機號驗證，請輸入手機驗證碼]]></item>
+				<item id="passwordnull"><![CDATA[請輸入密碼]]></item>
+				<item id="password2null"><![CDATA[請輸入確認密碼]]></item>
+				<item id="passworderr"><![CDATA[兩次密碼不一致]]></item>
+				<item id="password6"><![CDATA[密碼過于簡單，不得小于6位]]></item>
+				<item id="usernametip"><![CDATA[用戶名]]></item>
+				<item id="username"><![CDATA[請輸入用戶名]]></item>
+				<item id="usernameerr"><![CDATA[用戶名已存在，請重試]]></item>
+				<item id="usernamenull"><![CDATA[請輸入用戶名]]></item>
+				<item id="usernamecunzai"><![CDATA[該用戶名已存在]]></item>
+				<item id="err_seccodeguoqi"><![CDATA[短信驗證碼已過期]]></item>
+				<item id="err_seccodeerror"><![CDATA[短信驗證碼填寫錯誤]]></item>
+				<item id="err_oldseccodeguoqi"><![CDATA[已綁定手機號驗證，短信驗證碼已過期]]></item>
+				<item id="err_oldseccodeerror"><![CDATA[已綁定手機號驗證，短信驗證碼填寫錯誤]]></item>
+				<item id="registererror"><![CDATA[注冊失敗]]></item>
+				<item id="registersuccess"><![CDATA[注冊成功\]]></item>
+				<item id="registersuccess_phoneerror"><![CDATA[注冊成功\,但手機綁定失敗]]></item>
+				<item id="registersuccesssendemailerror"><![CDATA[注冊成功\,但注冊驗證郵件發送失敗,請前往電腦版重新發送驗證！]]></item>
+				<item id="registersuccessemailyanzheng"><![CDATA[注冊成功\,請前往郵箱進行郵件驗證！]]></item>
+				<item id="registeremailillegal"><![CDATA[郵箱格式不合法]]></item>
+				<item id="registeremailduplicate"><![CDATA[郵箱重復]]></item>
+				<item id="phonecunzai"><![CDATA[該手機號已被別人綁定]]></item>
+				<item id="bangdingerror"><![CDATA[手機綁定失敗]]></item>
+				<item id="err_mima"><![CDATA[密碼錯誤]]></item>
+				<item id="bangdingsuccess"><![CDATA[綁定成功\]]></item>
+				<item id="err_yibangding"><![CDATA[該用戶名已綁定手機]]></item>
+				<item id="lijizhuce2"><![CDATA[立即注冊]]></item>
+				<item id="lijizhuce"><![CDATA[沒有賬號？立即注冊]]></item>
+				<item id="lijidenglu"><![CDATA[已有賬號，立即登錄]]></item>
+				<item id="lijidenglu2"><![CDATA[立即登錄]]></item>
+				<item id="zhaohuimima"><![CDATA[忘記密碼？立即找回密碼]]></item>
+				<item id="zhaohuimima2"><![CDATA[找回密碼]]></item>
+				<item id="lijibangding"><![CDATA[已有賬號，立即綁定手機]]></item>
+				<item id="err_location_login_force_qq"><![CDATA[您所在的用戶組必須使用QQ帳號登錄]]></item>
+				<item id="err_location_login_force_mail"><![CDATA[您所在的用戶組必須使用郵箱登錄]]></item>
+				<item id="err_location_login_outofdate"><![CDATA[您當前的帳號已經太長時間未登錄網站已經被凍結，必須驗證郵箱後才能解除凍結狀態]]></item>
+				<item id="err_getpasswd_account_notmatch"><![CDATA[抱歉，您填寫的賬戶資料不匹配，不能使用取回密碼功\能，如有疑問請與管理員聯系]]></item>
+				<item id="err_getpasswd_account_invalid"><![CDATA[抱歉，創始人、受保護用戶、擁有站點設置權限的用戶不能使用取回密碼功\能]]></item>
+				<item id="yonghumingdenglu"><![CDATA[用戶名登錄]]></item>
+				<item id="qitadenglufangshi"><![CDATA[其他登錄方式:]]></item>
+				<item id="shoujizhaohuimima"><![CDATA[忘記密碼？手機找回密碼]]></item>
+				<item id="shoujizhaohuimimatishi"><![CDATA[找回密碼:]]></item>
+				<item id="phonemima"><![CDATA[密碼]]></item>
+				<item id="err_systemerror"><![CDATA[抱歉，系統錯誤，無法繼續執行該操作]]></item>
+				<item id="loginerror"><![CDATA[登錄失敗]]></item>
+				<item id="err_weibangding"><![CDATA[該手機號尚未在網站進行綁定]]></item>
+				<item id="tongyi"><![CDATA[同意]]></item>
+				<item id="tiaokuan"><![CDATA[網站服務條款]]></item>
+				<item id="err_tiaokuan"><![CDATA[請閱\讀網站服務條款，並勾選同意]]></item>
+				<item id="lostpwerror"><![CDATA[找回密碼失敗]]></item>
+				<item id="getpasswdillegal"><![CDATA[抱歉，您所用的 ID 不存在或已過期，無法取回密碼]]></item>
+				<item id="getpasswdsucceed"><![CDATA[您的密碼已重新設置，請使用新密碼登錄]]></item>
+				<item id="profilepasswd_illegal"><![CDATA[抱歉，密碼空或包含非法字符]]></item>
+				<item id="answerset"><![CDATA[您設置了安全問題，請選擇安全問題，並填寫正確的答案！]]></item>
+				<item id="answernull"><![CDATA[您選擇了安全問題，請填寫答案！]]></item>
+				<item id="logintoomanyerror"><![CDATA[密碼錯誤次數過多，請15分鐘後登陸！]]></item>
+				<item id="anquanyanzheng"><![CDATA[安全驗證]]></item>
+				<item id="anquanyanzhengdaan"><![CDATA[答案]]></item>
+				<item id="zanweibangding"><![CDATA[暫未綁定手機號，點擊綁定]]></item>
+				<item id="dianjichongxinbangding"><![CDATA[點擊重新綁定手機號]]></item>
+				<item id="getoldmobilenull"><![CDATA[未獲取到已綁定手機號信息，請重試]]></item>
+				<item id="getoldseccodenull"><![CDATA[未獲取到已綁定手機號的短信驗證碼信息，請重試]]></item>
+				<item id="email"><![CDATA[請填寫常用郵箱,以便進行郵件驗證]]></item>
+				<item id="emailnull"><![CDATA[郵箱不能為空]]></item>
+				<item id="emailerr"><![CDATA[郵箱格式錯誤]]></item>
+				<item id="showbdyc"><![CDATA[點擊進行 “解綁/修改綁定” 操作]]></item>
+				<item id="genghuanmobiletip"><![CDATA[更換綁定手機號]]></item>
+				<item id="jiechuyanzhengtip"><![CDATA[解除當前已綁定手機號]]></item>
+				<item id="cuowumiaoshu"><![CDATA[出現錯誤]]></item>
+				<item id="cuowupopup"><![CDATA[錯誤]]></item>
+				<item id="registertop_mobile"><![CDATA[手機號注冊]]></item>
+				<item id="registertop_email"><![CDATA[郵箱注冊]]></item>
+				<item id="registertop_agree"><![CDATA[同意]]></item>
+				<item id="registertop_rulemessage"><![CDATA[網站服務條款]]></item>
+				<item id="registertop_readrulemessage"><![CDATA[請先仔細閱\讀並同意網站服務條款]]></item>
+				<item id="login_method"><![CDATA[快捷登錄]]></item>
+				<item id="username_len_invalid_error"><![CDATA[用戶名過短或過長]]></item>
+				<item id="password_len_invalid_error"><![CDATA[密碼過短或過長]]></item>
+				<item id="zhucetitle1"><![CDATA[注冊]]></item>
+				<item id="zhucetitle2"><![CDATA[賬號]]></item>
+				<item id="bangdingphonebtn"><![CDATA[綁定手機號]]></item>
+				<item id="usernamelogintab"><![CDATA[用戶名登錄]]></item>
+				<item id="phonelogintab"><![CDATA[手機號登錄]]></item>
+				<item id="disanfanglogin"><![CDATA[使用第三方帳號登錄]]></item>
+				<item id="login_now"><![CDATA[立即登錄]]></item>
+				<item id="agree"><![CDATA[同意]]></item>
+				<item id="disagree"><![CDATA[不同意]]></item>
+				<item id="checkiperror"><![CDATA[您所在的地區暫未開放本功\能, 如有疑問請聯系管理員!]]></item>
+				<item id="usernamemima"><![CDATA[密碼]]></item>
+				<item id="usernotexist"><![CDATA[，該用戶名尚未注冊]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	</item>
+</root>

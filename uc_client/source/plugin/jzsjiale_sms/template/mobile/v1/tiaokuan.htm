@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{lang jzsjiale_sms:tiaokuan}</title>
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport" />
+<link type="text/css" rel="stylesheet" href="source/plugin/jzsjiale_sms/static/css/basic.css" />
+<script src="source/plugin/jzsjiale_sms/static/js/jquery-1.10.2.min.js"></script>
+<style type="text/css">
+.header { 
+    background: {$mobilecolor};
+}
+.ui-btn-primary {
+    background-color: {$mobilecolor};
+    border-color: {$mobilecolor};
+}
+</style>
+
+</head>
+
+<body>
+<div class="w"> 
+  <!--page load start-->
+  <div id="preloader">
+    <div id="status">
+      <p class="center-text">{lang jzsjiale_sms:jiazaizhong}</p>
+    </div>
+  </div>
+  <!--page load end--> 
+  <!--header start-->
+  <header>
+    <div class="header"> 
+    <a class="new-a-back" href="javascript:history.back();"> <span>{lang jzsjiale_sms:fanhui}</span> </a>
+      <h2>{lang jzsjiale_sms:tiaokuan}</h2>
+    <a class="new-a-jd" id="trigger-overlay" href="{$_G['siteurl']}"> <span>{lang jzsjiale_sms:shouye}</span> </a> 
+    </div>
+  </header>
+  <!--header end-->
+  <div class="page">
+    <div class="main">
+      {$g_tiaokuan}
+      <br/>
+      <div class="ui-btn-wrap"> <a class="ui-btn-lg ui-btn-primary" href="javascript:history.back();">{lang jzsjiale_sms:fanhui}</a> </div>
+    </div>
+    
+  </div>
+<script>
+$(window).load(function() {
+	$("#status").fadeOut();
+	$("#preloader").delay(350).fadeOut("slow");
+})
+</script> 
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+#sendseccodebtn a,#sendseccodeoldbtn a,#alone_sendseccodebtn a,#sendseccoderegbtn a,#sendseccodelostpwbtn a{
+	background-color:#ffffff;
+	padding:5px;
+	border:1px solid #dddddd;
+	border-radius:5px;
+	border-collapse: unset;
+	color: #525252;
+	text-decoration:none;
+}

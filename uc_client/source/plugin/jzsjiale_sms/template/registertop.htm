@@ -1,0 +1,541 @@
+<!--{block registertop}-->
+<!--{if !$_G['cache']['plugin']['jzsjiale_sms']['g_useownjquery']}-->
+<script src="source/plugin/jzsjiale_sms/static/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">var jq=jQuery.noConflict();</script>
+<!--{/if}-->
+<link type="text/css" rel="stylesheet" href="source/plugin/jzsjiale_sms/static/css/pc.css" />
+<script type="text/javascript">
+var alone_phone;
+var alone_username;
+var alone_password;
+var alone_password2;
+var alone_seccode;
+
+function alone_mwtHasClass(domid,cls) {
+    var dom=document.getElementById(domid);
+	  return dom.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
+}
+function alone_mwtAddClass(domid,cls) {
+	  if (!alone_mwtHasClass(domid,cls)) 
+        document.getElementById(domid).className += " "+cls;
+}
+function alone_mwtRemoveClass(domid,cls) {
+	  if (alone_mwtHasClass(domid,cls)) {
+		  var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
+        var dom=document.getElementById(domid);
+		  dom.className=dom.className.replace(reg,' ');
+	  }
+}
+function alone_is_phone(a) {   
+    if(!(/^1[123456789]{1}\d{9}$/.test(a))){
+		  return false;
+	  }   
+	  return true;
+}
+
+function alone_my_trim_string(str) {
+    return str.replace(/^\s+/g,"").replace(/\s+$/g,"");
+}
+
+function check_alone_phone_reg_field() {
+    var alone_dom=document.getElementById("alone_phone_reg");
+    var alone_dom_tip = document.getElementById("tip_alone_phone_reg");
+    var alone_dom_chk =  document.getElementById("chk_alone_phone_reg");
+    var alone_dom_td  = document.getElementById("td_alone_phone_reg");
+    var value = alone_my_trim_string(alone_dom.value);
+    alone_dom.value = value;
+    alone_dom_tip.style.display = "none";
+    alone_mwtRemoveClass("td_alone_phone_reg","p_right");
+    if (!alone_is_phone(value)) {
+    	alone_dom_chk.innerHTML = "{lang jzsjiale_sms:bind_phone_error}";
+        return "";
+    }
+    alone_dom_chk.innerHTML = "";
+    alone_mwtAddClass("td_alone_phone_reg","p_right");
+    return value;
+}
+
+var alone_leftseconds=0;
+function alone_sendseccode() {
+	alone_phone=check_alone_phone_reg_field();
+    if (!alone_is_phone(alone_phone)) {
+        document.getElementById("alone_phone_reg").focus();
+        return;
+    }
+    
+    var alone_isopenimgcode = 1;
+    <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_isopenimgcode'] != ""}-->
+    alone_isopenimgcode = {$_G['cache']['plugin']['jzsjiale_sms']['g_isopenimgcode']};
+	 <!--{/if}-->
+	 if(alone_isopenimgcode == 1){
+		 showWindow('alone_sendseccode', 'plugin.php?id=jzsjiale_sms:homesms&act=sendseccodealone');
+	 }else{
+		 alone_sendseccode_submit();
+	 }
+	 
+}
+
+	 function alone_send_success() {
+
+		  var alone_sendsmsjiange = "{$_G['cache']['plugin']['jzsjiale_sms']['g_sendsmsjiange']}";
+		  if(alone_sendsmsjiange != "" && alone_sendsmsjiange > 60){
+			  alone_leftseconds=alone_sendsmsjiange;
+		  }else{
+			  alone_leftseconds=60;
+		  }
+		  alone_disable_sendseccodebtn();
+	  }
+	 
+	 function alone_disable_sendseccodebtn() {
+	      var alone_dom = document.getElementById('alone_sendseccodebtn');
+	      alone_dom.disabled=true;
+	      alone_dom.innerHTML = '<span style="color:green;">{lang jzsjiale_sms:smssuccess}</span>, '+alone_leftseconds+' {lang jzsjiale_sms:resendtip}';
+	      --alone_leftseconds;
+	      if (alone_leftseconds<=0) {
+	    	  alone_dom.innerHTML = '<a class="xi2" href="javascript:alone_sendseccode();">{lang jzsjiale_sms:resendsec}</a>';
+	          return; 
+	      }
+	      setTimeout(alone_disable_sendseccodebtn, 1000);
+	  }
+	 
+	 function alone_sendseccode_submit() {
+		 var alone_errmsgdom;
+		      
+		      var alone_isopenimgcode = 1;
+		      <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_isopenimgcode'] != ""}-->
+		      alone_isopenimgcode = {$_G['cache']['plugin']['jzsjiale_sms']['g_isopenimgcode']};
+		 	 <!--{/if}-->
+		 		var alone_params =  {
+			              phone: alone_phone,
+			    		  type: 1
+			     };
+		 		if(alone_isopenimgcode == 1){
+		 			alone_errmsgdom = document.getElementById('alone_sendseccode_error_msg');
+		 			alone_errmsgdom.innerHTML = "";
+		 		      
+				      var alone_seccodeverify = jq("#alone_sendseccodeform input[name='seccodeverify']").val();
+				      var alone_seccodehash = jq("#alone_sendseccodeform input[name='seccodehash']").val();
+				      if (alone_seccodeverify=="") {
+				    	  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:tip_imgsec}";
+				          jq("#alone_sendseccodeform input[name='seccodeverify']").focus();
+				          return;
+				      }
+				      
+				      if (alone_seccodehash=="" || typeof(alone_seccodehash)=="undefined") {
+				    	  alone_seccodehash = jq("#alone_sendseccodeform input[name='sechash']").val();
+				      }
+				   
+				      alone_params = {
+				    		  inajax:1,
+				    		  seccodeverify: alone_seccodeverify,
+				              seccodehash: alone_seccodehash,
+				              phone: alone_phone,
+				    		  type: 1
+				     };
+		 		}else{
+		 			alone_errmsgdom = document.getElementById('alone_sendseccode_error_msg2');
+		 			alone_errmsgdom.innerHTML = "";
+		 			alone_params = {
+				              phone: alone_phone,
+				    		  type: 1
+				     };
+		 		}
+		 		
+		      jq.ajax({
+		          type: "post",
+		          async: true,
+		          url: 'plugin.php?id=jzsjiale_sms:homesms&act=sendseccode&formhash={FORMHASH}',
+		          data:alone_params,
+		          dataType: "json",
+		          complete: function(res) {},
+		          success: function (data) {
+		              if (data.code != "200") {
+		            	 
+		            	  if(data.data == "paramerror"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:paramerror}";
+		            	  }else if(data.data == "seccode_invalid"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccode_invalid}";
+		            	  }else if(data.data == "bind_phone_error"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:bind_phone_error}";
+		            	  }else if(data.data == "err_phonebind"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_phonebind}";
+		            	  }else if(data.data == "err_nouser"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_nouser}";
+		            	  }else if(data.data == "err_seccodexiane"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodexiane}";
+		            	  }else if(data.data == "generatecodeerror"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:generatecodeerror}";
+		            	  }else if(data.data == "peizhierror"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:peizhierror}";
+		            	  }else if(data.data == "err_seccodefasong"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodefasong1}"+"{$_G['cache']['plugin']['jzsjiale_sms']['g_youxiaoqi']}"+"{lang jzsjiale_sms:err_seccodefasong2}";
+		            	  }else if(data.data == "notopenyanzheng"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenyanzheng}";
+		            	  }else if(data.data == "notopenregister"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenregister}";
+		            	  }else if(data.data == "notopenlogin"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenlogin}";
+		            	  }else if(data.data == "notopenmima"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmima}";
+		            	  }else if(data.data == "isvMOBILE_NUMBER_ILLEGAL"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:isvMOBILE_NUMBER_ILLEGAL}";
+		            	  }else if(data.data == "isvBUSINESS_LIMIT_CONTROL"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:isvBUSINESS_LIMIT_CONTROL}";
+		            	  }else if(data.data == "err_seccodezongxiane"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodezongxiane}";
+		            	  }else if(data.data == "err_zhanghaoseccodexiane"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_zhanghaoseccodexiane}";
+		            	  }else if(data.data == "err_checkiperror"){
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:checkiperror}";
+		            	  }else{
+		            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:smserror}";
+		            	  }
+		              } else {
+		                  hideWindow('alone_sendseccode');
+		                  alone_send_success();
+		              }
+		          },
+		          error: function (data) {
+		        	  
+		        	  if(data.data == "paramerror"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:paramerror}";
+		        	  }else if(data.data == "seccode_invalid"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccode_invalid}";
+		        	  }else if(data.data == "bind_phone_error"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:bind_phone_error}";
+		        	  }else if(data.data == "err_phonebind"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_phonebind}";
+		        	  }else if(data.data == "err_nouser"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_nouser}";
+		        	  }else if(data.data == "err_seccodexiane"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodexiane}";
+		        	  }else if(data.data == "generatecodeerror"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:generatecodeerror}";
+		        	  }else if(data.data == "peizhierror"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:peizhierror}";
+		        	  }else if(data.data == "err_seccodefasong"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodefasong1}"+"{$_G['cache']['plugin']['jzsjiale_sms']['g_youxiaoqi']}"+"{lang jzsjiale_sms:err_seccodefasong2}";
+		        	  }else if(data.data == "notopenyanzheng"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenyanzheng}";
+		        	  }else if(data.data == "notopenregister"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenregister}";
+		        	  }else if(data.data == "notopenlogin"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenlogin}";
+		        	  }else if(data.data == "notopenmima"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmima}";
+		        	  }else if(data.data == "isvMOBILE_NUMBER_ILLEGAL"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:isvMOBILE_NUMBER_ILLEGAL}";
+		        	  }else if(data.data == "isvBUSINESS_LIMIT_CONTROL"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:isvBUSINESS_LIMIT_CONTROL}";
+		        	  }else if(data.data == "err_seccodezongxiane"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodezongxiane}";
+		        	  }else if(data.data == "err_zhanghaoseccodexiane"){
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_zhanghaoseccodexiane}";
+		        	  }else if(data.data == "err_checkiperror"){
+	            		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:checkiperror}";
+	            	  }else{
+		        		  alone_errmsgdom.innerHTML = "{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:smserror}";
+		        	  }
+		              
+		          }
+		      });
+		  }
+	 
+//reg
+
+function jzsjiale_sms_alone_checksubmit(type){
+	alone_phone=check_alone_phone_reg_field();
+	alone_username = jq("."+type+" #alone_username").val();
+	alone_password1 = jq("."+type+" #alone_password1").val();
+	alone_password2 = jq("."+type+" #alone_password2").val();
+	alone_seccode=jq("."+type+" #alone_seccode").val();
+	
+	
+	
+    var showbbrules = 0;
+	<!--{if $_G["setting"]["bbrules"]}-->
+		showbbrules = 1;
+		<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_pcregemail']}-->
+		var jzsjiale_sms_agreebbrule =jq("#jzsjiale_sms_alone #agreebbrule_alone").is(':checked');
+		<!--{else}-->
+		var jzsjiale_sms_agreebbrule =jq("#jzsjiale_sms_alone #agreebbrule").is(':checked');
+		<!--{/if}-->
+	<!--{/if}-->
+	
+	if(showbbrules && !jzsjiale_sms_agreebbrule){
+		showDialog('{lang jzsjiale_sms:registertop_readrulemessage}', 'notice', '{lang jzsjiale_sms:cuowupopup}');
+        return;
+	}
+
+    if (!alone_is_phone(alone_phone)) {
+        document.getElementById("alone_phone_reg").focus();
+        showDialog('{lang jzsjiale_sms:bind_phone_error}', 'notice', '{lang jzsjiale_sms:cuowupopup}');
+        return;
+    }
+    
+    if (alone_password1 == "") {
+    	showDialog('{lang jzsjiale_sms:passwordnull}', 'notice', '{lang jzsjiale_sms:cuowupopup}');
+        return false;
+	}
+	if(alone_password1.length<6){
+		showDialog('{lang jzsjiale_sms:password6}', 'notice', '{lang jzsjiale_sms:cuowupopup}');
+	    return false;
+	}
+	if (alone_password2 == "") {
+		showDialog('{lang jzsjiale_sms:password2null}', 'notice', '{lang jzsjiale_sms:cuowupopup}');
+	    return false;
+	}
+	if(alone_password2.length<6){
+		showDialog('{lang jzsjiale_sms:password6}', 'notice', '{lang jzsjiale_sms:cuowupopup}');
+	    return false;
+	}
+	if (alone_password1 != alone_password2) {
+		showDialog('{lang jzsjiale_sms:passworderr}', 'notice', '{lang jzsjiale_sms:cuowupopup}');
+	    return false;
+	}
+	
+	if (alone_seccode=="") {
+		showDialog('{lang jzsjiale_sms:bind_seccode_error}', 'notice', '{lang jzsjiale_sms:cuowupopup}');
+		return false;
+	}
+
+    ajaxpost('jzsjiale_sms_alone', 'returnmessage4', 'returnmessage4', 'onerror');
+    return;
+}
+
+</script>
+<script type="text/javascript">
+function jzsjiale_sms_mobile_registertab_show(){
+    var innerhtml = ''
+    +'<style type="text/css">'
+    +'.jzsjiale_sms_registertop_tab {height:31px;margin-bottom:-15px;}'
+    +'.jzsjiale_sms_registertop_tab_item {margin:10px 10px 10px;border-bottom:1px solid #cdcdcd;line-height:30px;}'
+    +'.jzsjiale_sms_registertop_tab_item ul {margin-left:120px;}'
+    +'.jzsjiale_sms_registertop_tab_item li {float:left;margin:0 0 -1px 10px;}'
+    +'.jzsjiale_sms_registertop_tab_item li a {display:block;padding:0 15px;background:#e5edf2;border:1px solid #cdcdcd;}'
+    +'.jzsjiale_sms_registertop_tab_item li.jzsjiale_sms_on a {background:#fff;border-bottom-color:#fff;font-weight:700;}'
+    +'.jzsjiale_sms_mobreg_box .rfm .kmdtm th, .jzsjiale_sms_mobreg_box .rfm .kmdtm td {padding:0 0 12px;}'
+    +'.rfm th, .fwin .rfm th, .fwin .rfm td, .nfl .f_c .rfm th, .nfl .f_c .rfm td {padding:6px 5px 6px 2px;}'
+    +'</style>'
+    +'<!--{if $_G["cache"]["plugin"]["jzsjiale_sms"]["g_pcregemail"]}-->'
+    +'<div class="jzsjiale_sms_registertop_tab cl">'
+	    +'<div class="jzsjiale_sms_registertop_tab_item cl" style="margin:30px auto 0px;width:762px;">'
+		    +'<ul>'
+			    +'<li class="jzsjiale_sms_on" onclick="jzsjiale_sms_mobile_tab(0)" id="jzsjiale_sms_mobile_tab_0">'
+			    	+'<a href="javascript:;">{lang jzsjiale_sms:registertop_mobile}</a>'
+			    +'</li>'
+			    +'<li onclick="jzsjiale_sms_mobile_tab(1)" id="jzsjiale_sms_mobile_tab_1">'
+			    	+'<a href="javascript:;">{lang jzsjiale_sms:registertop_email}</a>'
+			    +'</li>'
+		    +'</ul>'
+	    +'</div>'
+    +'</div>'
+    +'<!--{/if}-->'
+    +'<form method="post" autocomplete="off" name="register"  enctype="multipart/form-data"  action="plugin.php?id=jzsjiale_sms:homesms&act=aloneregister&inajax=1" id="jzsjiale_sms_alone" onsubmit="jzsjiale_sms_alone_checksubmit(\'register\');return false;">'
+	    +'<input type="hidden" name="formhash" value="{FORMHASH}">'
+	    +'<input type="hidden" name="jzsjiale_sms_alone_submit" value="true">'
+	    +'<input type="hidden" name="referer" id="jzsjiale_sms_referer" value="" />'
+    	+'<div class="register bm_c">'
+    		+'<div class="jzsjiale_sms_mobreg_box xxux mtw">'
+		    +'<div class="rfm mdfk">'
+			    +'<table>'
+				    +'<tbody>'
+					    +'<tr>'
+						    +'<th>'
+						   	    +'<span class="rq">*</span>'
+						    	+'<label>{lang jzsjiale_sms:phone}:</label>'
+						    +'</th>'
+						    +'<td>'
+						    	+'<input class="px" type="text" size="25" maxlength="11" value="" autocomplete="off" id="alone_phone_reg" name="alone_phone_reg" required onblur="check_alone_phone_reg_field();">'
+						    +'</td>'
+						    +'<td  class="tipcol" id="td_alone_phone_reg">'
+					    		+'<i id="tip_alone_phone_reg" class="p_tip" style="display: none;">{lang jzsjiale_sms:bind_phone_tip}</i><kbd id="chk_alone_phone_reg" class="p_chk"></kbd>'
+					        +'</td>'
+					    +'</tr>'
+				    +'</tbody>'
+			    +'</table>'
+		    +'</div>'
+		    +'<div class="rfm">'
+			    +'<table>'
+				    +'<tbody>'
+					    +'<tr>'
+						    +'<th>'
+							    +'<span class="rq">*</span>'
+							    +'<label>{lang jzsjiale_sms:seccode}:</label>'
+						    +'</th>'
+						    +'<td>'
+						    	+'<input type="text" id="alone_seccode" name="alone_seccode" autocomplete="off" tabindex="1" class="px" value="" required="" style="width:100px;">'
+						    	+'&nbsp;<span id="alone_sendseccodebtn"><a href="javascript:alone_sendseccode();">{lang jzsjiale_sms:send_seccode}</a></span'
+						    +'</td>'
+						    +'<td class="tipcol">'
+						    +'<!--{if $_G["cache"]["plugin"]["jzsjiale_sms"]["g_isopenimgcode"] != 1}-->'
+						    +'<b id="alone_sendseccode_error_msg2" style="margin-top:5px;color:red;"></b>'
+						    +'<!--{/if}-->'
+						    +'</td>'
+					    +'</tr>'
+				    +'</tbody>'
+			    +'</table>'
+		    +'</div>'
+		    +'<!--{if $_G["cache"]["plugin"]["jzsjiale_sms"]["g_pcregphoneusername"] == 1}-->'
+		    +'<div class="rfm">'
+			    +'<table>'
+				    +'<tbody>'
+					    +'<tr>'
+						    +'<th>'
+						    	+'<span class="rq">*</span>'
+						    	+'<label>{lang jzsjiale_sms:usernametip}:</label>'
+						    +'</th>'
+						    +'<td>'
+						    	+'<input name="alone_username" id="alone_username" class="px" type="text" size="25" value="" autocomplete="off" required>'
+						    +'</td>'
+						    +'<td class="tipcol">'
+						    +'</td>'
+					    +'</tr>'
+				    +'</tbody>'
+			    +'</table>'
+		    +'</div>'
+		    +'<!--{/if}-->'
+		    +'<div class="rfm">'
+			    +'<table>'
+				    +'<tbody>'
+					    +'<tr>'
+						    +'<th>'
+						    	+'<span class="rq">*</span>'
+						    	+'<label>{lang jzsjiale_sms:passwordtip}:</label>'
+						    +'</th>'
+						    +'<td>'
+						    	+'<input name="alone_password1" id="alone_password1" class="px" type="password" size="25" value="" autocomplete="off" required>'
+						    +'</td>'
+						    +'<td class="tipcol">'
+						    +'</td>'
+					    +'</tr>'
+				    +'</tbody>'
+			    +'</table>'
+		    +'</div>'
+		    +'<div class="rfm">'
+			    +'<table>'
+				    +'<tbody>'
+					    +'<tr>'
+						    +'<th>'
+						    	+'<span class="rq">*</span>'
+						    	+'<label>{lang jzsjiale_sms:repasswordtip}:</label>'
+						    +'</th>'
+						    +'<td>'
+						    	+'<input name="alone_password2" id="alone_password2" class="px" type="password" size="25" value="" autocomplete="off" required>'
+						    +'</td>'
+						    +'<td class="tipcol">'
+						    +'</td>'
+					    +'</tr>'
+				    +'</tbody>'
+			    +'</table>'
+		    +'</div>'
+    	+'</div>'
+    +'</div>'
+    +'<div id="layer_reginfo_b">'
+	    +'<div class="rfm mbw bw0">'
+		    +'<table width="100%">'
+			    +'<tbody>'
+				    +'<tr>'
+					    +'<th>&nbsp;</th>'
+					    +'<td>'
+					    	+'<!--{if $_GET[action] != "activation"}--><em>&nbsp;</em><!--{/if}-->'
+					    		+'<button class="pn pnc" id="registeraloneformsubmit" type="submit" name="regsubmit" value="true" tabindex="1"><strong><!--{if $_GET[action] == "activation"}-->{lang activation}<!--{else}-->{lang submit}<!--{/if}--></strong></button>'
+					    	+'</span>'
+					    	+'&nbsp;&nbsp;'
+					    	+'<!--{if $_G["setting"]["bbrules"]}-->'
+					   		+'<input type="checkbox" class="pc" name="agreebbrule" value="1" id="agreebbrule_alone" checked="checked" />'
+					    	+'<label for="agreebbrule">{lang jzsjiale_sms:registertop_agree}'
+					    		+'<a href="javascript:;" onclick="showBBRule()">{lang jzsjiale_sms:registertop_rulemessage}</a>'
+					    	+'</label>'
+					    	+'<!--{/if}-->'
+					    +'</td>'
+					    +'<td>'
+						    +'<!--{if $this->setting["sitemessage"][register]}-->'
+					   		+'<a href="javascript:;" id="custominfo_register" class="y"><img src="{IMGDIR}/info_small.gif" alt="{lang faq}" /></a>'
+					    	+'<!--{/if}-->'
+					    +'</td>'
+				    +'</tr>'
+			    +'</tbody>'
+		    +'</table>'
+	    +'</div>'
+	    +'<!--{if !empty($_G["setting"]["pluginhooks"]["register_logging_method"])}-->'
+	    +'<div id="jzsjiale_sms_login_method_div" class="rfm bw0 {if empty($_GET["infloat"])} mbw{/if}">'
+		    +'<hr class="l" />'
+		    +'<table>'
+			    +'<tr>'
+				    +'<th>{lang jzsjiale_sms:login_method}:</th>'
+				    +'<td id="jzsjiale_sms_login_method">'
+				    +'</td>'
+			    +'</tr>'
+		    +'</table>'
+	    +'</div>'
+	    +'<!--{/if}-->'
+    +'</div>'
+    +'</form>';
+jq(innerhtml).insertBefore("#registerform");
+<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_openpclogin']}-->
+jq('#jzsjiale_sms_login_method').append(''+jq('#jzsjiale_sms_login_method_btn').parent("td").html()+'');
+<!--{else}-->
+
+var getloginmethod = jq('#layer_reginfo_b .rfm').find('span#reginfo_a_btn').closest('.rfm').next().find('td').html();
+if(getloginmethod != "" && typeof(getloginmethod) != "undefined"){
+	jq('#jzsjiale_sms_login_method').append(''+getloginmethod+'');
+}else{
+	jq('#jzsjiale_sms_login_method_div').hide();
+}
+<!--{/if}-->
+jq('#jzsjiale_sms_referer').val(''+jq('#registerform').find('input[name=referer]').val()+'');
+
+var g_pcregemail;
+<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_pcregemail'] != ""}-->
+g_pcregemail = {$_G['cache']['plugin']['jzsjiale_sms']['g_pcregemail']};
+<!--{/if}-->
+
+if(g_pcregemail){
+	var g_pcregleixing;
+	<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_pcregleixing'] != ""}-->
+	g_pcregleixing = {$_G['cache']['plugin']['jzsjiale_sms']['g_pcregleixing']};
+	<!--{/if}-->
+	if(g_pcregleixing == 1){
+		jq('#registerform').hide();
+	}else if(g_pcregleixing == 2){
+		jq('#jzsjiale_sms_mobile_tab_0').removeClass('jzsjiale_sms_on');
+		jq('#jzsjiale_sms_mobile_tab_1').addClass('jzsjiale_sms_on');
+		jq('#jzsjiale_sms_alone').hide();
+		jq('#registerform').show();
+	}
+	
+}else{
+    jq('#registerform').remove();
+    jq('#jzsjiale_sms_mobile_tab_1').remove();
+    jq('#agreebbrule_alone').attr('id','agreebbrule');
+}
+
+}
+function jzsjiale_sms_mobile_tab(a) {
+if(a == 0){
+jq('#jzsjiale_sms_mobile_tab_0').addClass('jzsjiale_sms_on');
+jq('#jzsjiale_sms_mobile_tab_1').removeClass('jzsjiale_sms_on');
+jq('#jzsjiale_sms_alone').show();
+jq('#registerform').hide();
+}else{
+jq('#jzsjiale_sms_mobile_tab_1').addClass('jzsjiale_sms_on');
+jq('#jzsjiale_sms_mobile_tab_0').removeClass('jzsjiale_sms_on');
+jq('#jzsjiale_sms_alone').hide();
+jq('#registerform').show();
+}
+}
+
+
+jq(document).ready(function(){
+	var g_pcregphonetab;
+	<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_pcregphonetab'] != ""}-->
+	g_pcregphonetab = {$_G['cache']['plugin']['jzsjiale_sms']['g_pcregphonetab']};
+    <!--{/if}-->
+    if(g_pcregphonetab){
+    	jzsjiale_sms_mobile_registertab_show();
+    }
+    	
+});
+</script>
+<!--{/block}-->

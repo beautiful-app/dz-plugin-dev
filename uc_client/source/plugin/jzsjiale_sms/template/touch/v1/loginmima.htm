@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{lang jzsjiale_sms:denglu}</title>
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport" />
+<link type="text/css" rel="stylesheet" href="source/plugin/jzsjiale_sms/static/css/basic.css" />
+<script src="source/plugin/jzsjiale_sms/static/js/jquery-1.10.2.min.js"></script>
+<style type="text/css">
+.header {
+    background: {$mobilecolor};
+}
+.ui-btn-primary {
+    background-color: {$mobilecolor};
+    border-color: {$mobilecolor};
+}
+</style>
+
+</head>
+<!--{eval $loginhash = 'L'.random(4);}-->
+<body>
+<div class="w"> 
+  <!--page load start-->
+  <div id="preloader">
+    <div id="status">
+      <p class="center-text">{lang jzsjiale_sms:jiazaizhong}</p>
+    </div>
+  </div>
+  <!--page load end--> 
+  <!--header start-->
+  <header>
+    <div class="header"> 
+    <a class="new-a-back" href="javascript:history.back();"> <span>{lang jzsjiale_sms:fanhui}</span> </a>
+      <h2>{lang jzsjiale_sms:denglu}</h2>
+    <a class="new-a-jd" id="trigger-overlay" href="{$_G['siteurl']}"> <span>{lang jzsjiale_sms:shouye}</span> </a> 
+    </div>
+  </header>
+  <!--header end-->
+  <div class="page">
+    <div class="main">
+      <form id="frm_phonelogin" method="post" autocomplete="off"  action="plugin.php?id=jzsjiale_sms:mobile&act=login&phoneloginsubmit=yes">
+        <input type="hidden" name="formhash" value="{FORMHASH}" />
+        <input type="hidden" name="referer" id="referer" value="{echo dreferer()}" />
+        
+        <div class="item item-username">
+          <input id="phone" class="txt-input txt-username" type="text" placeholder="{lang jzsjiale_sms:phone}" value="" name="phone">
+          <b class="input-close" style="display: none;"></b> 
+        </div>
+        <div class="item item-seccode">
+          <input id="phone_password" class="txt-input txt-username" type="password" placeholder="{lang jzsjiale_sms:phonemima}" value="" name="phone_password">
+          <b class="input-close" style="display: none;"></b> 
+        </div>
+        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_isopenanquanwenti']}-->
+        <div class="item item-captcha">
+           <select id="questionid_{$loginhash}" name="questionid" class="sel_list txt-input txt-username">
+					<option value="0" selected="selected">{lang security_question}</option>
+					<option value="1">{lang security_question_1}</option>
+					<option value="2">{lang security_question_2}</option>
+					<option value="3">{lang security_question_3}</option>
+					<option value="4">{lang security_question_4}</option>
+					<option value="5">{lang security_question_5}</option>
+					<option value="6">{lang security_question_6}</option>
+					<option value="7">{lang security_question_7}</option>
+		   </select>
+			
+        </div>
+        <div class="item item-captcha bl_none answerli" style="display:none;">
+       
+             <input type="text" name="answer" id="answer_{$loginhash}" class="px p_fre txt-input txt-username" size="30" placeholder="{lang security_a}">
+           
+        </div>
+        <!--{/if}-->
+        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_isopenmimaimgcode']}-->
+        <div class="item item-captcha">
+          <div class="input-info">
+          <!--{eval $seccodecheck = 1;}-->
+          <!--{eval $sectpl = '<div><sec>:<sec></div><p class="d"><sec></p>';}-->
+          <!--{subtemplate common/seccheck}-->
+            
+          </div>
+        </div>
+        <!--{/if}-->
+        <div class="ui-btn-wrap"> <a class="ui-btn-lg ui-btn-primary" href="javascript:void(0);" onclick="phonelogin_submit();">{lang jzsjiale_sms:denglubtn}</a> </div>
+        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_isopenqitalogin']}-->
+        <div class="ui-btn-wrap"> <a class="ui-btn-lg ui-btn-primary" href="member.php?mod=logging&action=login&mobile=2&phonelogin=no">{lang jzsjiale_sms:qitadenglubtn}</a> </div>
+        <!--{/if}-->
+        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_openmobileregister']}-->
+        <div class="ui-btn-wrap"> <a class="ui-btn-lg ui-btn-danger" href="member.php?mod={$_G['setting']['regname']}&mobile=2">{lang jzsjiale_sms:lijizhuce}</a> </div>
+        <!--{/if}-->
+        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_openmobilezhaohui']}-->
+        <div class="ui-btn-wrap"> <a class="ui-btn-lg ui-btn-primary" href="plugin.php?id=jzsjiale_sms:mobile&act=lostpw">{lang jzsjiale_sms:zhaohuimima}</a> </div>
+        <!--{/if}-->
+        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_openmobilebangding']}-->
+        <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_isopennologinbind']}-->
+        <div class="ui-btn-wrap"> <a class="ui-btn-lg ui-btn-primary" href="plugin.php?id=jzsjiale_sms:mobile&act=bangding">{lang jzsjiale_sms:lijibangding}</a> </div>
+        <!--{/if}-->
+        <!--{/if}-->
+      </form>
+    </div>
+<script type="text/javascript" >
+$(window).load(function() {
+	$("#status").fadeOut();
+	$("#preloader").delay(350).fadeOut("slow");
+})
+</script>
+    <script type="text/javascript" >
+    
+    $(function() {
+    	$("#frm_phonelogin input[name='seccodeverify']").addClass("txt-input-seccheck");
+		$(".input-close").hide();
+	
+	});	
+    
+    $(function() {
+    	$(".input-close").hide();
+	
+	});	
+
+	
+    $('.input-close').click(function(e){  
+		$(e.target).parent().find(":input").val("");
+		$(e.target).hide();
+	
+    });  
+	
+	
+	$(":input").bind('input propertychange', function() {
+		if($(this).val()!=""){
+			$(this).siblings(".input-close").show();
+		}else{
+			$(this).siblings(".input-close").hide();
+		}
+    });
+</script> 
+
+<script type="text/javascript">
+	(function() {
+		$(document).on('change', '.sel_list', function() {
+			var obj = $(this);
+			if(obj.val() == 0) {
+				$('.answerli').css('display', 'none');
+			} else {
+				$('.answerli').css('display', 'block');
+			}
+		});
+	 })();
+</script>
+
+<script type="text/javascript" >
+var phone;
+var phone_password;
+function is_phone(a) {   
+    if(!(/^1[123456789]{1}\d{9}$/.test(a))){
+		  return false;
+	  }   
+	  return true;
+}
+
+function phonelogin_submit() {
+	  phone=$("#phone").val();
+	  phone_password=$("#phone_password").val();
+	 
+	  if (phone=="") {
+          alert("{lang jzsjiale_sms:phonenull}");
+          return false;
+      }
+	  
+	  if (!is_phone(phone)) {
+        alert("{lang jzsjiale_sms:bind_phone_error}");
+        return false;
+      }
+	  if (phone_password=="") {
+		  alert("{lang jzsjiale_sms:passwordnull}");
+		  return false;
+	  }
+	
+	  var questionid =$("select[name=questionid]").val();
+	  var answer =$("input[name=answer]").val();
+	  if(questionid > 0){
+		  if(answer == ""){
+			  alert("{lang jzsjiale_sms:answernull}");
+			  return false;
+		  }
+	  }
+	  if(questionid == 0){
+		  questionid = "";
+		  answer = "";
+	  }
+	  
+	  var isopenmimaimgcode = 0;
+	    <!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_isopenmimaimgcode']}-->
+	    isopenmimaimgcode = {$_G['cache']['plugin']['jzsjiale_sms']['g_isopenmimaimgcode']};
+		 <!--{/if}-->
+		 
+			 var params =  {
+					 phone: phone,
+			         phone_password: phone_password,
+			         cookietime:2592000,
+			         questionid:questionid,
+			         answer:answer
+		     };
+	  
+	 if(isopenmimaimgcode == 1){
+		
+	    var seccodeverify = $("#frm_phonelogin input[name='seccodeverify']").val();
+	    var seccodehash = $("#frm_phonelogin input[name='seccodehash']").val();
+	    if (seccodeverify=="") {
+	        alert("{lang jzsjiale_sms:tip_imgsec}");
+	        $("#frm_phonelogin input[name='seccodeverify']").focus();
+	        return;
+	    }
+	 
+	    if (seccodehash=="" || typeof(seccodehash)=="undefined") {
+	    	seccodehash = $("#frm_phonelogin input[name='sechash']").val();
+	    }
+	    
+	    params = {
+	    		phone: phone,
+		        phone_password: phone_password,
+		        cookietime:2592000,
+	    		seccodeverify: seccodeverify,
+	            seccodehash: seccodehash,
+		        questionid:questionid,
+		        answer:answer
+	     };
+	 }else{
+		params =  {
+				 phone: phone,
+		         phone_password: phone_password,
+		         cookietime:2592000,
+		         questionid:questionid,
+		         answer:answer
+	     };
+	 }
+	  
+	  $.ajax({
+	        type: "post",
+	        async: true,
+	        url: 'plugin.php?id=jzsjiale_sms:mobile&act=phonemimalogin&phoneloginsubmit=yes&formhash={FORMHASH}',
+	        data:params,
+	        dataType: "json",
+	        complete: function(res) {},
+	        success: function (data) {
+	            if (data.code != "200") {
+	          	
+	          	  if(data.data == "paramerror"){
+	          		  alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:paramerror}");
+	          	  }else if(data.data == "seccode_invalid"){
+	          		  alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccode_invalid}");
+	          	  }else if(data.data == "bind_phone_error"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:bind_phone_error}");
+	          	  }else if(data.data == "err_phonebind"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_phonebind}");
+	          	  }else if(data.data == "err_nouser"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_nouser}");
+	          	  }else if(data.data == "err_seccodexiane"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodexiane}");
+	          	  }else if(data.data == "generatecodeerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:generatecodeerror}");
+	          	  }else if(data.data == "peizhierror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:peizhierror}");
+	          	  }else if(data.data == "err_seccodefasong"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodefasong1}"+"{$_G['cache']['plugin']['jzsjiale_sms']['g_youxiaoqi']}"+"{lang jzsjiale_sms:err_seccodefasong2}");
+	          	  }else if(data.data == "notopenyanzheng"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenyanzheng}");
+	          	  }else if(data.data == "notopenregister"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenregister}");
+	          	  }else if(data.data == "notopenlogin"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenlogin}");
+	          	  }else if(data.data == "notopenmima"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmima}");
+	          	  }else if(data.data == "phonenull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:phonenull}");
+	          	  }else if(data.data == "err_seccodeguoqi"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodeguoqi}");
+	          	  }else if(data.data == "seccodenull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccodenull}");
+	          	  }else if(data.data == "phonecunzai"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:phonecunzai}");
+	          	  }else if(data.data == "registererror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registererror}");
+	          	  }else if(data.data == "registersuccess"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registersuccess}");
+	          	  }else if(data.data == "registersuccess_phoneerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registersuccess_phoneerror}");
+	          	  }else if(data.data == "err_seccodeerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodeerror}");
+	          	  }else if(data.data == "notopenmobile"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmobile}");
+	          	  }else if(data.data == "err_location_login_force_qq"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_force_qq}");
+	          	  }else if(data.data == "err_location_login_force_mail"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_force_mail}");
+	          	  }else if(data.data == "err_location_login_outofdate"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_outofdate}");
+	          		window.location = "home.php?mod=spacecp&ac=profile&op=password&resend=1&type=1";
+	          	  }else if(data.data == "passwordnull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:passwordnull}");
+	          	  }else if(data.data == "password6"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:password6}");
+	          	  }else if(data.data == "err_systemerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_systemerror}");
+	          	  }else if(data.data == "mimaerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:mimaerror}");
+	          	  }else if(data.data == "loginerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:loginerror}");
+	          	  }else if(data.data == "err_weibangding"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_weibangding}");
+	          	  }else if(data.data == "answernull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:answernull}");
+	          	  }else if(data.data == "logintoomanyerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:logintoomanyerror}");
+	          	  }else if(data.data == "answerset"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:answerset}");
+	          	  }else if(data.data == "err_zhanghaoseccodexiane"){
+	            	alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_zhanghaoseccodexiane}");
+	          	  }else if(data.data == "err_checkiperror"){
+	            		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:checkiperror}");
+	          	  }else{
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:loginerror}");
+	          	  }
+	            } else {
+	            	
+	                window.location = (data.url != "")?data.url:"{$_G['siteurl']}";
+	            }
+	        },
+	        error: function (data) {
+	        	
+	        	if(data.data == "paramerror"){
+	        		  alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:paramerror}");
+	        	  }else if(data.data == "seccode_invalid"){
+	        		  alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccode_invalid}");
+	        	  }else if(data.data == "bind_phone_error"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:bind_phone_error}");
+	        	  }else if(data.data == "err_phonebind"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_phonebind}");
+	        	  }else if(data.data == "err_nouser"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_nouser}");
+	        	  }else if(data.data == "err_seccodexiane"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodexiane}");
+	        	  }else if(data.data == "generatecodeerror"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:generatecodeerror}");
+	        	  }else if(data.data == "peizhierror"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:peizhierror}");
+	        	  }else if(data.data == "err_seccodefasong"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodefasong1}"+"{$_G['cache']['plugin']['jzsjiale_sms']['g_youxiaoqi']}"+"{lang jzsjiale_sms:err_seccodefasong2}");
+	        	  }else if(data.data == "notopenyanzheng"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenyanzheng}");
+	        	  }else if(data.data == "notopenregister"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenregister}");
+	        	  }else if(data.data == "notopenlogin"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenlogin}");
+	        	  }else if(data.data == "notopenmima"){
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmima}");
+	        	  }else if(data.data == "phonenull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:phonenull}");
+	          	  }else if(data.data == "err_seccodeguoqi"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodeguoqi}");
+	          	  }else if(data.data == "seccodenull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:seccodenull}");
+	          	  }else if(data.data == "phonecunzai"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:phonecunzai}");
+	          	  }else if(data.data == "registererror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registererror}");
+	          	  }else if(data.data == "registersuccess"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registersuccess}");
+	          	  }else if(data.data == "registersuccess_phoneerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:registersuccess_phoneerror}");
+	          	  }else if(data.data == "err_seccodeerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_seccodeerror}");
+	          	  }else if(data.data == "notopenmobile"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:notopenmobile}");
+	          	  }else if(data.data == "err_location_login_force_qq"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_force_qq}");
+	          	  }else if(data.data == "err_location_login_force_mail"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_force_mail}");
+	          	  }else if(data.data == "err_location_login_outofdate"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_location_login_outofdate}");
+	          		window.location = "home.php?mod=spacecp&ac=profile&op=password&resend=1&type=1";
+	          	  }else if(data.data == "passwordnull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:passwordnull}");
+	          	  }else if(data.data == "password6"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:password6}");
+	          	  }else if(data.data == "err_systemerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_systemerror}");
+	          	  }else if(data.data == "mimaerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:mimaerror}");
+	          	  }else if(data.data == "loginerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:loginerror}");
+	          	  }else if(data.data == "err_weibangding"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_weibangding}");
+	          	  }else if(data.data == "answernull"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:answernull}");
+	          	  }else if(data.data == "logintoomanyerror"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:logintoomanyerror}");
+	          	  }else if(data.data == "answerset"){
+	          		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:answerset}");
+	          	  }else if(data.data == "err_zhanghaoseccodexiane"){
+	            	alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:err_zhanghaoseccodexiane}");
+	          	  }else if(data.data == "err_checkiperror"){
+	            		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:checkiperror}");
+	          	  }else{
+	        		alert("{lang jzsjiale_sms:cuowumiaoshu}: "+"{lang jzsjiale_sms:loginerror}");
+	        	  }
+	            
+	        }
+	    });
+	  return false;
+}
+</script>
+  </div>
+ 
+</div>
+</body>
+</html>

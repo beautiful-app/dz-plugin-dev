@@ -1,0 +1,49 @@
+<!--{block logintop}-->
+<!--{if !empty($_GET['infloat'])}-->
+<style type="text/css">
+.jzsjiale_sms_logintop_tab {width:400px; margin:10px auto;}
+.jzsjiale_sms_logintop_tab_item {height:31px;border-bottom:1px solid #cdcdcd;line-height:30px;}
+.jzsjiale_sms_logintop_tab_item ul {margin-left:60px;}
+.jzsjiale_sms_logintop_tab_item li {float:left;margin:0 0 -1px 10px;}
+.jzsjiale_sms_logintop_tab_item li a {display:block;padding:0 15px;background:#e5edf2;border:1px solid #cdcdcd;}
+.jzsjiale_sms_logintop_tab_item li.jzsjiale_sms_on a {background:#fff;border-bottom-color:#fff;font-weight:700;}
+.jzsjiale_sms_mobreg_box .rfm .kmdtm th, .jzsjiale_sms_mobreg_box .rfm .kmdtm td {padding:0 0 12px;}
+.rfm th, .fwin .rfm th, .fwin .rfm td, .nfl .f_c .rfm th, .nfl .f_c .rfm td {padding:6px 5px 6px 2px;}
+</style>
+<div class="jzsjiale_sms_logintop_tab cl">
+	 <div class="jzsjiale_sms_logintop_tab_item cl">
+		 <ul>
+			<li id="jzsjiale_sms_mobile_login_tab_0">
+			    <a href="plugin.php?id=jzsjiale_sms:homesms" onclick="showWindow('login', this.href);return false;">{lang jzsjiale_sms:phonelogintab}</a>
+			</li>
+			<li class="jzsjiale_sms_on" id="jzsjiale_sms_mobile_login_tab_1">
+			    <a href="javascript:;" onclick="showWindow('login', 'member.php?mod=logging&action=login&phonelogin=no')">{lang jzsjiale_sms:usernamelogintab}</a>
+			</li>
+		 </ul>
+	 </div>
+</div>
+<!--{else}-->
+<style type="text/css">
+.jzsjiale_sms_logintop_tab {width:762px; margin:10px auto;}
+.jzsjiale_sms_logintop_tab_item {height:31px;border-bottom:1px solid #cdcdcd;line-height:30px;}
+.jzsjiale_sms_logintop_tab_item ul {margin-left:120px;}
+.jzsjiale_sms_logintop_tab_item li {float:left;margin:0 0 -1px 10px;}
+.jzsjiale_sms_logintop_tab_item li a {display:block;padding:0 15px;background:#e5edf2;border:1px solid #cdcdcd;}
+.jzsjiale_sms_logintop_tab_item li.jzsjiale_sms_on a {background:#fff;border-bottom-color:#fff;font-weight:700;}
+.jzsjiale_sms_mobreg_box .rfm .kmdtm th, .jzsjiale_sms_mobreg_box .rfm .kmdtm td {padding:0 0 12px;}
+.rfm th, .fwin .rfm th, .fwin .rfm td, .nfl .f_c .rfm th, .nfl .f_c .rfm td {padding:6px 5px 6px 2px;}
+</style>
+<div class="jzsjiale_sms_logintop_tab cl">
+	<div class="jzsjiale_sms_logintop_tab_item cl">
+		 <ul>
+			<li id="jzsjiale_sms_mobile_login_tab_0">
+			   <a href="member.php?mod=logging&action=login&phonelogin=yes">{lang jzsjiale_sms:phonelogintab}</a>
+			</li>
+			<li class="jzsjiale_sms_on" id="jzsjiale_sms_mobile_login_tab_1">
+			   <a href="member.php?mod=logging&action=login&phonelogin=no">{lang jzsjiale_sms:usernamelogintab}</a>
+			</li>
+		 </ul>
+	</div>
+</div>
+<!--{/if}-->
+<!--{/block}-->

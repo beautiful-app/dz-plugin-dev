@@ -1,0 +1,1722 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5,X3,X3.1,X3.2,X3.3,X3.4]]></item>
+	<item id="Time"><![CDATA[2018-10-09 09:44]]></item>
+	<item id="From"><![CDATA[www.huaidanwangluo.com]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[阿里云短信手机登录]]></item>
+			<item id="identifier"><![CDATA[jzsjiale_sms]]></item>
+			<item id="description"><![CDATA[使用阿里云短信服务进行手机验证码发送实现手机注册、登录、手机绑定、找回密码的功能]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[jzsjiale_sms/]]></item>
+			<item id="copyright"><![CDATA[www.huaidanwangluo.com]]></item>
+			<item id="version"><![CDATA[5.3.7]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[smssend]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[短信发送测试]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[smslist]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[短信发送记录]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[dzuser]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[统一用户手机绑定管理]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[3]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="3">
+					<item id="name"><![CDATA[dzverify]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[手机认证管理]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[4]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="4">
+					<item id="name"><![CDATA[smsuser]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[本插件手机绑定记录]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[30]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="5">
+					<item id="name"><![CDATA[yuyan]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[<span style="color:red;">模板语言包修改</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[40]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="6">
+					<item id="name"><![CDATA[home]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[手机绑定]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[7]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[40]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="7">
+					<item id="name"><![CDATA[pc]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[50]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="8">
+					<item id="name"><![CDATA[mobile]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[28]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[60]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="9">
+					<item id="name"><![CDATA[xiufu]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[<span style="color:green;">数据库错误修复</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[70]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="10">
+					<item id="name"><![CDATA[wenti]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[<span style="color:blue;">教程及常见问题汇总</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[888]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="11">
+					<item id="name"><![CDATA[apps]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[<span style="color:blue;">应用中心</span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[999]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2,X3.3,X3.4,F1.0]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[短信平台-接口选择]]></item>
+				<item id="description"><![CDATA[默认使用阿里云短信服务，如需更改请自己调整相关设置。例如：如果使用阿里大于的话，请将大于对应的appkey、签名、模板code等，填到与阿里云短信服务同样的位置即可。]]></item>
+				<item id="variable"><![CDATA[g_smsapi]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[aliyun]]></item>
+				<item id="extra"><![CDATA[aliyun=阿里云短信服务
+dayu=阿里大于-云通信]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[阿里云AccessKeyId]]></item>
+				<item id="description"><![CDATA[阿里云AccessKeyId,本插件采用阿里云短信服务接口开发，前往https://www.aliyun.com/product/sms开通短信服务。阿里大于云通信https://dayu.aliyun.com/对应的appkey也是填到此处。]]></item>
+				<item id="variable"><![CDATA[g_accesskeyid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[阿里云AccessKeySecret]]></item>
+				<item id="description"><![CDATA[阿里云AccessKeySecret,本插件采用阿里云短信服务接口开发，前往https://www.aliyun.com/product/sms开通短信服务。阿里大于云通信https://dayu.aliyun.com/对应的app secret也是填到此处。]]></item>
+				<item id="variable"><![CDATA[g_accesskeysecret]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[统一用户手机绑定表]]></item>
+				<item id="description"><![CDATA[如果统一了用户手机绑定表，那么登录/注册时会查discuz系统带的“common_member_profile”资料表，以“mobile”字段作为验证字段。用于兼容其他手机短信插件，同时防止因插件问题造成数据丢失。请确定discuz的资料表中的手机号来源一定正确、唯一！]]></item>
+				<item id="variable"><![CDATA[g_tongyiuser]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[产品名/网站名]]></item>
+				<item id="description"><![CDATA[非必须!企业用户(模板可使用多变量的用户)可以在短信模板中增加${product}变量，用于显示此处设置的“产品名/变量名”，因阿里云接口变动，新申请的验证码模板，此处将不再支持使用中文，对于早先用户已申请成功的模板包含该变量的可以继续使用中文，以阿里云最新政策为准。]]></item>
+				<item id="variable"><![CDATA[g_product]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[sitename]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[开启注册短信验证码发送]]></item>
+				<item id="description"><![CDATA[开启注册短信验证码发送功能,涉及电脑版、手机版。不开启此开关，涉及注册的功能无法发送手机短信。]]></item>
+				<item id="variable"><![CDATA[g_openregister]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[注册短信模板CODE]]></item>
+				<item id="description"><![CDATA[注册短信模板CODE,务必更改,请到阿里云短信服务-配置短信模板中，找到已经通过审核的模板CODE填写到此处。短信模板CODE，传入的模板必须是在“阿里云短信服务-短信模板管理”中的可用模板。注意验证码变量用 ${code} 表示。]]></item>
+				<item id="variable"><![CDATA[g_registerid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[SMS_78730221]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[注册用签名]]></item>
+				<item id="description"><![CDATA[必须,短信签名，传入的短信签名必须是在“阿里云短信服务-配置短信签名”中的可用签名。如“阿里云短信服务”已在短信签名管理中通过审核，则可传入”阿里云短信服务“（传参时去掉引号）作为短信签名。短信效果示例：【阿里云短信服务】欢迎使用阿里云短信服务。]]></item>
+				<item id="variable"><![CDATA[g_registersign]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[糖果说]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[注册模板使用product变量]]></item>
+				<item id="description"><![CDATA[如果你是企业用户，并且注册用短信模板中包含${product}变量的话，则会从设置“产品名/网站名”中读取参数内容，发送短信后替换${product}变量，否则请不要开启此项。]]></item>
+				<item id="variable"><![CDATA[g_openregisterproduct]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[开启登录短信验证码发送]]></item>
+				<item id="description"><![CDATA[开启登录短信验证码发送功能,涉及电脑版、手机版。不开启此开关，涉及登录的功能无法发送手机短信。]]></item>
+				<item id="variable"><![CDATA[g_openlogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[10]]></item>
+				<item id="title"><![CDATA[登录短信模板CODE]]></item>
+				<item id="description"><![CDATA[登录短信模板CODE,务必更改,请到阿里云短信服务-配置短信模板中，找到已经通过审核的模板CODE填写到此处。短信模板CODE，传入的模板必须是在“阿里云短信服务-短信模板管理”中的可用模板。注意验证码变量用 ${code} 表示。]]></item>
+				<item id="variable"><![CDATA[g_loginid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[SMS_78730221]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[11]]></item>
+				<item id="title"><![CDATA[登录用签名]]></item>
+				<item id="description"><![CDATA[必须,短信签名，传入的短信签名必须是在“阿里云短信服务-配置短信签名”中的可用签名。如“阿里云短信服务”已在短信签名管理中通过审核，则可传入”阿里云短信服务“（传参时去掉引号）作为短信签名。短信效果示例：【阿里云短信服务】欢迎使用阿里云短信服务。]]></item>
+				<item id="variable"><![CDATA[g_loginsign]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[糖果说]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="12">
+				<item id="displayorder"><![CDATA[12]]></item>
+				<item id="title"><![CDATA[登录模板使用product变量]]></item>
+				<item id="description"><![CDATA[如果你是企业用户，并且登录用短信模板中包含${product}变量的话，则会从设置“产品名/网站名”中读取参数内容，发送短信后替换${product}变量，否则请不要开启此项。]]></item>
+				<item id="variable"><![CDATA[g_openloginproduct]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="13">
+				<item id="displayorder"><![CDATA[13]]></item>
+				<item id="title"><![CDATA[开启身份验证短信验证码发 ...]]></item>
+				<item id="description"><![CDATA[开启身份验证短信验证码发送,涉及电脑版、手机版。不开启此开关，涉及手机绑定或其他验证类功能无法发送手机短信。]]></item>
+				<item id="variable"><![CDATA[g_openyanzheng]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="14">
+				<item id="displayorder"><![CDATA[14]]></item>
+				<item id="title"><![CDATA[身份验证短信模板CODE]]></item>
+				<item id="description"><![CDATA[身份验证短信模板CODE,务必更改,请到阿里云短信服务-配置短信模板中，找到已经通过审核的模板CODE填写到此处。短信模板CODE，传入的模板必须是在“阿里云短信服务-短信模板管理”中的可用模板。注意验证码变量用 ${code} 表示。]]></item>
+				<item id="variable"><![CDATA[g_yanzhengid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[SMS_78730221]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="15">
+				<item id="displayorder"><![CDATA[15]]></item>
+				<item id="title"><![CDATA[身份验证用签名]]></item>
+				<item id="description"><![CDATA[必须,短信签名，传入的短信签名必须是在“阿里云短信服务-配置短信签名”中的可用签名。如“阿里云短信服务”已在短信签名管理中通过审核，则可传入”阿里云短信服务“（传参时去掉引号）作为短信签名。短信效果示例：【阿里云短信服务】欢迎使用阿里云短信服务。]]></item>
+				<item id="variable"><![CDATA[g_yanzhengsign]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[糖果说]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="16">
+				<item id="displayorder"><![CDATA[16]]></item>
+				<item id="title"><![CDATA[身份验证使用product变量]]></item>
+				<item id="description"><![CDATA[如果你是企业用户，并且身份验证用短信模板中包含${product}变量的话，则会从设置“产品名/网站名”中读取参数内容，发送短信后替换${product}变量，否则请不要开启此项。]]></item>
+				<item id="variable"><![CDATA[g_openyanzhengproduct]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="17">
+				<item id="displayorder"><![CDATA[17]]></item>
+				<item id="title"><![CDATA[开启找回密码短信验证码发  ...]]></item>
+				<item id="description"><![CDATA[开启找回密码短信验证码发送功能,目前涉及电脑版、手机版找回密码功能。不开启此开关，涉及找回密码功能无法发送手机短信。]]></item>
+				<item id="variable"><![CDATA[g_openmima]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="18">
+				<item id="displayorder"><![CDATA[18]]></item>
+				<item id="title"><![CDATA[找回密码短信模板CODE]]></item>
+				<item id="description"><![CDATA[找回密码功能短信模板CODE,务必更改,请到阿里云短信服务-配置短信模板中，找到已经通过审核的模板CODE填写到此处。短信模板CODE，传入的模板必须是在“阿里云短信服务-短信模板管理”中的可用模板。注意验证码变量用 ${code} 表示。]]></item>
+				<item id="variable"><![CDATA[g_mimaid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[SMS_78730221]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="19">
+				<item id="displayorder"><![CDATA[19]]></item>
+				<item id="title"><![CDATA[找回密码用签名]]></item>
+				<item id="description"><![CDATA[必须,短信签名，传入的短信签名必须是在“阿里云短信服务-配置短信签名”中的可用签名。如“阿里云短信服务”已在短信签名管理中通过审核，则可传入”阿里云短信服务“（传参时去掉引号）作为短信签名。短信效果示例：【阿里云短信服务】欢迎使用阿里云短信服务。]]></item>
+				<item id="variable"><![CDATA[g_mimasign]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[糖果说]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="20">
+				<item id="displayorder"><![CDATA[20]]></item>
+				<item id="title"><![CDATA[密码模板使用product变量]]></item>
+				<item id="description"><![CDATA[如果你是企业用户，并且找回密码短信模板中包含${product}变量的话，则会从设置“产品名/网站名”中读取参数内容，发送短信后替换${product}变量，否则请不要开启此项。]]></item>
+				<item id="variable"><![CDATA[g_openmimaproduct]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="21">
+				<item id="displayorder"><![CDATA[21]]></item>
+				<item id="title"><![CDATA[开启电脑版手机注册功能]]></item>
+				<item id="description"><![CDATA[开启电脑版手机注册功能总开关。注意：启用“电脑版强制手机号独立注册”功能后，discuz后台-全局-注册与访问控制 中的“同一 IP 注册间隔限制(小时)”、“同一 IP 在 24 小时允许注册的最大次数”设置是有效的。]]></item>
+				<item id="variable"><![CDATA[g_openpcregister]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="22">
+				<item id="displayorder"><![CDATA[22]]></item>
+				<item id="title"><![CDATA[开启电脑版手机登录功能]]></item>
+				<item id="description"><![CDATA[开启电脑版手机登录功能总开关。]]></item>
+				<item id="variable"><![CDATA[g_openpclogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="23">
+				<item id="displayorder"><![CDATA[23]]></item>
+				<item id="title"><![CDATA[开启电脑版手机绑定功能]]></item>
+				<item id="description"><![CDATA[开启电脑版手机绑定功能总开关。]]></item>
+				<item id="variable"><![CDATA[g_openpcbangding]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="24">
+				<item id="displayorder"><![CDATA[24]]></item>
+				<item id="title"><![CDATA[开启电脑版找回密码功能]]></item>
+				<item id="description"><![CDATA[开启电脑版找回密码功能总开关。]]></item>
+				<item id="variable"><![CDATA[g_openpczhaohui]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="25">
+				<item id="displayorder"><![CDATA[25]]></item>
+				<item id="title"><![CDATA[开启手机版手机注册功能]]></item>
+				<item id="description"><![CDATA[开启手机版手机注册功能总开关。注意：启用“手机版强制手机号独立注册”功能后，discuz后台-全局-注册与访问控制 中的“同一 IP 注册间隔限制(小时)”、“同一 IP 在 24 小时允许注册的最大次数”设置是有效的。]]></item>
+				<item id="variable"><![CDATA[g_openmobileregister]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="26">
+				<item id="displayorder"><![CDATA[26]]></item>
+				<item id="title"><![CDATA[开启手机版手机登录功能]]></item>
+				<item id="description"><![CDATA[开启手机版手机登录功能总开关。]]></item>
+				<item id="variable"><![CDATA[g_openmobilelogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="27">
+				<item id="displayorder"><![CDATA[27]]></item>
+				<item id="title"><![CDATA[开启手机版手机绑定功能]]></item>
+				<item id="description"><![CDATA[开启手机版手机绑定功能总开关。]]></item>
+				<item id="variable"><![CDATA[g_openmobilebangding]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="28">
+				<item id="displayorder"><![CDATA[28]]></item>
+				<item id="title"><![CDATA[开启手机版找回密码功能]]></item>
+				<item id="description"><![CDATA[开启手机版找回密码功能总开关。]]></item>
+				<item id="variable"><![CDATA[g_openmobilezhaohui]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="29">
+				<item id="displayorder"><![CDATA[29]]></item>
+				<item id="title"><![CDATA[每条短信验证码有效期]]></item>
+				<item id="description"><![CDATA[时间单位（秒）,为空默认：600，每条短信验证码在多长时间内有效。]]></item>
+				<item id="variable"><![CDATA[g_youxiaoqi]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[600]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="30">
+				<item id="displayorder"><![CDATA[30]]></item>
+				<item id="title"><![CDATA[每天发送短信总限额]]></item>
+				<item id="description"><![CDATA[用于控制每天发送短信总条数，默认：0，填写0表示不限额，如需设定，请填写大于0的正整数。达到当日限额后，再发送短信时则会提示“抱歉，短信验证码发送失败”。后台短信发送测试不受功能限制，但同样进行统计。]]></item>
+				<item id="variable"><![CDATA[g_zongxiane]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="31">
+				<item id="displayorder"><![CDATA[31]]></item>
+				<item id="title"><![CDATA[每个账号每天短信限额]]></item>
+				<item id="description"><![CDATA[每个论坛账号每天发送短信限额，防止用户使用不同手机号刷短信，仅用于限制登录后的用户发送短信，0表示不限制。]]></item>
+				<item id="variable"><![CDATA[g_zhanghaoxiane]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="32">
+				<item id="displayorder"><![CDATA[32]]></item>
+				<item id="title"><![CDATA[每个手机每天短信限额]]></item>
+				<item id="description"><![CDATA[0-10，根据阿里云短信服务流量控制规则
+使用同一个签名，对同一个手机号码发送短信验证码，1条/分钟，5条/小时，10条/天。一个手机号码通过阿里云短信服务平台只能收到40条/天。此处可强制限制每天使用条数，最大10，分钟、小时限制按阿里云规则执行。]]></item>
+				<item id="variable"><![CDATA[g_xiane]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="33">
+				<item id="displayorder"><![CDATA[33]]></item>
+				<item id="title"><![CDATA[手机号段黑名单]]></item>
+				<item id="description"><![CDATA[优先验证，英文逗号“,”分隔多个手机号段，不限号段位数，从左侧第一位开始验证，手机号中左侧包含限制号段的，将无法从网站发送短信，会默认返回“发送失败”提示。前台后台都有效,发送信息会记录到发送记录，显示“hao duan hei ming dan ! ”，示例：18,170,1543]]></item>
+				<item id="variable"><![CDATA[g_haoduanheimingdan]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="34">
+				<item id="displayorder"><![CDATA[34]]></item>
+				<item id="title"><![CDATA[手机号黑名单]]></item>
+				<item id="description"><![CDATA[手机号黑名单，英文逗号“,”分隔多个手机号，此处存在的手机号，将无法从网站发送短信，会默认返回“发送失败”提示。前台后台都有效,发送信息会记录到发送记录，显示“hei ming dan !!!”。
+示例：18999999999,18812345678,18822223333]]></item>
+				<item id="variable"><![CDATA[g_mobileheimingdan]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="35">
+				<item id="displayorder"><![CDATA[35]]></item>
+				<item id="title"><![CDATA[开启ip地址检测]]></item>
+				<item id="description"><![CDATA[开启后，本插件发送短信验证码功能会对ip进行检测，配合下面的地区限制使用。检测优先级：国家>省份>城市。使用淘宝ip地址库进行检查，http://ip.taobao.com/service/getIpInfo.php?ip=[ip地址字串]，可使用本接口测试、查看对应的地区名称。]]></item>
+				<item id="variable"><![CDATA[g_checkip]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="36">
+				<item id="displayorder"><![CDATA[36]]></item>
+				<item id="title"><![CDATA[限制访问地区（国家）]]></item>
+				<item id="description"><![CDATA[限制访问地区（国家,多个中间用'|'隔开），需开启“开启ip地址检测”开关，此处填写的国家将不被允许使用对应功能，可使用上述接口查询国家名称，返回信息中的country值。填写示例：巴勒斯坦|新加坡]]></item>
+				<item id="variable"><![CDATA[g_checkipcountry]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[俄罗斯|巴勒斯坦|新加坡]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="37">
+				<item id="displayorder"><![CDATA[37]]></item>
+				<item id="title"><![CDATA[限制访问地区（省份）]]></item>
+				<item id="description"><![CDATA[限制访问地区（省份,多个中间用'|'隔开），需开启“开启ip地址检测”开关，此处填写的省份将不被允许使用对应功能，可使用上述接口查询省份名称，返回信息中的region值。填写示例：江苏|河北]]></item>
+				<item id="variable"><![CDATA[g_checkipregion]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="38">
+				<item id="displayorder"><![CDATA[38]]></item>
+				<item id="title"><![CDATA[限制访问地区（城市）]]></item>
+				<item id="description"><![CDATA[限制访问地区（城市,多个中间用'|'隔开），需开启“开启ip地址检测”开关，此处填写的城市将不被允许使用对应功能，可使用上述接口查询城市名称，返回信息中的city值。填写示例：南京|深圳]]></item>
+				<item id="variable"><![CDATA[g_checkipcity]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="39">
+				<item id="displayorder"><![CDATA[39]]></item>
+				<item id="title"><![CDATA[发短信时间间隔（秒）]]></item>
+				<item id="description"><![CDATA[发短信时间间隔,单位：秒，默认：60，该功能仅用于前端页面，两次发送短信间倒计时显示用，不做验证。请填写大于等于60的数，否则默认60。]]></item>
+				<item id="variable"><![CDATA[g_sendsmsjiange]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[60]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="40">
+				<item id="displayorder"><![CDATA[40]]></item>
+				<item id="title"><![CDATA[电脑版手机号独立注册功能]]></item>
+				<item id="description"><![CDATA[开启本功能后，电脑端注册页面会以Tab选项卡的方式，显示手机号独立注册的功能，用户可以仅使用手机号进行注册。]]></item>
+				<item id="variable"><![CDATA[g_pcregphonetab]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="41">
+				<item id="displayorder"><![CDATA[41]]></item>
+				<item id="title"><![CDATA[电脑版强制手机号独立注册]]></item>
+				<item id="description"><![CDATA[新模式！如果开启该功能，将彻底关闭普通邮箱注册功能，强制使用手机号注册，使用本功能必须同时开启“开启电脑版手机注册功能”、“电脑版手机号独立注册功能”，同时以下设置将失效“电脑版显示邮箱注册功能”、“电脑版邮箱注册验证手机”、“电脑版注册默认注册类型”]]></item>
+				<item id="variable"><![CDATA[g_pcregqzmobile]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="42">
+				<item id="displayorder"><![CDATA[42]]></item>
+				<item id="title"><![CDATA[电脑独立注册需填写用户名]]></item>
+				<item id="description"><![CDATA[电脑版注册如果开启“电脑版手机号独立注册”功能的话，是否需要手工填写用户名，不开启此项，用户名会随机生成。]]></item>
+				<item id="variable"><![CDATA[g_pcregphoneusername]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="43">
+				<item id="displayorder"><![CDATA[43]]></item>
+				<item id="title"><![CDATA[电脑版独立注册用户名前缀]]></item>
+				<item id="description"><![CDATA[适用于电脑版独立注册，功能设置为不需要手工填写用户名，随机生成用户名时的用户名前缀，最多填写6位。]]></item>
+				<item id="variable"><![CDATA[g_pcregphoneqianzhui]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[pcsms_]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="44">
+				<item id="displayorder"><![CDATA[44]]></item>
+				<item id="title"><![CDATA[手机版强制手机号独立注册]]></item>
+				<item id="description"><![CDATA[新模式！如果开启该功能，将彻底关闭普通邮箱注册功能，强制使用手机号注册，使用本功能必须同时开启“开启手机版手机注册功能”，同时以下设置将失效“手机版注册必须填写邮箱”]]></item>
+				<item id="variable"><![CDATA[g_mregqzmobile]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="45">
+				<item id="displayorder"><![CDATA[45]]></item>
+				<item id="title"><![CDATA[手机独立注册需填写用户名]]></item>
+				<item id="description"><![CDATA[手机版插件手机号注册功能，是否需要手工填写用户名，不开启此项，用户名会随机生成。]]></item>
+				<item id="variable"><![CDATA[g_mregphoneusername]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="46">
+				<item id="displayorder"><![CDATA[46]]></item>
+				<item id="title"><![CDATA[手机版独立注册用户名前缀]]></item>
+				<item id="description"><![CDATA[适用于手机版版独立注册，功能设置为不需要手工填写用户名，随机生成用户名时的用户名前缀，最多填写6位。]]></item>
+				<item id="variable"><![CDATA[g_mregphoneqianzhui]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[msms_]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="47">
+				<item id="displayorder"><![CDATA[47]]></item>
+				<item id="title"><![CDATA[手机版注册必须填写邮箱]]></item>
+				<item id="description"><![CDATA[使用插件独立页面的注册功能注册用户时，是否需要填写邮箱，默认关闭，关闭后邮箱内容由系统随机给出。使用本功能需要关闭“手机版强制手机号独立注册”开关。如果开启此项，并且在后台--全局--注册与访问控制中，针对“新用户注册验证”采用“Email 验证”的话，会同时发送 ...]]></item>
+				<item id="variable"><![CDATA[g_isopenmemail]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="48">
+				<item id="displayorder"><![CDATA[48]]></item>
+				<item id="title"><![CDATA[随机时手机号作为用户名]]></item>
+				<item id="description"><![CDATA[当电脑版、手机版开启手机号独立注册功能，并且不需要用户自行填写用户名时，如果开启此开关，默认将用户用户名设置为当前使用的手机号，如果手机号作为用户名重复，则随机给出用户名。]]></item>
+				<item id="variable"><![CDATA[g_phoneisusername]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="49">
+				<item id="displayorder"><![CDATA[49]]></item>
+				<item id="title"><![CDATA[电脑版显示邮箱注册功能]]></item>
+				<item id="description"><![CDATA[电脑版是否开启显示邮箱注册功能，如果开启，并同时开启手机独立注册功能的话，会以Tab选项卡的方式显示出来，可以使用discuz自带的邮箱注册功能进行用户注册。>>>本功能仅在开启电脑版独立手机号注册功能时有效<<<，如果关闭仅是前台隐藏邮箱注册表单。]]></item>
+				<item id="variable"><![CDATA[g_pcregemail]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="50">
+				<item id="displayorder"><![CDATA[50]]></item>
+				<item id="title"><![CDATA[电脑版邮箱注册验证手机]]></item>
+				<item id="description"><![CDATA[电脑版discuz自带的邮箱注册功能是否验证手机号。开启此开关后会在原有discuz注册表单后面追加手机号+短信验证码验证，使用此模式可以配合原有注册表单项同时使用。]]></item>
+				<item id="variable"><![CDATA[g_pcregemailphone]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="51">
+				<item id="displayorder"><![CDATA[51]]></item>
+				<item id="title"><![CDATA[电脑版注册默认注册类型]]></item>
+				<item id="description"><![CDATA[电脑版如果手机独立注册、邮箱注册两个功能都开启的话，注册界面默认显示的注册类型。>>>本功能仅在开启电脑版独立手机号注册功能时有效<<<]]></item>
+				<item id="variable"><![CDATA[g_pcregleixing]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[1=手机注册
+2=邮箱注册]]></item>
+			</item>
+			<item id="52">
+				<item id="displayorder"><![CDATA[52]]></item>
+				<item id="title"><![CDATA[电脑版Tab选项卡登录方式]]></item>
+				<item id="description"><![CDATA[电脑版登录是否以Tab选项卡登录方式显示，开启此开关必须同时开启电脑版手机号登录相关功能才可使用。如果模板样式特殊，出现错位等问题，可以配合下方“电脑版调整css样式”功能进行调整。]]></item>
+				<item id="variable"><![CDATA[g_pcloginphonetab]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="53">
+				<item id="displayorder"><![CDATA[53]]></item>
+				<item id="title"><![CDATA[用户手机号登录方式设置]]></item>
+				<item id="description"><![CDATA[默认手机号+密码方式登录，设置后，电脑版、手机版手机登录界面将使用此处选择的登录方式来让用户进行登录。]]></item>
+				<item id="variable"><![CDATA[g_phonemimalogin]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[0=手机号+短信验证码方式登录
+1=手机号+密码方式登录]]></item>
+			</item>
+			<item id="54">
+				<item id="displayorder"><![CDATA[54]]></item>
+				<item id="title"><![CDATA[未绑定手机登录时同步注册]]></item>
+				<item id="description"><![CDATA[默认：否。此功能用于使用手机号+短信验证码方式登录时，如果用户输入的手机号并未在网站进行注册或绑定，则直接使用该手机号进行注册新用户，并直接登录，用户名随机，密码为登录时收到的验证码数字。适用于插件电脑版、手机版。]]></item>
+				<item id="variable"><![CDATA[g_phoneloginreg]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="55">
+				<item id="displayorder"><![CDATA[55]]></item>
+				<item id="title"><![CDATA[电脑版默认使用手机登录]]></item>
+				<item id="description"><![CDATA[开启后访问电脑版登录界面，默认使用手机登录功能，不开启，直接使用discuz原有用户名登录功能。]]></item>
+				<item id="variable"><![CDATA[g_pcmorenphonelogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="56">
+				<item id="displayorder"><![CDATA[56]]></item>
+				<item id="title"><![CDATA[手机版默认使用手机登录]]></item>
+				<item id="description"><![CDATA[开启后访问手机版登录界面，默认使用手机登录功能，不开启，直接使用discuz原有用户名登录功能。]]></item>
+				<item id="variable"><![CDATA[g_mmorenphonelogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="57">
+				<item id="displayorder"><![CDATA[57]]></item>
+				<item id="title"><![CDATA[手机版默认插件用户名登录]]></item>
+				<item id="description"><![CDATA[本开关用于设置手机版登录页面是否默认使用插件风格用户名登录功能，使用本功能必须关闭上面的“手机版默认使用手机登录”开关，同时必须开启下面的“手机版插件风格用户名登录”开关。]]></item>
+				<item id="variable"><![CDATA[g_mmorenpluginlogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="58">
+				<item id="displayorder"><![CDATA[58]]></item>
+				<item id="title"><![CDATA[开启发短信图形验证码验证]]></item>
+				<item id="description"><![CDATA[默认开启状态，关闭后，发送手机短信验证码前将不再进行图文验证码验证，强烈建议开启此功能！如有特殊需要请自行调整此处设置。]]></item>
+				<item id="variable"><![CDATA[g_isopenimgcode]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="59">
+				<item id="displayorder"><![CDATA[59]]></item>
+				<item id="title"><![CDATA[开启手机+密码登录图形验证 ...]]></item>
+				<item id="description"><![CDATA[如果使用“手机+密码”登录方式的话，是否开启图形验证码验证。]]></item>
+				<item id="variable"><![CDATA[g_isopenmimaimgcode]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="60">
+				<item id="displayorder"><![CDATA[60]]></item>
+				<item id="title"><![CDATA[手机号登录后的跳转方式]]></item>
+				<item id="description"><![CDATA[电脑版、手机版手机号登录成功后的跳转方式，如果选择“跳转到自定义页面url”，需要填写下面的url路径，此时自定义路径如果为空，默认跳来路页面。]]></item>
+				<item id="variable"><![CDATA[g_mtiaozhuanhome]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[shouye]]></item>
+				<item id="extra"><![CDATA[shouye=跳转到首页
+lailu=跳转到来路页面
+diy=跳转到自定义页面url]]></item>
+			</item>
+			<item id="61">
+				<item id="displayorder"><![CDATA[61]]></item>
+				<item id="title"><![CDATA[电脑版自定义跳转页面url]]></item>
+				<item id="description"><![CDATA[使用此功能，需要上面的“手机号登录后的跳转方式”功能选择为“跳转到自定义页面url”，如果选择了“跳转到自定义页面url”方式，而此处没有填写，则默认跳来路页面。]]></item>
+				<item id="variable"><![CDATA[g_pcdiyurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="62">
+				<item id="displayorder"><![CDATA[62]]></item>
+				<item id="title"><![CDATA[手机版自定义跳转页面url]]></item>
+				<item id="description"><![CDATA[使用此功能，需要上面的“手机号登录后的跳转方式”功能选择为“跳转到自定义页面url”，如果选择了“跳转到自定义页面url”方式，而此处没有填写，则默认跳来路页面。]]></item>
+				<item id="variable"><![CDATA[g_mdiyurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="63">
+				<item id="displayorder"><![CDATA[69]]></item>
+				<item id="title"><![CDATA[修改绑定手机完成跳转首页]]></item>
+				<item id="description"><![CDATA[解除绑定、修改绑定操作页面操作成功后跳转首页，默认：否。目前仅适用于电脑版绑定相关功能。]]></item>
+				<item id="variable"><![CDATA[g_jiechutiaozhuanhome]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="64">
+				<item id="displayorder"><![CDATA[70]]></item>
+				<item id="title"><![CDATA[开启安全问题验证]]></item>
+				<item id="description"><![CDATA[电脑版、手机版如果使用手机号+密码方式登录的话，是否开启安全问题验证功能，默认开启状态，如果不开启的话，一旦有用户设置了登录时的安全问题，那么这个用户使用本功能将无法正常登录。]]></item>
+				<item id="variable"><![CDATA[g_isopenanquanwenti]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="65">
+				<item id="displayorder"><![CDATA[71]]></item>
+				<item id="title"><![CDATA[解绑时必须绑定新手机号]]></item>
+				<item id="description"><![CDATA[开启后，用户在个人设置里面解绑手机号时必须绑定新的手机号才能解绑旧手机号，不开启，则输入密码就可以解绑。]]></item>
+				<item id="variable"><![CDATA[g_jiebangnewphone]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="66">
+				<item id="displayorder"><![CDATA[72]]></item>
+				<item id="title"><![CDATA[解绑时必须验证旧手机号]]></item>
+				<item id="description"><![CDATA[解绑时必须验证旧手机号，开启此功能，解绑旧手机，或重新绑定手机号时，必须往旧手机上发送短信验证码，来验证旧手机号。]]></item>
+				<item id="variable"><![CDATA[g_jiebangyzoldphone]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="67">
+				<item id="displayorder"><![CDATA[73]]></item>
+				<item id="title"><![CDATA[电脑端手机绑定时密码验证]]></item>
+				<item id="description"><![CDATA[主要用于电脑版绑定手机号时的操作，是否开启论坛密码验证。关闭后，绑定、解绑操作都不会验证登录密码，强烈建议开启！]]></item>
+				<item id="variable"><![CDATA[g_isopenbangdingmima]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="68">
+				<item id="displayorder"><![CDATA[74]]></item>
+				<item id="title"><![CDATA[手机端手机绑定时密码验证]]></item>
+				<item id="description"><![CDATA[主要用于手机版绑定手机号时的操作，是否开启论坛密码验证。关闭后，绑定、解绑操作都不会验证登录密码，强烈建议开启！]]></item>
+				<item id="variable"><![CDATA[g_isopenmbangdingmima]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="69">
+				<item id="displayorder"><![CDATA[75]]></item>
+				<item id="title"><![CDATA[手机绑定后自动认证]]></item>
+				<item id="description"><![CDATA[手机绑定后是否自动完成手机认证项，无需审核，开启此项请务必同时设置下面的“手机认证关联系统认证项”选项，否则同样无法自动认证。本功能开启后，适合开启手机验证的新注册用户、新绑定用户。针对老用户请到插件认证管理中操作。]]></item>
+				<item id="variable"><![CDATA[g_isopenautoverify]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="70">
+				<item id="displayorder"><![CDATA[76]]></item>
+				<item id="title"><![CDATA[手机认证关联系统认证项]]></item>
+				<item id="description"><![CDATA[请选择一个自动完成手机认证的认证代号。请前往discuz后台--用户--认证设置，设置手机认证项目，确保该认证项目仅包含手机号一项数据，并开启的认证项目。此处一旦选错，同样会直接认证成功，请谨慎选择。]]></item>
+				<item id="variable"><![CDATA[g_mobileverify]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[1=verify1
+2=verify2
+3=verify3
+4=verify4
+5=verify5
+6=verify6
+7=verify7]]></item>
+			</item>
+			<item id="71">
+				<item id="displayorder"><![CDATA[77]]></item>
+				<item id="title"><![CDATA[电脑版强制绑定手机]]></item>
+				<item id="description"><![CDATA[电脑版强制绑定手机总开关，开启后，对于电脑版的访问门户、论坛、群组功能时，如果当前登录用户未绑定手机，就会跳到绑定手机的页面。适用于老用户强制绑定手机场景。默认关闭。如果仅开启此开关，不开启下面“电脑版仅发帖回帖提示”开关，那么在浏览任意界面时都会提示。]]></item>
+				<item id="variable"><![CDATA[g_pcqiangzhibangding]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="72">
+				<item id="displayorder"><![CDATA[78]]></item>
+				<item id="title"><![CDATA[电脑版仅发帖回帖提示]]></item>
+				<item id="description"><![CDATA[电脑版仅发帖回帖提示,使用此功能，必须同时开启上面的“电脑版强制绑定手机”功能，开启后，仅在用户进行“发帖、回帖”操作时提示绑定手机，适用于门户、论坛、群组。浏览页面时将不再提示。]]></item>
+				<item id="variable"><![CDATA[g_pconlyfatie]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="73">
+				<item id="displayorder"><![CDATA[79]]></item>
+				<item id="title"><![CDATA[电脑版强制手机绑定提示]]></item>
+				<item id="description"><![CDATA[电脑版强制手机绑定提示]]></item>
+				<item id="variable"><![CDATA[g_pcqiangzhitip]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[请先进行手机绑定！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="74">
+				<item id="displayorder"><![CDATA[80]]></item>
+				<item id="title"><![CDATA[开启电脑版回帖框上方提示]]></item>
+				<item id="description"><![CDATA[开启电脑版回帖框上方提示后，会在帖子详情页，底部回帖框上方，显示绑定手机提示文字。文字内容，请在下方“电脑版回帖框上方提示文字”设置。]]></item>
+				<item id="variable"><![CDATA[g_isopenhuitietip]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="75">
+				<item id="displayorder"><![CDATA[81]]></item>
+				<item id="title"><![CDATA[电脑版回帖框上方提示文字]]></item>
+				<item id="description"><![CDATA[支持简单html。电脑版手机绑定页面地址：home.php?mod=spacecp&ac=plugin&id=jzsjiale_sms:home]]></item>
+				<item id="variable"><![CDATA[g_huitieshangfangtip]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[您需要绑定手机号才可以回帖！<a href="home.php?mod=spacecp&ac=plugin&id=jzsjiale_sms:home" style="color:blue;">立即绑定手机号</a>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="76">
+				<item id="displayorder"><![CDATA[82]]></item>
+				<item id="title"><![CDATA[电脑版帖子评分检测绑定]]></item>
+				<item id="description"><![CDATA[电脑版对帖子评分时是否检测手机绑定。]]></item>
+				<item id="variable"><![CDATA[g_pcpingfenjiance]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="77">
+				<item id="displayorder"><![CDATA[83]]></item>
+				<item id="title"><![CDATA[电脑版发站内消息强制绑定]]></item>
+				<item id="description"><![CDATA[电脑版发站内消息是否强制绑定手机,使用此功能，必须同时开启上面的“电脑版强制绑定手机”功能，设置“限制强制绑定手机用户组”，提示语句使用“电脑版强制手机绑定提示”设置。“不强制绑定用户uid白名单”有效。]]></item>
+				<item id="variable"><![CDATA[g_isopenpcdxxqz]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="78">
+				<item id="displayorder"><![CDATA[84]]></item>
+				<item id="title"><![CDATA[手机版强制绑定手机]]></item>
+				<item id="description"><![CDATA[手机版强制绑定手机总开关，开启后，对于手机版的访问门户、论坛、群组功能时，如果当前登录用户未绑定手机，就会跳到绑定手机的页面。适用于老用户强制绑定手机场景。默认关闭。如果仅开启此开关，不开启下面“手机版仅发帖回帖提示”开关，那么在浏览任意界面时都会提示。]]></item>
+				<item id="variable"><![CDATA[g_mqiangzhibangding]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="79">
+				<item id="displayorder"><![CDATA[85]]></item>
+				<item id="title"><![CDATA[手机版仅发帖回帖提示]]></item>
+				<item id="description"><![CDATA[手机版仅发帖回帖提示,使用此功能，必须同时开启上面的“手机版强制绑定手机”功能，开启后，仅在用户进行“发帖、回帖”操作时提示绑定手机，适用于门户、论坛、群组。浏览页面时将不再提示。]]></item>
+				<item id="variable"><![CDATA[g_monlyfatie]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="80">
+				<item id="displayorder"><![CDATA[86]]></item>
+				<item id="title"><![CDATA[手机版强制手机绑定提示]]></item>
+				<item id="description"><![CDATA[手机版强制手机绑定提示]]></item>
+				<item id="variable"><![CDATA[g_mqiangzhitip]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[请先进行手机绑定！再进行操作！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="81">
+				<item id="displayorder"><![CDATA[87]]></item>
+				<item id="title"><![CDATA[手机版发站内消息强制绑定]]></item>
+				<item id="description"><![CDATA[手机版发站内消息是否强制绑定手机,使用此功能，必须同时开启上面的“手机版强制绑定手机”功能，设置“限制强制绑定手机用户组”，提示语句使用“手机版强制手机绑定提示”设置。“不强制绑定用户uid白名单”有效。]]></item>
+				<item id="variable"><![CDATA[g_isopenmdxxqz]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="82">
+				<item id="displayorder"><![CDATA[88]]></item>
+				<item id="title"><![CDATA[涉及空间互动功能强制绑定]]></item>
+				<item id="description"><![CDATA[适用于电脑版、手机版，涉及空间互动相关的功能是否需要强制绑定手机。]]></item>
+				<item id="variable"><![CDATA[g_isopenkjhdqz]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="83">
+				<item id="displayorder"><![CDATA[89]]></item>
+				<item id="title"><![CDATA[限制强制绑定手机用户组]]></item>
+				<item id="description"><![CDATA[限制强制绑定手机号用户组，勾选后，这些用户组的用户访问门户、论坛、群组三大功能时会检测，没有绑定手机号的，会跳转到手机号绑定界面。]]></item>
+				<item id="variable"><![CDATA[g_qiangzhigroups]]></item>
+				<item id="type"><![CDATA[groups]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[]]></item>
+					<item id="1"><![CDATA[9]]></item>
+					<item id="2"><![CDATA[10]]></item>
+					<item id="3"><![CDATA[11]]></item>
+					<item id="4"><![CDATA[12]]></item>
+					<item id="5"><![CDATA[13]]></item>
+					<item id="6"><![CDATA[14]]></item>
+					<item id="7"><![CDATA[15]]></item>
+					<item id="8"><![CDATA[20]]></item>
+					<item id="9"><![CDATA[16]]></item>
+					<item id="10"><![CDATA[17]]></item>
+					<item id="11"><![CDATA[18]]></item>
+					<item id="12"><![CDATA[19]]></item>
+					<item id="13"><![CDATA[1]]></item>
+					<item id="14"><![CDATA[2]]></item>
+					<item id="15"><![CDATA[3]]></item>
+					<item id="16"><![CDATA[4]]></item>
+					<item id="17"><![CDATA[5]]></item>
+					<item id="18"><![CDATA[6]]></item>
+					<item id="19"><![CDATA[7]]></item>
+					<item id="20"><![CDATA[8]]></item>
+				</item>
+			</item>
+			<item id="84">
+				<item id="displayorder"><![CDATA[90]]></item>
+				<item id="title"><![CDATA[不强制绑定用户uid白名单]]></item>
+				<item id="description"><![CDATA[在此设置不强制绑定手机的用户uid白名单，多个uid用英文逗号“,”（不含引号），例如：1,2,3,4,5]]></item>
+				<item id="variable"><![CDATA[g_notqzuidbai]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="85">
+				<item id="displayorder"><![CDATA[91]]></item>
+				<item id="title"><![CDATA[手机版普通登录页显示按钮]]></item>
+				<item id="description"><![CDATA[是否在discuz自带普通登录界面显示手机号登录按钮。]]></item>
+				<item id="variable"><![CDATA[g_isopenmobileloginbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="86">
+				<item id="displayorder"><![CDATA[92]]></item>
+				<item id="title"><![CDATA[手机版显示用户名登录按钮]]></item>
+				<item id="description"><![CDATA[手机版手机号登录等界面是否开启显示“用户名登录”按钮，“用户名登录按钮”点击链接到discuz自带登录界面。该按钮统一在插件手机版登录页面第三方登录方式里面显示。]]></item>
+				<item id="variable"><![CDATA[g_isopenqitalogin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="87">
+				<item id="displayorder"><![CDATA[93]]></item>
+				<item id="title"><![CDATA[手机版插件风格用户名登录]]></item>
+				<item id="description"><![CDATA[手机版使用插件风格用户名登录功能，需要同时开启上面的“手机版显示用户名登录按钮”开关，开启本开关，用户名+密码登录方式跳转插件风格界面，关闭此开关，跳转discuz自带用户名登录界面。此功能仅适用于“简洁风格2”手机模板。]]></item>
+				<item id="variable"><![CDATA[g_mloginusernameplugin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="88">
+				<item id="displayorder"><![CDATA[94]]></item>
+				<item id="title"><![CDATA[手机版开启未登录绑定功能]]></item>
+				<item id="description"><![CDATA[手机版登录等界面是否开启显示“已有论坛账号，立即绑定手机”按钮。开启此项，必须同时开启“开启手机版手机绑定功能”功能。]]></item>
+				<item id="variable"><![CDATA[g_isopennologinbind]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="89">
+				<item id="displayorder"><![CDATA[95]]></item>
+				<item id="title"><![CDATA[已绑定界面默认隐藏其他表 ...]]></item>
+				<item id="description"><![CDATA[目前仅用于电脑版手机绑定界面，该功能用于已绑定手机号的用户，为防止用户绑定后仍然继续发送短信，是否默认隐藏解绑、或重新绑定等表单，通过按钮点击方式展现出来。]]></item>
+				<item id="variable"><![CDATA[g_bangdingyincang]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="90">
+				<item id="displayorder"><![CDATA[96]]></item>
+				<item id="title"><![CDATA[电脑版显示手机绑定按钮]]></item>
+				<item id="description"><![CDATA[用户电脑版登录后，检测用户未绑定手机号时，是否显示顶部的“手机号绑定”按钮。默认开启。]]></item>
+				<item id="variable"><![CDATA[g_isopenbangdingbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="91">
+				<item id="displayorder"><![CDATA[97]]></item>
+				<item id="title"><![CDATA[PC版显示邮箱找回密码按钮]]></item>
+				<item id="description"><![CDATA[本功能仅适用于电脑版，电脑版手机号找回密码界面是否显示使用邮箱找回密码的按钮。默认开启，关闭后则不显示。]]></item>
+				<item id="variable"><![CDATA[g_isopenemailzhaohui]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="92">
+				<item id="displayorder"><![CDATA[98]]></item>
+				<item id="title"><![CDATA[后台批量认证单次处理条数]]></item>
+				<item id="description"><![CDATA[后台 手机认证管理-- 一键全部认证(已绑定手机号用户) 功能，执行时，单次处理用户条数，默认：50，可根据自己服务器情况自己调整。]]></item>
+				<item id="variable"><![CDATA[g_verifynum]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[50]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="93">
+				<item id="displayorder"><![CDATA[99]]></item>
+				<item id="title"><![CDATA[手机登录窗口显示注册按钮]]></item>
+				<item id="description"><![CDATA[该功能用于控制电脑版弹窗手机登录窗口，是否显示立即注册按钮。]]></item>
+				<item id="variable"><![CDATA[g_pcisopenloginregbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="94">
+				<item id="displayorder"><![CDATA[100]]></item>
+				<item id="title"><![CDATA[手机版显示手机绑定按钮]]></item>
+				<item id="description"><![CDATA[手机版个人资料页面，底部是否显示手机绑定按钮，纯文本按钮，样式自行调整。关闭后仅不显示按钮，不影响功能。手机端可使用此url自己在模板增加按钮，手机绑定、重新绑定、解绑页面地址：plugin.php?id=jzsjiale_sms:mobile&act=bangding]]></item>
+				<item id="variable"><![CDATA[g_openmobilebangdingbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="95">
+				<item id="displayorder"><![CDATA[101]]></item>
+				<item id="title"><![CDATA[电脑版显示手机登录按钮]]></item>
+				<item id="description"><![CDATA[电脑版顶部是否显示“手机号登录”快捷登录按钮，默认：开启，因部分模板样式特殊，显示此按钮影响布局，所以在此增加这个开关，可以后台控制是否显示这个按钮。]]></item>
+				<item id="variable"><![CDATA[g_isopenpcloginextrabtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="96">
+				<item id="displayorder"><![CDATA[102]]></item>
+				<item id="title"><![CDATA[隐藏手机版顶部标题栏]]></item>
+				<item id="description"><![CDATA[默认：否，是否隐藏插件手机版相关页面顶部涉及 返回按钮、标题按钮 的标题栏。仅适合手机版“简洁风格2”模板。]]></item>
+				<item id="variable"><![CDATA[g_mtopnav]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="97">
+				<item id="displayorder"><![CDATA[103]]></item>
+				<item id="title"><![CDATA[手机页面顶部网站标题]]></item>
+				<item id="description"><![CDATA[用于显示在插件手机版相关页面顶部的网站标题，考虑到部分用户discuz全局中设置的网站名称过长，造成手机版页面文字溢出的问题，此处可单独设置，仅适用于"简洁风格2"模板。]]></item>
+				<item id="variable"><![CDATA[g_mtitle]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="98">
+				<item id="displayorder"><![CDATA[104]]></item>
+				<item id="title"><![CDATA[手机页面主色调]]></item>
+				<item id="description"><![CDATA[手机页面主色调，请填写颜色代码，例如：蓝色默认#4eabe8      红色#f24850]]></item>
+				<item id="variable"><![CDATA[g_mobilecolor]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#4eabe8]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="99">
+				<item id="displayorder"><![CDATA[105]]></item>
+				<item id="title"><![CDATA[网站服务条款]]></item>
+				<item id="description"><![CDATA[用于显示到手机版手机注册页面的网站服务条款，支持书写简单html、css。电脑版涉及网站服务条款的地方，请到 discuz后台--全局--注册与访问控制--网站服务条款中设置内容。]]></item>
+				<item id="variable"><![CDATA[g_tiaokuan]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<p style="text-align:center;font-size:24px;">网站服务条款</p>
+<p>这里是网站服务条款正文。</p>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="100">
+				<item id="displayorder"><![CDATA[106]]></item>
+				<item id="title"><![CDATA[用户设置手机绑定右侧提示]]></item>
+				<item id="description"><![CDATA[用户登录后，在用户设置栏--手机绑定功能，右侧的提示语句，支持简单html，建议按默认格式书写。]]></item>
+				<item id="variable"><![CDATA[g_homebindtip]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<dl class="xld">
+      <h2 class="xi1 xs2">使用手机号绑定本站，您可以...</h2>
+      <dt>用手机轻松登录</dt>
+      <dd class="xg1">无需记住本站的帐号和密码，随时使用手机短信验证码轻松登录</dd>
+      <dt>使用手机号作为用户名登录</dt>
+      <dd class="xg1">网络帐号太多，使用手机号登录省去忘记用户名的烦恼</dd>
+      <dt>找回帐号密码更便捷</dt>
+      <dd class="xg1">通过手机短信验证码找回帐号密码，简单快捷、同时增强帐号安全</dd>
+    </dl>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="101">
+				<item id="displayorder"><![CDATA[107]]></item>
+				<item id="title"><![CDATA[顶部嵌入点js补全]]></item>
+				<item id="description"><![CDATA[针对某些模板删除了部分discuz官方要求嵌入点，插件无法正常植入js，造成登录、找回密码功能无法正常使用的问题，使用该功能可以使用global_header嵌入点补全js引用，请自行测试。]]></item>
+				<item id="variable"><![CDATA[g_isopenjs]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="102">
+				<item id="displayorder"><![CDATA[108]]></item>
+				<item id="title"><![CDATA[尾部嵌入点js补全]]></item>
+				<item id="description"><![CDATA[针对某些模板删除了部分discuz官方要求嵌入点，插件无法正常植入js，造成登录、找回密码功能无法正常使用的问题，使用该功能可以使用global_footer嵌入点补全js引用，请自行测试。]]></item>
+				<item id="variable"><![CDATA[g_isopenweijs]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="103">
+				<item id="displayorder"><![CDATA[109]]></item>
+				<item id="title"><![CDATA[电脑版使用网站自带jquery]]></item>
+				<item id="description"><![CDATA[默认：否。禁止自己修改此项！！！如果你的网站使用了较高版本的jquery，并且同时使用var jq=jQuery.noConflict();进行了相同的重定义，如果有此种情况，并造成了一些问题，可以尝试开启此项！不了解请不要擅自修改此项！！]]></item>
+				<item id="variable"><![CDATA[g_useownjquery]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="104">
+				<item id="displayorder"><![CDATA[110]]></item>
+				<item id="title"><![CDATA[字符转换为HTML实体]]></item>
+				<item id="description"><![CDATA[对短信签名等预定义字符文本是否进行HTML实体转换，默认开启，如果没有特殊需要，请不要擅自改动此项！！！]]></item>
+				<item id="variable"><![CDATA[g_isopenhtmlspecialchars]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="105">
+				<item id="displayorder"><![CDATA[111]]></item>
+				<item id="title"><![CDATA[检测西瓜手机版插件]]></item>
+				<item id="description"><![CDATA[对于安装有西瓜的手机版插件(xigua_wsq)的用户，在西瓜插件发帖属于他插件自有的功能，使用本开关，可以尝试对他插件的发帖进行拦截。使用本功能必须开启“电脑版强制绑定手机”并进行用户组设置。但毕竟他属于第三方插件，如无法拦截可能属于他插件做了变动，不是本插件问题 ...]]></item>
+				<item id="variable"><![CDATA[g_isopenxiguawsq]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="106">
+				<item id="displayorder"><![CDATA[112]]></item>
+				<item id="title"><![CDATA[检测电脑版【DSU】每日签到]]></item>
+				<item id="description"><![CDATA[对于安装有“【DSU】每日签到”插件（dsu_paulsign）的用户，在电脑版手动签到进行拦截。使用本功能必须开启“电脑版强制绑定手机”并进行用户组设置。但毕竟他属于第三方插件，如无法拦截可能属于他插件做了变动，不是本插件问题。]]></item>
+				<item id="variable"><![CDATA[g_isopendsuqdpc]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="107">
+				<item id="displayorder"><![CDATA[113]]></item>
+				<item id="title"><![CDATA[检测手机版【DSU】每日签到]]></item>
+				<item id="description"><![CDATA[对于安装有“【DSU】每日签到”插件（dsu_paulsign）的用户，在手机版手动签到进行拦截。使用本功能必须开启“手机版强制绑定手机”并进行用户组设置。但毕竟他属于第三方插件，如无法拦截可能属于他插件做了变动，不是本插件问题。]]></item>
+				<item id="variable"><![CDATA[g_isopendsuqdm]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="108">
+				<item id="displayorder"><![CDATA[114]]></item>
+				<item id="title"><![CDATA[开启微信自动登录时不跳转]]></item>
+				<item id="description"><![CDATA[如果你安装的有微信自动登录插件，开启本插件手机版手机登录功能后，无法在微信端实现微信自动登录功能，可以开启此开关。开启微信自动登录相关插件并开启此开关后，检测用户是微信端访问，则不自动往手机登录页面跳转。该开关必须和微信自动登录功能，同时开，同时关！]]></item>
+				<item id="variable"><![CDATA[g_wxautologin]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="109">
+				<item id="displayorder"><![CDATA[115]]></item>
+				<item id="title"><![CDATA[电脑版第三方登录按钮补全]]></item>
+				<item id="description"><![CDATA[由于插件电脑版手机登录界面、强制手机独立注册页面无法自动调用第三方登录按钮，利用本功能可以手工填写第三方登录按钮区域HTML代码，插件会直接将该HTML代码显示到提交按钮下方。示例代码在“教程及问题汇总中”查看。]]></item>
+				<item id="variable"><![CDATA[g_qitaloginhtml]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="110">
+				<item id="displayorder"><![CDATA[116]]></item>
+				<item id="title"><![CDATA[QQ快捷登录网址url]]></item>
+				<item id="description"><![CDATA[如果填写此项，会在插件手机版登录页面多出“QQ快捷登录”的按钮，请在此手工填写QQ快捷登录网址url。此功能仅适用于“简洁风格2”手机模板。url可使用谷歌浏览器，模拟手机版，对相关按钮右键-审核元素进行查看。]]></item>
+				<item id="variable"><![CDATA[g_qqloginurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="111">
+				<item id="displayorder"><![CDATA[117]]></item>
+				<item id="title"><![CDATA[微信快捷登录网址url]]></item>
+				<item id="description"><![CDATA[如果填写此项，会在插件手机版登录页面多出“微信快捷登录”的按钮，请在此手工填写微信快捷登录网址url。此功能仅适用于“简洁风格2”手机模板。url可使用谷歌浏览器，模拟手机版，对相关按钮右键-审核元素进行查看。]]></item>
+				<item id="variable"><![CDATA[g_weixinloginurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="112">
+				<item id="displayorder"><![CDATA[118]]></item>
+				<item id="title"><![CDATA[仅微信中显示微信快捷登录]]></item>
+				<item id="description"><![CDATA[是否仅在微信客户端中显示微信登录按钮，使用此功能需填写上面的“微信快捷登录网址url”]]></item>
+				<item id="variable"><![CDATA[g_onlywxshowwxbtn]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="113">
+				<item id="displayorder"><![CDATA[119]]></item>
+				<item id="title"><![CDATA[微博快捷登录网址url]]></item>
+				<item id="description"><![CDATA[如果填写此项，会在插件手机版登录页面多出“微博快捷登录”的按钮，请在此手工填写微博快捷登录网址url。此功能仅适用于“简洁风格2”手机模板。url可使用谷歌浏览器，模拟手机版，对相关按钮右键-审核元素进行查看。]]></item>
+				<item id="variable"><![CDATA[g_weibologinurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="114">
+				<item id="displayorder"><![CDATA[120]]></item>
+				<item id="title"><![CDATA[手机版logo网址url]]></item>
+				<item id="description"><![CDATA[默认：空，即不显示logo，本功能仅适用于手机版“简洁风格v2”模板，设置logo图片网址后，手机版会在顶部显示此处设置的logo图片，不设置不显示，配合下面logo宽高值使用，具体请根据实际情况制作。]]></item>
+				<item id="variable"><![CDATA[g_mlogo]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="115">
+				<item id="displayorder"><![CDATA[121]]></item>
+				<item id="title"><![CDATA[手机版logo图片宽度]]></item>
+				<item id="description"><![CDATA[手机版logo图片宽度，请根据实际情况自行调整，支持 px 、rem、100%、auto 设置。例如  180px、3rem、100%、auto，设置后对应的css分别为，width:180px;、width:3rem;、width:100%;、width:auto;]]></item>
+				<item id="variable"><![CDATA[g_mlogowidth]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[3rem]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="116">
+				<item id="displayorder"><![CDATA[122]]></item>
+				<item id="title"><![CDATA[手机版logo图片高度]]></item>
+				<item id="description"><![CDATA[手机版logo图片高度，请根据实际情况自行调整，支持 px 、rem、100%、auto 设置。例如  180px、3rem、100%、auto，设置后对应的css分别为，height:180px;、height:3rem;、height:100%;、height:auto;]]></item>
+				<item id="variable"><![CDATA[g_mlogoheight]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[1rem]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="117">
+				<item id="displayorder"><![CDATA[123]]></item>
+				<item id="title"><![CDATA[自行修改模板语言]]></item>
+				<item id="description"><![CDATA[是否自己修改插件模板语言包，启用后请到“模板语言包修改”功能中设置相关变量对应的语言内容。关闭本功能后，语言包自动恢复到默认语言包。]]></item>
+				<item id="variable"><![CDATA[g_isopenyuyan]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="118">
+				<item id="displayorder"><![CDATA[124]]></item>
+				<item id="title"><![CDATA[电脑版调整css样式]]></item>
+				<item id="description"><![CDATA[电脑版是利用discuz嵌入点进行功能植入，属于通用功能，与部分风格独特的模板配合出现一些错位问题属于正常情况，可在这里自己根据自己模板情况重写对应错位区域的css样式即可！书写时请自己加上<style type="text/css"></style>。此功能不做任何指导！]]></item>
+				<item id="variable"><![CDATA[g_pccss]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="119">
+				<item id="displayorder"><![CDATA[125]]></item>
+				<item id="title"><![CDATA[手机版风格模板]]></item>
+				<item id="description"><![CDATA[手机版风格模板，涉及插件登录、注册、手机绑定、找回密码等功能页面模板。]]></item>
+				<item id="variable"><![CDATA[g_mstyle]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[v2]]></item>
+				<item id="extra"><![CDATA[v1=简洁风格1
+v2=简洁风格2]]></item>
+			</item>
+			<item id="120">
+				<item id="displayorder"><![CDATA[126]]></item>
+				<item id="title"><![CDATA[使用discuz F1.0版本]]></item>
+				<item id="description"><![CDATA[如果你使用的是最新版的discuz F1.0版本，并且注册功能上出现注册失败问题的话，开启此开关。]]></item>
+				<item id="variable"><![CDATA[g_discuzf]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="121">
+				<item id="displayorder"><![CDATA[127]]></item>
+				<item id="title"><![CDATA[开启短信发送调试模式]]></item>
+				<item id="description"><![CDATA[务必看参数介绍，了解后再开启！！！！管理员调试各功能时用，默认：否，如果开启此开关，前台、后台所有涉及发短信验证码的功能，都将直接返回发送成功状态，但不会真正发送短信，不会产生短信费用，管理员可以在后台短信发送记录中查看发送的短信验证码。]]></item>
+				<item id="variable"><![CDATA[g_smsdebug]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="smslist"><![CDATA[短信发送记录]]></item>
+				<item id="smslisttitle">
+					<item id="0"><![CDATA[ID]]></item>
+					<item id="1"><![CDATA[手机号]]></item>
+					<item id="2"><![CDATA[用户uid]]></item>
+					<item id="3"><![CDATA[验证码]]></item>
+					<item id="4"><![CDATA[发送类型]]></item>
+					<item id="5"><![CDATA[发送状态]]></item>
+					<item id="6"><![CDATA[发送时间]]></item>
+					<item id="7"><![CDATA[返回信息]]></item>
+					<item id="8"><![CDATA[短信发送IP]]></item>
+				</item>
+				<item id="ipchecktip"><![CDATA[短信发送IP地址，只有在开启了“开启ip地址检测”功能开关后才会记录，后台测试短信发送不进行记录。]]></item>
+				<item id="typeceshi"><![CDATA[测试]]></item>
+				<item id="typedenglu"><![CDATA[登录]]></item>
+				<item id="typezhuce"><![CDATA[注册]]></item>
+				<item id="typeshenfenyanzheng"><![CDATA[身份验证]]></item>
+				<item id="typexiugaimima"><![CDATA[修改密码]]></item>
+				<item id="qingliweek1"><![CDATA[清空一星期前的记录]]></item>
+				<item id="delqingliweek1"><![CDATA[<span style="color:red;">确定要清空一星期前的记录吗？清空后无法恢复！</span>]]></item>
+				<item id="qingliweek1ok"><![CDATA[<span style="color:green;">已经成功清空一星期前的记录</span>]]></item>
+				<item id="statusall"><![CDATA[全部]]></item>
+				<item id="statussuccess"><![CDATA[发送成功]]></item>
+				<item id="statuserror"><![CDATA[发送失败]]></item>
+				<item id="smsphone"><![CDATA[手机号：]]></item>
+				<item id="smsstarttime"><![CDATA[起始时间：]]></item>
+				<item id="smsstatus"><![CDATA[发送状态：]]></item>
+				<item id="aboutyuyan"><![CDATA[关于模板语言包修改的相关说明]]></item>
+				<item id="yuyandescription"><![CDATA[1、本功能用于修改本插件所包含的前台模板各功能语言变量对应的语言内容。<br/>2、本功能是动态改变本插件语言缓存，可通过参数设置中“自行修改模板语言”功能开关决定是否启用本功能，关闭后将自动还原成默认语言包。<br/>3、<span style="color:red;">语言内容不要过长，请懂的人使用！</span><br/>]]></item>
+				<item id="aboutsmssend"><![CDATA[关于阿里云短信发送测试的相关说明]]></item>
+				<item id="smssenddescription"><![CDATA[1、后台“短信发送测试”功能，默认使用插件设置中<span style="color:blue;">身份验证</span>对应的短信模板code和签名发送测试短信。<br/>2、请输入接收手机号发送即可。<br/>3、<span style="color:red;">如果点击本页面（“短信发送测试”页面）直接白屏，说明服务器php版本不符合要求，检查服务器php版本是否大于5.3。</span><br/>4、<span style="color:red;">如果点击本页面（“短信发送测试”页面）可以显示填写手机号页面，但是输入手机号，点击发送后白屏，查看浏览器控制台是否报500错误，这种情况，检查服务器 php配置文件中curl扩展有没有开启。</span><br/>5、如果后台测试短信发送，显示“发送成功”，却收不到短信，请检查是否开启了插件设置最下面的“开启短信发送调试模式”开关，此开关<span style="color:red;">不能开</span>，具体用法参考参数介绍。<br/>6、请确保从您的服务器上能ping通阿里云短信接口地址，阿里云短信服务：dysmsapi.aliyuncs.com，阿里大于：gw.api.taobao.com。<br/>]]></item>
+				<item id="smsapitest"><![CDATA[<span style="color:blue;">测试您的服务器与短信接口通信是否正常</span>（需服务器有exec()执行权限，测试需要十几秒钟的时间，请耐心等待，结果会显示在当前页面）]]></item>
+				<item id="smsapitestsms"><![CDATA[阿里云短信服务接口通信测试]]></item>
+				<item id="smsapitestdy"><![CDATA[阿里大于接口通信测试]]></item>
+				<item id="smsapitestok"><![CDATA[<span style="color:green;">通信正常</span>]]></item>
+				<item id="smsapitesterror"><![CDATA[<span style="color:red;">通信失败</span>]]></item>
+				<item id="aboutsmsuser"><![CDATA[关于手机绑定用户管理功能的相关说明]]></item>
+				<item id="smsuserdescription"><![CDATA[<span style="color:red;">1、本插件从2.0版本开始统一了用户手机绑定表，那么登录/注册时会查discuz系统带的“common_member_profile”资料表，以“mobile”字段作为验证字段。用于兼容其他手机短信插件，同时防止因插件问题造成数据丢失。请确定discuz的资料表中的手机号来源一定正确、唯一！</span><br/>2、从设置中可以关闭统一用户绑定表功能，则使用插件自带表绑定数据，但非常不建议。<br/>3、本功能仅记录使用本插件相关功能绑定的用户手机号。<br/>4、本功能中添加手机绑定时以“手机绑定后自动认证”开启状态为准，此开关开启，则新绑定手机的用户同步完成手机认证，否则不同步认证；解除绑定不受此开关限制，都会清除手机认证。<br/>]]></item>
+				<item id="aboutdzuser"><![CDATA[关于统一资料表手机绑定用户管理功能的相关说明]]></item>
+				<item id="dzuserdescription"><![CDATA[<span style="color:red;">1、本插件从2.0版本开始统一了用户手机绑定表，那么登录/注册时会查discuz系统带的“common_member_profile”资料表，以“mobile”字段作为验证字段。用于兼容其他手机短信插件，同时防止因插件问题造成数据丢失。请确定discuz的资料表中的手机号来源一定正确、唯一！</span><br/>2、本功能将显示所有discuz会员，用于在后台统一管理discuz自带资料表的手机绑定。<br/>3、本功能中添加手机绑定时以“手机绑定后自动认证”开启状态为准，此开关开启，则新绑定手机的用户同步完成手机认证，否则不同步认证；解除绑定不受此开关限制，包括“批量删除discuz资料表用户手机号”功能，均会清除手机认证。<br/>]]></item>
+				<item id="aboutdzverify"><![CDATA[关于手机认证管理功能的相关说明]]></item>
+				<item id="dzverifydescription"><![CDATA[<span style="color:red;">1、本插件支持新注册用户、或新绑定手机号用户自动完成手机认证功能，对于老用户的手机认证管理，在此“手机认证管理”功能中进行管理。</span><br/>2、请在插件设置“手机认证关联系统认证项”中选择一个自动完成手机认证的认证代号。请前往discuz后台--用户--认证设置，设置手机认证项目，确保该认证项目仅包含手机号一项数据，并开启的认证项目。此处一旦选错，同样会直接认证成功，请谨慎选择。<br/>]]></item>
+				<item id="copyright"><![CDATA[<a href="mailto:836333583@qq.com" target="_blank">jzsjiale <836333583@qq.com></a>]]></item>
+				<item id="smssendtitle"><![CDATA[短信发送测试]]></item>
+				<item id="smssendphone"><![CDATA[接收手机号]]></item>
+				<item id="smssendphone_msg"><![CDATA[<span style="color:red;">必须</span>,请输入11位接收手机号]]></item>
+				<item id="smssendphone_null"><![CDATA[接收手机号不能为空]]></item>
+				<item id="smssendphoneerror_null"><![CDATA[接收手机号格式错误]]></item>
+				<item id="fasong"><![CDATA[发送]]></item>
+				<item id="noappkey"><![CDATA[请先配置参数阿里云AccessKeyId、AccessKeySecret]]></item>
+				<item id="generatecodeerror"><![CDATA[生成验证码失败]]></item>
+				<item id="noopenregister"><![CDATA[未开启短信验证码身份验证]]></item>
+				<item id="noregisterid"><![CDATA[请先设置注册模板ID]]></item>
+				<item id="noregistersign"><![CDATA[请先设置注册签名]]></item>
+				<item id="noopenlogin"><![CDATA[未开启短信验证码登录]]></item>
+				<item id="nologinid"><![CDATA[请先设置登录模板ID]]></item>
+				<item id="nologinsign"><![CDATA[请先设置登录签名]]></item>
+				<item id="noopenyanzheng"><![CDATA[未开启短信验证码身份验证]]></item>
+				<item id="noyanzhengid"><![CDATA[请先设置身份验证模板ID]]></item>
+				<item id="noyanzhengsign"><![CDATA[请先设置身份验证签名]]></item>
+				<item id="noopenmima"><![CDATA[未开启短信验证码修改密码]]></item>
+				<item id="nomimaid"><![CDATA[请先设置修改密码模板ID]]></item>
+				<item id="nomimasign"><![CDATA[请先设置修改密码签名]]></item>
+				<item id="smsxiane"><![CDATA[该手机号短信发送条数达到今天上限！]]></item>
+				<item id="smssuccess"><![CDATA[发送成功]]></item>
+				<item id="smserror"><![CDATA[发送失败]]></item>
+				<item id="smsBUSINESS_LIMIT_CONTROL"><![CDATA[短信发送受到条数限制，请稍后再试！]]></item>
+				<item id="isvMOBILE_NUMBER_ILLEGAL"><![CDATA[非法手机号，请检查手机号格式！]]></item>
+				<item id="isvSMS_TEMPLATE_ILLEGAL"><![CDATA[短信模板不合法，请查看插件设置身份验证对应的短信模板是否为阿里云短信服务中审核通过的模板，并且短信模板内容中验证码用${code}变量表示！]]></item>
+				<item id="isvSMS_SIGNATURE_ILLEGAL"><![CDATA[短信签名不合法，请查看插件设置身份验证对应的短信签名和阿里云短信服务后台审核通过的签名是否一样！]]></item>
+				<item id="isvAMOUNT_NOT_ENOUGH"><![CDATA[账户余额不足！]]></item>
+				<item id="isvOUT_OF_SERVICE"><![CDATA[阿里云短信服务业务停机，请检查余额是否充足，或直接联系阿里云客服！]]></item>
+				<item id="isvINVALID_PARAMETERS"><![CDATA[变量中不得传入中文，请检查阿里云短信模板内容！]]></item>
+				<item id="ispRAM_PERMISSION_DENY"><![CDATA[请在阿里云访问控制中检查，是否为子账号分配了AliyunDysmsFullAccess用于管理短信服务(SMS)的权限！]]></item>
+				<item id="SignatureDoesNotMatch"><![CDATA[签名加密错误，请检查签名、accessKeyId和accessKeySecret填写是否正确！]]></item>
+				<item id="InvalidTimeStampExpired"><![CDATA[时间戳错误，请检查服务器时间和时区是否正确,目前网关使用的时间是GMT时间！]]></item>
+				<item id="smsuserlist"><![CDATA[手机用户绑定管理]]></item>
+				<item id="smsuserlisttitle">
+					<item id="0"><![CDATA[ID]]></item>
+					<item id="1"><![CDATA[用户uid]]></item>
+					<item id="2"><![CDATA[用户名]]></item>
+					<item id="3"><![CDATA[手机号]]></item>
+					<item id="4"><![CDATA[绑定时间]]></item>
+					<item id="5"><![CDATA[操作]]></item>
+				</item>
+				<item id="dzuserlist"><![CDATA[统一资料表手机用户绑定管理]]></item>
+				<item id="dzuserlisttitle">
+					<item id="0"><![CDATA[用户uid]]></item>
+					<item id="1"><![CDATA[用户名]]></item>
+					<item id="2"><![CDATA[手机号]]></item>
+					<item id="3"><![CDATA[注册时间]]></item>
+					<item id="4"><![CDATA[操作]]></item>
+				</item>
+				<item id="dzverifylist"><![CDATA[手机认证管理]]></item>
+				<item id="dzverifylisttitle">
+					<item id="0"><![CDATA[用户uid]]></item>
+					<item id="1"><![CDATA[用户名]]></item>
+					<item id="2"><![CDATA[手机号]]></item>
+					<item id="3"><![CDATA[认证状态]]></item>
+					<item id="4"><![CDATA[注册时间]]></item>
+					<item id="5"><![CDATA[操作]]></item>
+				</item>
+				<item id="quxiaorenzheng"><![CDATA[取消认证]]></item>
+				<item id="lijirenzheng"><![CDATA[立即认证]]></item>
+				<item id="bangding"><![CDATA[添加绑定]]></item>
+				<item id="jiechubangding"><![CDATA[解除绑定]]></item>
+				<item id="lijibangding"><![CDATA[立即绑定]]></item>
+				<item id="userphone"><![CDATA[用户名或手机号：]]></item>
+				<item id="chazhaochongfu"><![CDATA[查找重复手机号用户]]></item>
+				<item id="piliangshanchu"><![CDATA[批量删除discuz资料表用户手机号]]></item>
+				<item id="quedingpiliangshanchu"><![CDATA[确定要批量删除discuz资料表用户手机号吗？清除后无法恢复！此功能批量删除手机号会同时删除插件表手机绑定关系，请谨慎操作！]]></item>
+				<item id="piliangshanchuok"><![CDATA[批量删除手机号成功]]></item>
+				<item id="addbangdingtitle"><![CDATA[添加用户绑定]]></item>
+				<item id="dusername"><![CDATA[用户名]]></item>
+				<item id="dusername_msg"><![CDATA[<span style="color:red;">必须</span>,用户名]]></item>
+				<item id="dusername_null"><![CDATA[用户名不能为空]]></item>
+				<item id="dphone"><![CDATA[绑定手机号]]></item>
+				<item id="dphone_msg"><![CDATA[<span style="color:red;">必须</span>,请输入11位绑定手机号]]></item>
+				<item id="dphone_null"><![CDATA[绑定手机号不能为空]]></item>
+				<item id="dphoneerror_null"><![CDATA[绑定手机号格式错误]]></item>
+				<item id="nousername"><![CDATA[未找到该用户]]></item>
+				<item id="phonecunzai"><![CDATA[该手机号已被别人绑定]]></item>
+				<item id="addok"><![CDATA[添加成功]]></item>
+				<item id="delok"><![CDATA[删除成功]]></item>
+				<item id="error"><![CDATA[出现错误，请重试]]></item>
+				<item id="empty"><![CDATA[未找到数据]]></item>
+				<item id="useruid"><![CDATA[用户uid：]]></item>
+				<item id="username"><![CDATA[用户名：]]></item>
+				<item id="delbangding"><![CDATA[删除用户【{username}】的手机绑定]]></item>
+				<item id="jiechuok"><![CDATA[解除绑定成功]]></item>
+				<item id="newbind_phone"><![CDATA[待绑定新手机号]]></item>
+				<item id="bind_phone"><![CDATA[待绑定手机号]]></item>
+				<item id="bind_seccode"><![CDATA[手机验证码]]></item>
+				<item id="oldbind_seccode"><![CDATA[已绑定手机验证码]]></item>
+				<item id="bind_password"><![CDATA[验证登录密码]]></item>
+				<item id="bind_phone_error"><![CDATA[手机号格式不正确]]></item>
+				<item id="bind_seccode_error"><![CDATA[手机验证码不正确]]></item>
+				<item id="oldbind_seccode_error"><![CDATA[已绑定手机验证码不正确]]></item>
+				<item id="bind_password_error"><![CDATA[登录密码不正确]]></item>
+				<item id="paramerror"><![CDATA[手机验证：缺少参数或参数错误!]]></item>
+				<item id="seccode_invalid"><![CDATA[您输入的图形验证码不正确]]></item>
+				<item id="mimaerror"><![CDATA[您的登录密码不正确]]></item>
+				<item id="err_seccodeguoqi"><![CDATA[短信验证码已过期]]></item>
+				<item id="err_seccodeerror"><![CDATA[短信验证码填写错误]]></item>
+				<item id="err_oldseccodeguoqi"><![CDATA[已绑定手机号验证，短信验证码已过期]]></item>
+				<item id="err_oldseccodeerror"><![CDATA[已绑定手机号验证，短信验证码填写错误]]></item>
+				<item id="notopenyanzheng"><![CDATA[未开启身份验证短信发送功能]]></item>
+				<item id="notopenregister"><![CDATA[未开启注册验证短信发送功能]]></item>
+				<item id="notopenlogin"><![CDATA[未开启登录验证短信发送功能]]></item>
+				<item id="notopenmima"><![CDATA[未开启修改密码验证短信发送功能]]></item>
+				<item id="err_yibangding"><![CDATA[该用户名已绑定手机]]></item>
+				<item id="bangdingok"><![CDATA[绑定成功]]></item>
+				<item id="bangdingerror"><![CDATA[绑定失败]]></item>
+				<item id="jiechuerror"><![CDATA[解除绑定失败]]></item>
+				<item id="chongxinbangdingok"><![CDATA[重新绑定手机号成功]]></item>
+				<item id="err_weibangding"><![CDATA[该手机号尚未在网站进行注册]]></item>
+				<item id="err_notopenphonemimalogin"><![CDATA[网站目前不允许使用手机号+密码登录]]></item>
+				<item id="err_gongnengweikaiqi"><![CDATA[该功能未开启]]></item>
+				<item id="passwordnull"><![CDATA[请输入密码]]></item>
+				<item id="password2null"><![CDATA[请输入确认密码]]></item>
+				<item id="passworderr"><![CDATA[两次密码不一致]]></item>
+				<item id="password6"><![CDATA[密码过于简单，不得小于6位]]></item>
+				<item id="err_systemerror"><![CDATA[抱歉，系统错误，无法继续执行该操作]]></item>
+				<item id="loginerror"><![CDATA[登录失败]]></item>
+				<item id="answerset"><![CDATA[您设置了安全问题，请选择安全问题，并填写正确的答案！]]></item>
+				<item id="answernull"><![CDATA[您选择了安全问题，请填写答案！]]></item>
+				<item id="logintoomanyerror"><![CDATA[密码错误次数过多，请15分钟后登陆！]]></item>
+				<item id="anquanyanzheng"><![CDATA[安全验证]]></item>
+				<item id="anquanyanzhengdaan"><![CDATA[答案]]></item>
+				<item id="getoldmobilenull"><![CDATA[未获取到已绑定手机号信息，请重试]]></item>
+				<item id="getoldseccodenull"><![CDATA[未获取到已绑定手机号的短信验证码信息，请重试]]></item>
+				<item id="zongxiane"><![CDATA[您限定的短信每日总发送条数：]]></item>
+				<item id="zongxianebuxiane"><![CDATA[不限额]]></item>
+				<item id="jinrifasong"><![CDATA[今日已成功发送总条数：]]></item>
+				<item id="renzhengchenggong"><![CDATA[认证成功]]></item>
+				<item id="weirenzheng"><![CDATA[未完成认证]]></item>
+				<item id="qingshezhiverify"><![CDATA[请在插件设置栏设置“手机认证关联系统认证项”]]></item>
+				<item id="delrenzheng"><![CDATA[取消用户【{username}】的手机认证]]></item>
+				<item id="lijirenzhengtip"><![CDATA[为用户【{username}】进行手机认证]]></item>
+				<item id="delrenzhengok"><![CDATA[取消手机认证成功]]></item>
+				<item id="renzhengnomobile"><![CDATA[该用户并未绑定手机号，无法进行手机认证]]></item>
+				<item id="yijianquanburenzheng"><![CDATA[一键全部认证(已绑定手机号用户)]]></item>
+				<item id="yijianquanbuquxiaorenzheng"><![CDATA[一键全部取消认证]]></item>
+				<item id="qingchuwushoujihaorenzheng"><![CDATA[一键清除无手机号的用户认证]]></item>
+				<item id="caozuowancheng"><![CDATA[操作完成]]></item>
+				<item id="loginpopuptitle"><![CDATA[手机登录]]></item>
+				<item id="curr_createverify"><![CDATA[正在批量为已存在手机号的用户进行认证,总用户数【{count}】名用户      ]]></item>
+				<item id="curr_cancelverify"><![CDATA[需要检测的总用户数【{count}】名用户      ]]></item>
+				<item id="phonenull"><![CDATA[请输入手机号]]></item>
+				<item id="seccodenull"><![CDATA[请输入手机验证码]]></item>
+				<item id="usernamenull"><![CDATA[请输入用户名]]></item>
+				<item id="usernamecunzai"><![CDATA[该用户名已存在]]></item>
+				<item id="registererror"><![CDATA[注册失败]]></item>
+				<item id="registersuccess"><![CDATA[注册成功]]></item>
+				<item id="registersuccess_phoneerror"><![CDATA[注册成功,但手机绑定失败]]></item>
+				<item id="registersuccesssendemailerror"><![CDATA[注册成功,但注册验证邮件发送失败,请前往电脑版重新发送验证！]]></item>
+				<item id="registersuccessemailyanzheng"><![CDATA[注册成功,请前往邮箱进行邮件验证！]]></item>
+				<item id="registeremailillegal"><![CDATA[邮箱格式不合法]]></item>
+				<item id="registeremailduplicate"><![CDATA[邮箱重复]]></item>
+				<item id="err_pcregphonetabweikaiqi"><![CDATA[电脑版手机号独立注册功能未开启]]></item>
+				<item id="username_len_invalid_error"><![CDATA[用户名过短或过长]]></item>
+				<item id="password_len_invalid_error"><![CDATA[密码过短或过长]]></item>
+				<item id="recache"><![CDATA[更新缓存]]></item>
+				<item id="cache_success"><![CDATA[更新缓存成功]]></item>
+				<item id="cache_error"><![CDATA[更新缓存失败]]></item>
+				<item id="huanyuanyuyan"><![CDATA[恢复初始语言包内容]]></item>
+				<item id="huanyuanyuyan_success"><![CDATA[恢复初始语言包内容成功]]></item>
+				<item id="huanyuanyuyan_error"><![CDATA[恢复初始语言包内容失败]]></item>
+				<item id="yuyanweiqiyong"><![CDATA[模板语言包修改功能暂未启用，无法操作！<br/>请到插件设置中最下面找到“自行修改模板语言”开关，并启用！]]></item>
+				<item id="yuyantitle"><![CDATA[模板语言包修改]]></item>
+				<item id="smstpllang_msg1"><![CDATA[用于修改模板中 ]]></item>
+				<item id="smstpllang_msg2"><![CDATA[ 变量位置对应的内容。]]></item>
+				<item id="update_success"><![CDATA[更新成功]]></item>
+				<item id="xiufuok"><![CDATA[本插件数据表修复成功]]></item>
+				<item id="xiufuerror"><![CDATA[本插件数据表修复失败]]></item>
+				<item id="checkiperror"><![CDATA[您所在的地区暂未开放本功能, 如有疑问请联系管理员!]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="homebangdingtitle"><![CDATA[手机绑定]]></item>
+				<item id="homebangdingcontent"><![CDATA[请输入本人手机号进行绑定，且每个手机号只能绑定一个论坛账户。<br/><span style="color:red;">绑定手机后，你可以使用手机号作为用户名登录。</span>]]></item>
+				<item id="homebangdingcontent2"><![CDATA[请输入本人手机号进行绑定，且每个手机号只能绑定一个论坛账户。]]></item>
+				<item id="phone"><![CDATA[手机号]]></item>
+				<item id="seccode"><![CDATA[短信验证码]]></item>
+				<item id="newbind_phone"><![CDATA[待绑定新手机号]]></item>
+				<item id="bind_phone"><![CDATA[待绑定手机号]]></item>
+				<item id="bind_seccode"><![CDATA[手机验证码]]></item>
+				<item id="oldbind_seccode"><![CDATA[已绑定手机验证码]]></item>
+				<item id="bind_password"><![CDATA[验证登录密码]]></item>
+				<item id="bind_phone_tip"><![CDATA[请输入11位的手机号]]></item>
+				<item id="bind_phone_error"><![CDATA[手机号格式不正确]]></item>
+				<item id="bind_seccode_error"><![CDATA[手机验证码不正确]]></item>
+				<item id="oldbind_seccode_error"><![CDATA[已绑定手机验证码不正确]]></item>
+				<item id="bind_password_error"><![CDATA[登录密码不正确]]></item>
+				<item id="send_seccode"><![CDATA[发送短信验证码]]></item>
+				<item id="sendseccodetitle"><![CDATA[发送短信验证码]]></item>
+				<item id="sendseccodetitle2"><![CDATA[(验证已绑定手机号)发送短信验证码]]></item>
+				<item id="tip_imgsec"><![CDATA[请输入图形验证码]]></item>
+				<item id="tip_seccode"><![CDATA[请输入手机验证码]]></item>
+				<item id="err_phonebind"><![CDATA[该手机号码已被其他用户绑定使用，请更换其他手机号码]]></item>
+				<item id="err_oldphonebind"><![CDATA[未获取到已绑定手机号数据，请重试]]></item>
+				<item id="err_seccodefasong"><![CDATA[同一手机号码1分钟内只允许发送一次验证码，1小时内只允许发送5条，验证码{youxiaoqi}秒内有效]]></item>
+				<item id="err_seccodefasong1"><![CDATA[同一手机号码1分钟内只允许发送一次验证码，1小时内只允许发送5条，验证码]]></item>
+				<item id="err_seccodefasong2"><![CDATA[秒内有效]]></item>
+				<item id="err_seccodexiane"><![CDATA[抱歉，您的手机使用短信验证码超过每日限额]]></item>
+				<item id="err_zhanghaoseccodexiane"><![CDATA[抱歉，您的账号使用短信验证码超过每日限额]]></item>
+				<item id="err_seccodezongxiane"><![CDATA[抱歉，短信验证码发送失败]]></item>
+				<item id="err_nouser"><![CDATA[抱歉，该手机号暂未在网站进行注册，请先注册再登录。]]></item>
+				<item id="error_nouser"><![CDATA[抱歉，不存在该用户名]]></item>
+				<item id="generatecodeerror"><![CDATA[生成验证码失败]]></item>
+				<item id="paramerror"><![CDATA[手机验证：缺少参数或参数错误!]]></item>
+				<item id="seccode_invalid"><![CDATA[您输入的图形验证码不正确]]></item>
+				<item id="mimaerror"><![CDATA[您的登录密码不正确]]></item>
+				<item id="peizhierror"><![CDATA[服务器短信配置错误]]></item>
+				<item id="smssuccess"><![CDATA[发送成功]]></item>
+				<item id="smserror"><![CDATA[发送失败]]></item>
+				<item id="smsBUSINESS_LIMIT_CONTROL"><![CDATA[短信发送受到条数限制，请稍后再试！]]></item>
+				<item id="isvMOBILE_NUMBER_ILLEGAL"><![CDATA[非法手机号！]]></item>
+				<item id="isvBUSINESS_LIMIT_CONTROL"><![CDATA[您操作太频繁啦,请稍等片刻再发送！]]></item>
+				<item id="resendsec"><![CDATA[重发短信验证码]]></item>
+				<item id="resendtip"><![CDATA[秒后可重新发送]]></item>
+				<item id="notopenpc"><![CDATA[电脑版此功能未开启]]></item>
+				<item id="notopenmobile"><![CDATA[手机版此功能未开启]]></item>
+				<item id="notopenyanzheng"><![CDATA[未开启身份验证短信发送功能]]></item>
+				<item id="notopenregister"><![CDATA[未开启注册验证短信发送功能]]></item>
+				<item id="notopenlogin"><![CDATA[未开启登录验证短信发送功能]]></item>
+				<item id="notopenmima"><![CDATA[未开启修改密码验证短信发送功能]]></item>
+				<item id="yibangdingphone"><![CDATA[已绑定手机号]]></item>
+				<item id="shifoujiechu"><![CDATA[解除绑定后可绑定新手机号,输入登录密码,提交解除!]]></item>
+				<item id="jiechusubmit"><![CDATA[解除绑定]]></item>
+				<item id="jiechuok"><![CDATA[解除绑定成功]]></item>
+				<item id="jiechuerror"><![CDATA[解除绑定失败]]></item>
+				<item id="chongxinbangdingok"><![CDATA[重新绑定手机号成功]]></item>
+				<item id="loginextratip"><![CDATA[手机号码，快捷登录]]></item>
+				<item id="loginpopuptitle"><![CDATA[手机登录]]></item>
+				<item id="login_guest"><![CDATA[没有帐号？{$_G[setting][reglinkname]}]]></item>
+				<item id="smslostpw"><![CDATA[手机短信找回密码]]></item>
+				<item id="lostpwbyemail"><![CDATA[通过邮箱找回密码]]></item>
+				<item id="jiazaizhong"><![CDATA[加载中...]]></item>
+				<item id="fanhui"><![CDATA[返回]]></item>
+				<item id="zhuce"><![CDATA[手机注册]]></item>
+				<item id="denglu"><![CDATA[手机登录]]></item>
+				<item id="denglu2"><![CDATA[登录]]></item>
+				<item id="zhaohuimimatitle"><![CDATA[找回密码]]></item>
+				<item id="zhaohuimimabtn"><![CDATA[立即找回]]></item>
+				<item id="xiugaibangdingtitle"><![CDATA[修改绑定手机]]></item>
+				<item id="bangdingtitle"><![CDATA[绑定手机]]></item>
+				<item id="bangdingbtn"><![CDATA[立即绑定]]></item>
+				<item id="denglubtn"><![CDATA[登录]]></item>
+				<item id="qitadenglubtn"><![CDATA[其他登录方式]]></item>
+				<item id="shouye"><![CDATA[首页]]></item>
+				<item id="yonghuzhuce"><![CDATA[提交]]></item>
+				<item id="changyongphone"><![CDATA[您的手机号]]></item>
+				<item id="yonghuming"><![CDATA[用户名]]></item>
+				<item id="passwordtip"><![CDATA[请输入密码]]></item>
+				<item id="repasswordtip"><![CDATA[确认密码]]></item>
+				<item id="new_password"><![CDATA[新密码]]></item>
+				<item id="new_password_confirm"><![CDATA[确认密码]]></item>
+				<item id="oldphonenull"><![CDATA[未获取到已绑定手机号，请刷新页面重试]]></item>
+				<item id="oldphoneerr"><![CDATA[已绑定手机号格式错误]]></item>
+				<item id="phonenull"><![CDATA[请输入手机号]]></item>
+				<item id="seccodenull"><![CDATA[请输入手机验证码]]></item>
+				<item id="oldseccodenull"><![CDATA[已绑定手机号验证，请输入手机验证码]]></item>
+				<item id="passwordnull"><![CDATA[请输入密码]]></item>
+				<item id="password2null"><![CDATA[请输入确认密码]]></item>
+				<item id="passworderr"><![CDATA[两次密码不一致]]></item>
+				<item id="password6"><![CDATA[密码过于简单，不得小于6位]]></item>
+				<item id="usernametip"><![CDATA[用户名]]></item>
+				<item id="username"><![CDATA[请输入用户名]]></item>
+				<item id="usernameerr"><![CDATA[用户名已存在，请重试]]></item>
+				<item id="usernamenull"><![CDATA[请输入用户名]]></item>
+				<item id="usernamecunzai"><![CDATA[该用户名已存在]]></item>
+				<item id="err_seccodeguoqi"><![CDATA[短信验证码已过期]]></item>
+				<item id="err_seccodeerror"><![CDATA[短信验证码填写错误]]></item>
+				<item id="err_oldseccodeguoqi"><![CDATA[已绑定手机号验证，短信验证码已过期]]></item>
+				<item id="err_oldseccodeerror"><![CDATA[已绑定手机号验证，短信验证码填写错误]]></item>
+				<item id="registererror"><![CDATA[注册失败]]></item>
+				<item id="registersuccess"><![CDATA[注册成功]]></item>
+				<item id="registersuccess_phoneerror"><![CDATA[注册成功,但手机绑定失败]]></item>
+				<item id="registersuccesssendemailerror"><![CDATA[注册成功,但注册验证邮件发送失败,请前往电脑版重新发送验证！]]></item>
+				<item id="registersuccessemailyanzheng"><![CDATA[注册成功,请前往邮箱进行邮件验证！]]></item>
+				<item id="registeremailillegal"><![CDATA[邮箱格式不合法]]></item>
+				<item id="registeremailduplicate"><![CDATA[邮箱重复]]></item>
+				<item id="phonecunzai"><![CDATA[该手机号已被别人绑定]]></item>
+				<item id="bangdingerror"><![CDATA[手机绑定失败]]></item>
+				<item id="err_mima"><![CDATA[密码错误]]></item>
+				<item id="bangdingsuccess"><![CDATA[绑定成功]]></item>
+				<item id="err_yibangding"><![CDATA[该用户名已绑定手机]]></item>
+				<item id="lijizhuce2"><![CDATA[立即注册]]></item>
+				<item id="lijizhuce"><![CDATA[没有账号？立即注册]]></item>
+				<item id="lijidenglu"><![CDATA[已有账号，立即登录]]></item>
+				<item id="lijidenglu2"><![CDATA[立即登录]]></item>
+				<item id="zhaohuimima"><![CDATA[忘记密码？立即找回密码]]></item>
+				<item id="zhaohuimima2"><![CDATA[找回密码]]></item>
+				<item id="lijibangding"><![CDATA[已有账号，立即绑定手机]]></item>
+				<item id="err_location_login_force_qq"><![CDATA[您所在的用户组必须使用QQ帐号登录]]></item>
+				<item id="err_location_login_force_mail"><![CDATA[您所在的用户组必须使用邮箱登录]]></item>
+				<item id="err_location_login_outofdate"><![CDATA[您当前的帐号已经太长时间未登录网站已经被冻结，必须验证邮箱后才能解除冻结状态]]></item>
+				<item id="err_getpasswd_account_notmatch"><![CDATA[抱歉，您填写的账户资料不匹配，不能使用取回密码功能，如有疑问请与管理员联系]]></item>
+				<item id="err_getpasswd_account_invalid"><![CDATA[抱歉，创始人、受保护用户、拥有站点设置权限的用户不能使用取回密码功能]]></item>
+				<item id="yonghumingdenglu"><![CDATA[用户名登录]]></item>
+				<item id="qitadenglufangshi"><![CDATA[其他登录方式:]]></item>
+				<item id="shoujizhaohuimima"><![CDATA[忘记密码？手机找回密码]]></item>
+				<item id="shoujizhaohuimimatishi"><![CDATA[找回密码:]]></item>
+				<item id="phonemima"><![CDATA[密码]]></item>
+				<item id="err_systemerror"><![CDATA[抱歉，系统错误，无法继续执行该操作]]></item>
+				<item id="loginerror"><![CDATA[登录失败]]></item>
+				<item id="err_weibangding"><![CDATA[该手机号尚未在网站进行绑定]]></item>
+				<item id="tongyi"><![CDATA[同意]]></item>
+				<item id="tiaokuan"><![CDATA[网站服务条款]]></item>
+				<item id="err_tiaokuan"><![CDATA[请阅读网站服务条款，并勾选同意]]></item>
+				<item id="lostpwerror"><![CDATA[找回密码失败]]></item>
+				<item id="getpasswdillegal"><![CDATA[抱歉，您所用的 ID 不存在或已过期，无法取回密码]]></item>
+				<item id="getpasswdsucceed"><![CDATA[您的密码已重新设置，请使用新密码登录]]></item>
+				<item id="profilepasswd_illegal"><![CDATA[抱歉，密码空或包含非法字符]]></item>
+				<item id="answerset"><![CDATA[您设置了安全问题，请选择安全问题，并填写正确的答案！]]></item>
+				<item id="answernull"><![CDATA[您选择了安全问题，请填写答案！]]></item>
+				<item id="logintoomanyerror"><![CDATA[密码错误次数过多，请15分钟后登陆！]]></item>
+				<item id="anquanyanzheng"><![CDATA[安全验证]]></item>
+				<item id="anquanyanzhengdaan"><![CDATA[答案]]></item>
+				<item id="zanweibangding"><![CDATA[暂未绑定手机号，点击绑定]]></item>
+				<item id="dianjichongxinbangding"><![CDATA[点击重新绑定手机号]]></item>
+				<item id="getoldmobilenull"><![CDATA[未获取到已绑定手机号信息，请重试]]></item>
+				<item id="getoldseccodenull"><![CDATA[未获取到已绑定手机号的短信验证码信息，请重试]]></item>
+				<item id="email"><![CDATA[请填写常用邮箱,以便进行邮件验证]]></item>
+				<item id="emailnull"><![CDATA[邮箱不能为空]]></item>
+				<item id="emailerr"><![CDATA[邮箱格式错误]]></item>
+				<item id="showbdyc"><![CDATA[点击进行 “解绑/修改绑定” 操作]]></item>
+				<item id="genghuanmobiletip"><![CDATA[更换绑定手机号]]></item>
+				<item id="jiechuyanzhengtip"><![CDATA[解除当前已绑定手机号]]></item>
+				<item id="cuowumiaoshu"><![CDATA[出现错误]]></item>
+				<item id="cuowupopup"><![CDATA[错误]]></item>
+				<item id="registertop_mobile"><![CDATA[手机号注册]]></item>
+				<item id="registertop_email"><![CDATA[邮箱注册]]></item>
+				<item id="registertop_agree"><![CDATA[同意]]></item>
+				<item id="registertop_rulemessage"><![CDATA[网站服务条款]]></item>
+				<item id="registertop_readrulemessage"><![CDATA[请先仔细阅读并同意网站服务条款]]></item>
+				<item id="login_method"><![CDATA[快捷登录]]></item>
+				<item id="username_len_invalid_error"><![CDATA[用户名过短或过长]]></item>
+				<item id="password_len_invalid_error"><![CDATA[密码过短或过长]]></item>
+				<item id="zhucetitle1"><![CDATA[注册]]></item>
+				<item id="zhucetitle2"><![CDATA[账号]]></item>
+				<item id="bangdingphonebtn"><![CDATA[绑定手机号]]></item>
+				<item id="usernamelogintab"><![CDATA[用户名登录]]></item>
+				<item id="phonelogintab"><![CDATA[手机号登录]]></item>
+				<item id="disanfanglogin"><![CDATA[使用第三方帐号登录]]></item>
+				<item id="login_now"><![CDATA[立即登录]]></item>
+				<item id="agree"><![CDATA[同意]]></item>
+				<item id="disagree"><![CDATA[不同意]]></item>
+				<item id="checkiperror"><![CDATA[您所在的地区暂未开放本功能, 如有疑问请联系管理员!]]></item>
+				<item id="usernamemima"><![CDATA[密码]]></item>
+				<item id="usernotexist"><![CDATA[，该用户名尚未注册]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	</item>
+</root>

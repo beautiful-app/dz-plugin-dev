@@ -1,0 +1,20 @@
+<!--{block profilemobile}-->
+<!--{if !$_G['cache']['plugin']['jzsjiale_sms']['g_useownjquery']}-->
+<script src="source/plugin/jzsjiale_sms/static/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">var jq=jQuery.noConflict();</script>
+<!--{/if}-->  
+<script type="text/javascript">
+jq(function(){
+	var mobile = document.getElementsByName("mobile")[0];
+	if (mobile)
+	{
+		if (mobile.value == "")
+		{
+			jq('#td_mobile').html('<a id="bindmobile" href="home.php?mod=spacecp&ac=plugin&id=jzsjiale_sms:home" ><font color="red"><b>{lang jzsjiale_sms:zanweibangding}</b></font></a>');
+		}else{
+			jq('#td_mobile').html('<span>'+mobile.value+'</span>&nbsp;&nbsp;&nbsp;&nbsp;<a id="bindmobile" href="home.php?mod=spacecp&ac=plugin&id=jzsjiale_sms:home" ><font color="red"><b>{lang jzsjiale_sms:dianjichongxinbangding}</b></font></a>');
+		}
+	}
+});
+</script>
+<!--{/block}-->

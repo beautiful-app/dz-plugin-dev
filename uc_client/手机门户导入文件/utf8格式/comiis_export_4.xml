@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="page">
+		<item id="id"><![CDATA[4]]></item>
+		<item id="name"><![CDATA[精选]]></item>
+		<item id="user"><![CDATA[yifan]]></item>
+		<item id="uid"><![CDATA[1]]></item>
+		<item id="dateline"><![CDATA[1540551183]]></item>
+		<item id="title"><![CDATA[]]></item>
+		<item id="description"><![CDATA[]]></item>
+		<item id="keywords"><![CDATA[]]></item>
+		<item id="default"><![CDATA[0]]></item>
+		<item id="show"><![CDATA[1]]></item>
+		<item id="loadforum"><![CDATA[1]]></item>
+		<item id="header"><![CDATA[1]]></item>
+		<item id="color"><![CDATA[#f3f3f3]]></item>
+		<item id="bgcolor"><![CDATA[#53bcf5]]></item>
+		<item id="fontcolor"><![CDATA[#ffffff]]></item>
+		<item id="css"><![CDATA[]]></item>
+		<item id="openre"><![CDATA[1]]></item>
+		<item id="rekey"><![CDATA[1]]></item>
+		<item id="rekeyurl"><![CDATA[]]></item>
+		<item id="comiisheader"><![CDATA[0]]></item>
+		<item id="comiisfooter"><![CDATA[1]]></item>
+		<item id="comiisstyle"><![CDATA[3]]></item>
+		<item id="fids"><![CDATA[a:10:{i:0;s:2:"62";i:1;s:2:"49";i:2;s:2:"48";i:3;s:1:"2";i:4;s:2:"37";i:5;s:2:"38";i:6;s:2:"39";i:7;s:2:"44";i:8;s:2:"45";i:9;s:2:"63";}]]></item>
+		<item id="tids"><![CDATA[]]></item>
+		<item id="pl"><![CDATA[replies]]></item>
+		<item id="times"><![CDATA[0]]></item>
+		<item id="num"><![CDATA[20]]></item>
+		<item id="pages"><![CDATA[10]]></item>
+		<item id="comiispages"><![CDATA[0]]></item>
+		<item id="isimage"><![CDATA[1]]></item>
+	</item>
+	<item id="diydata">
+		<item id="0">
+			<item id="id"><![CDATA[39]]></item>
+			<item id="pid"><![CDATA[4]]></item>
+			<item id="bid"><![CDATA[49]]></item>
+			<item id="diyid"><![CDATA[62]]></item>
+			<item id="displayorder"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[自定义HTML]]></item>
+			<item id="type"><![CDATA[]]></item>
+			<item id="dir"><![CDATA[html]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[0]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[0]]></item>
+			<item id="borderbottom"><![CDATA[0]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+		</item>
+		<item id="1">
+			<item id="id"><![CDATA[40]]></item>
+			<item id="pid"><![CDATA[4]]></item>
+			<item id="bid"><![CDATA[14]]></item>
+			<item id="diyid"><![CDATA[63]]></item>
+			<item id="displayorder"><![CDATA[10]]></item>
+			<item id="name"><![CDATA[图片幻灯片]]></item>
+			<item id="type"><![CDATA[]]></item>
+			<item id="dir"><![CDATA[img01]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[0]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[0]]></item>
+			<item id="borderbottom"><![CDATA[1]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+		</item>
+	</item>
+	<item id="block">
+		<item id="0">
+			<item id="id"><![CDATA[14]]></item>
+			<item id="name"><![CDATA[图片幻灯片]]></item>
+			<item id="dir"><![CDATA[img01]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="copyright"><![CDATA[http://www.comiis.com]]></item>
+			<item id="version"><![CDATA[1]]></item>
+		</item>
+		<item id="1">
+			<item id="id"><![CDATA[49]]></item>
+			<item id="name"><![CDATA[自定义HTML]]></item>
+			<item id="dir"><![CDATA[html]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="copyright"><![CDATA[http://www.comiis.com]]></item>
+			<item id="version"><![CDATA[1]]></item>
+		</item>
+	</item>
+	<item id="diy">
+		<item id="block">
+			<item id="62">
+				<item id="bid"><![CDATA[62]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[顶部导航]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[<div style="height:40px;"><div class="comiis_scrollTop_box"><div class="comiis_mh_navs bg_f b_b">
+<div class="comiis_mh_subbox">
+<div class="comiis_mh_sub">
+<ul class="comiis_flex">
+<li class="flex f_b"><a href="forum.php?forumlist=1">版区</a></li>
+<li class="flex f_b"><a href="plugin.php?id=comiis_app_portal&pid=2">最新</a></li>
+<li class="flex f_b"><a href="plugin.php?id=comiis_app_portal&pid=3">热图</a></li>
+<li class="flex nvon b_0 f_0"><a href="plugin.php?id=comiis_app_portal&pid=4">精选</a></li></ul>
+</div>
+</div>
+</div>
+</div></div>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[yifan]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<div style=\"height:40px;\"><div class=\"comiis_scrollTop_box\"><div class=\"comiis_mh_navs bg_f b_b\">
+<div class=\"comiis_mh_subbox\">
+<div class=\"comiis_mh_sub\">
+<ul class=\"comiis_flex\">
+<li class=\"flex f_b\"><a href=\"forum.php?forumlist=1\">版区</a></li>
+<li class=\"flex f_b\"><a href=\"plugin.php?id=comiis_app_portal&pid=2\">最新</a></li>
+<li class=\"flex f_b\"><a href=\"plugin.php?id=comiis_app_portal&pid=3\">热图</a></li>
+<li class=\"flex nvon b_0 f_0\"><a href=\"plugin.php?id=comiis_app_portal&pid=4\">精选</a></li></ul>
+</div>
+</div>
+</div>
+</div></div>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1541036020]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="63">
+				<item id="bid"><![CDATA[63]]></item>
+				<item id="blockclass"><![CDATA[forum_thread]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[图片幻灯片_M0hD]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[yifan]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle">
+					<item id="name"><![CDATA[]]></item>
+					<item id="blockclass"><![CDATA[forum_thread]]></item>
+					<item id="makethumb"><![CDATA[1]]></item>
+					<item id="getpic"><![CDATA[1]]></item>
+					<item id="getsummary"><![CDATA[0]]></item>
+					<item id="settarget"><![CDATA[0]]></item>
+					<item id="moreurl"><![CDATA[0]]></item>
+					<item id="fields">
+						<item id="0"><![CDATA[url]]></item>
+						<item id="1"><![CDATA[title]]></item>
+						<item id="2"><![CDATA[pic]]></item>
+					</item>
+					<item id="template">
+						<item id="raw"><![CDATA[[loop]{url}{title}{pic}{picwidth}{picheight}[/loop]]]></item>
+						<item id="footer"><![CDATA[]]></item>
+						<item id="header"><![CDATA[]]></item>
+						<item id="indexplus">
+						</item>
+						<item id="index">
+						</item>
+						<item id="orderplus">
+						</item>
+						<item id="order">
+						</item>
+						<item id="loopplus">
+						</item>
+						<item id="loop"><![CDATA[{url}{title}{pic}{picwidth}{picheight}]]></item>
+					</item>
+					<item id="hash"><![CDATA[4e087b0b]]></item>
+				</item>
+				<item id="picwidth"><![CDATA[500]]></item>
+				<item id="picheight"><![CDATA[280]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[threadhot]]></item>
+				<item id="param">
+					<item id="fids">
+						<item id="0"><![CDATA[62]]></item>
+						<item id="1"><![CDATA[49]]></item>
+						<item id="2"><![CDATA[48]]></item>
+						<item id="3"><![CDATA[2]]></item>
+						<item id="4"><![CDATA[37]]></item>
+						<item id="5"><![CDATA[38]]></item>
+						<item id="6"><![CDATA[39]]></item>
+						<item id="7"><![CDATA[44]]></item>
+						<item id="8"><![CDATA[45]]></item>
+						<item id="9"><![CDATA[63]]></item>
+					</item>
+					<item id="special">
+						<item id="0"><![CDATA[0]]></item>
+					</item>
+					<item id="viewmod"><![CDATA[0]]></item>
+					<item id="rewardstatus"><![CDATA[0]]></item>
+					<item id="picrequired"><![CDATA[1]]></item>
+					<item id="orderby"><![CDATA[lastpost]]></item>
+					<item id="postdateline"><![CDATA[0]]></item>
+					<item id="lastpost"><![CDATA[0]]></item>
+					<item id="titlelength"><![CDATA[40]]></item>
+					<item id="summarylength"><![CDATA[80]]></item>
+					<item id="items"><![CDATA[5]]></item>
+					<item id="tids"><![CDATA[]]></item>
+					<item id="uids"><![CDATA[]]></item>
+					<item id="keyword"><![CDATA[]]></item>
+					<item id="tagkeyword"><![CDATA[]]></item>
+					<item id="typeids"><![CDATA[]]></item>
+					<item id="recommend"><![CDATA[0]]></item>
+					<item id="highlight"><![CDATA[0]]></item>
+					<item id="startrow"><![CDATA[0]]></item>
+				</item>
+				<item id="shownum"><![CDATA[5]]></item>
+				<item id="cachetime"><![CDATA[3600]]></item>
+				<item id="cachetimerange"><![CDATA[]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1541036020]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+		</item>
+		<item id="style">
+		</item>
+	</item>
+</root>

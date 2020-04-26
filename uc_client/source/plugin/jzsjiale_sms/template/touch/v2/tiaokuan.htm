@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{$_G['cache']['plugin']['jzsjiale_sms']['g_mtitle']}{lang jzsjiale_sms:tiaokuan}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1,minimal-ui,user-scalable=no">
+<meta name="apple-mobile-web-app-status-bar-style" content="grey">
+<meta name="format-detection" content="telephone=no, email=no">
+<meta name="apple-mobile-web-app-title" content="{$_G['setting']['bbname']}{lang jzsjiale_sms:tiaokuan}">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="msapplication-tap-highlight" content="no">
+<link type="text/css" rel="stylesheet" href="//at.alicdn.com/t/font_486221_tmioccamfsmdkj4i.css" />
+<link type="text/css" rel="stylesheet" href="source/plugin/jzsjiale_sms/static/css/basic2.css" />
+<script src="source/plugin/jzsjiale_sms/static/js/jquery-1.10.2.min.js"></script>
+<style type="text/css">
+header {
+    background: {$mobilecolor};
+}
+form .yes span {
+    background: {$mobilecolor};
+}
+form .red-btn {
+    background-color:{$mobilecolor};
+}
+form .white-btn {
+    background-color: #fff;
+    color: {$mobilecolor};
+    border: 1px solid {$mobilecolor};
+    margin-top: .3rem;
+}
+.warptopicon{
+	background: {$mobilecolor};
+}
+.warptopiconimg{
+	text-align:center;
+	width: {$mlogowidth};
+    height: {$mlogoheight};
+}
+</style>
+
+</head>
+
+<body>
+<!--{if !$_G['cache']['plugin']['jzsjiale_sms']['g_mtopnav']}-->
+<header>
+    <a href="javascript:history.go(-1);" class="icon-back-title"><i class="icon iconfont icon-back"></i>{lang jzsjiale_sms:fanhui}</a>
+    {$_G['cache']['plugin']['jzsjiale_sms']['g_mtitle']}{lang jzsjiale_sms:tiaokuan}
+</header>
+<!--{else}-->
+<style type="text/css">
+header {
+   height: 1rem;
+}
+</style>
+<header>
+</header>
+<!--{/if}-->
+<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_mlogo']}-->
+<div class="warptopicon">
+    <img src="{$_G['cache']['plugin']['jzsjiale_sms']['g_mlogo']}" class="warptopiconimg" />
+</div>
+<!--{if $_G['cache']['plugin']['jzsjiale_sms']['g_mlogoheight'] == "auto" || $_G['cache']['plugin']['jzsjiale_sms']['g_mlogoheight'] == "100%"}-->
+<br style="clear:both;" />
+<!--{else}-->
+<div style="clear:both;" ></div>
+<!--{/if}-->
+<!--{/if}-->
+<div class="wrap">
+		<form method="post" autocomplete="off"  action="#">
+         {$g_tiaokuan}
+         <div class="lb"> 
+		    <a class="red-btn" href="javascript:history.back();">{lang jzsjiale_sms:fanhui}</a> 
+		  </div>
+		</form>
+    </div>
+</body>
+</html>

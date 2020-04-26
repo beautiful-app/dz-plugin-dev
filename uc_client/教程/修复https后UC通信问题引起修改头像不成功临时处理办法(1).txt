@@ -1,0 +1,35 @@
+
+======================================================
+
+网站转换https后，由于UC通信不正常有可能会引起修改头像不成功或用户数据不同步等情况，现提供临时处理办法：
+
+======================================================
+
+1. 登录FTP下载打开以下文件(修改前可以先备份):
+
+   uc_client/client.php
+
+
+2. 搜索找到下面代码:
+   $port = !empty($matches['port']) ? $matches['port'] : 80;
+
+   把代码修改为:
+   $port = !empty($matches['port']) ? $matches['port'] : ($matches['scheme'] == 'https' ? 443 : 80);
+
+
+3. 再搜索找到下面代码:
+   if(!$fp = @fsocketopen(($ip ? $ip : $host), $port, $errno, $errstr, $timeout)) {
+
+   把代码修改为:
+   if(!$fp = @fsocketopen(($matches['scheme'] == 'https' ? 'ssl://' : '').($ip ? $ip : $host), $port, $errno, $errstr, $timeout)) {
+
+======================================================
+
+完成后保存文件，覆盖到FTP，后台更新缓存后即可！
+
+不懂的可以联系在线客服提供FTP和后台管理员信息进行免费处理，感谢大家的支持！
+
+坏蛋网络
+http://huaidanwangluo.com
+
+2017.11.20

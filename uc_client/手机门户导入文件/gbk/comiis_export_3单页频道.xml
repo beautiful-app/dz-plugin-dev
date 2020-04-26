@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="page">
+		<item id="id"><![CDATA[3]]></item>
+		<item id="name"><![CDATA[µ¥Ò³ÆµµÀ]]></item>
+		<item id="user"><![CDATA[comiis.com]]></item>
+		<item id="uid"><![CDATA[2]]></item>
+		<item id="dateline"><![CDATA[1545801040]]></item>
+		<item id="title"><![CDATA[ÆµµÀ²âÊÔ]]></item>
+		<item id="description"><![CDATA[ÏòÄúÍÆ¼öÒ»¸öÓÐÈ¤µÄÀ¸Ä¿£¬¿ìÀ´¿´¿´°É£¡]]></item>
+		<item id="keywords"><![CDATA[]]></item>
+		<item id="default"><![CDATA[0]]></item>
+		<item id="show"><![CDATA[1]]></item>
+		<item id="loadforum"><![CDATA[0]]></item>
+		<item id="header"><![CDATA[1]]></item>
+		<item id="color"><![CDATA[#f3f3f3]]></item>
+		<item id="bgcolor"><![CDATA[#01AF63]]></item>
+		<item id="fontcolor"><![CDATA[]]></item>
+		<item id="css"><![CDATA[]]></item>
+		<item id="openre"><![CDATA[0]]></item>
+		<item id="rekey"><![CDATA[0]]></item>
+		<item id="rekeyurl"><![CDATA[]]></item>
+		<item id="comiisheader"><![CDATA[0]]></item>
+		<item id="comiisfooter"><![CDATA[0]]></item>
+		<item id="comiisstyle"><![CDATA[0]]></item>
+		<item id="fids"><![CDATA[a:1:{i:0;s:0:"";}]]></item>
+		<item id="tids"><![CDATA[]]></item>
+		<item id="pl"><![CDATA[dateline]]></item>
+		<item id="times"><![CDATA[0]]></item>
+		<item id="num"><![CDATA[20]]></item>
+		<item id="pages"><![CDATA[10]]></item>
+		<item id="comiispages"><![CDATA[0]]></item>
+		<item id="isimage"><![CDATA[0]]></item>
+		<item id="hcolor"><![CDATA[#01AF63]]></item>
+		<item id="image"><![CDATA[]]></item>
+		<item id="icon2"><![CDATA[]]></item>
+		<item id="icon"><![CDATA[]]></item>
+		<item id="icon_url"><![CDATA[]]></item>
+		<item id="uptime"><![CDATA[5]]></item>
+		<item id="moresetup"><![CDATA[a:4:{s:17:"open_displayorder";i:0;s:10:"open_video";i:0;s:10:"open_color";i:0;s:9:"open_post";i:0;}]]></item>
+	</item>
+	<item id="diydata">
+		<item id="0">
+			<item id="id"><![CDATA[36]]></item>
+			<item id="pid"><![CDATA[3]]></item>
+			<item id="bid"><![CDATA[0]]></item>
+			<item id="diyid"><![CDATA[245]]></item>
+			<item id="displayorder"><![CDATA[15]]></item>
+			<item id="name"><![CDATA[µ×²¿µ¼º½Ä£¿é]]></item>
+			<item id="type"><![CDATA[footer]]></item>
+			<item id="dir"><![CDATA[footer01]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[1]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[1]]></item>
+			<item id="borderbottom"><![CDATA[1]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+			<item id="indenttop"><![CDATA[0]]></item>
+			<item id="indentbottom"><![CDATA[0]]></item>
+		</item>
+		<item id="1">
+			<item id="id"><![CDATA[37]]></item>
+			<item id="pid"><![CDATA[3]]></item>
+			<item id="bid"><![CDATA[0]]></item>
+			<item id="diyid"><![CDATA[246]]></item>
+			<item id="displayorder"><![CDATA[10]]></item>
+			<item id="name"><![CDATA[×Ô¶¨ÒåHTML]]></item>
+			<item id="type"><![CDATA[]]></item>
+			<item id="dir"><![CDATA[html]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[0]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[0]]></item>
+			<item id="borderbottom"><![CDATA[1]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+			<item id="indenttop"><![CDATA[0]]></item>
+			<item id="indentbottom"><![CDATA[0]]></item>
+		</item>
+		<item id="2">
+			<item id="id"><![CDATA[38]]></item>
+			<item id="pid"><![CDATA[3]]></item>
+			<item id="bid"><![CDATA[0]]></item>
+			<item id="diyid"><![CDATA[247]]></item>
+			<item id="displayorder"><![CDATA[5]]></item>
+			<item id="name"><![CDATA[ÂúÆÁÍ¼Æ¬¹ã¸æ]]></item>
+			<item id="type"><![CDATA[]]></item>
+			<item id="dir"><![CDATA[showimg02]]></item>
+			<item id="show"><![CDATA[1]]></item>
+			<item id="margintop"><![CDATA[0]]></item>
+			<item id="marginbottom"><![CDATA[0]]></item>
+			<item id="bordertop"><![CDATA[0]]></item>
+			<item id="borderbottom"><![CDATA[0]]></item>
+			<item id="blocknone"><![CDATA[0]]></item>
+			<item id="indenttop"><![CDATA[0]]></item>
+			<item id="indentbottom"><![CDATA[0]]></item>
+		</item>
+	</item>
+	<item id="diy">
+		<item id="block">
+			<item id="245">
+				<item id="bid"><![CDATA[245]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[µ×²¿µ¼º½Ä£¿é_G722]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[<div class="comiis_mh_footnv"><a href="index.php">Ê×Ò³</a><span class="f_d">|</span><a href="forum.php?forumlist=1">ÂÛÌ³</a><span class="f_d">|</span><a href="search.php?mod=forum">ËÑË÷</a><span class="f_d">|</span><a href="plugin.php?id=comiis_app_activity">»î¶¯</a><span class="f_d">|</span><a href="plugin.php?id=comiis_app_find">·¢ÏÖ</a></div><div class="comiis_mh_copy f_d">Copyright &copy 2019 Comiis.Com</div>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[ÓãÀÖÈ¦]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<div class=\"comiis_mh_footnv\"><a href=\"index.php\">Ê×Ò³</a><span class=\"f_d\">|</span><a href=\"forum.php?forumlist=1\">ÂÛÌ³</a><span class=\"f_d\">|</span><a href=\"search.php?mod=forum\">ËÑË÷</a><span class=\"f_d\">|</span><a href=\"plugin.php?id=comiis_app_activity\">»î¶¯</a><span class=\"f_d\">|</span><a href=\"plugin.php?id=comiis_app_find\">·¢ÏÖ</a></div><div class=\"comiis_mh_copy f_d\">Copyright &copy 2019 Comiis.Com</div>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1545801040]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="246">
+				<item id="bid"><![CDATA[246]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[×Ô¶¨ÒåHTML_H6XH]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[<div style="text-align:center;font-size:14px;line-height:26px;padding-top:15px;padding-bottom:10px;">
+<span style="color:#f00;font-size:18px;">ÕâÀïÊÇÒ»¸öµ¥Ò³ÆµµÀ²âÊÔ</span><br>
+Ö§³ÖÈÎÒâHTML´úÂëºÍºóÌ¨DIYÄ£¿éµÈ£¬Ëæ±ãÄã·ÅÊ²Ã´<br>
+<span style="color:#03C5C7;">Äú¿ÉÒÔÓÃÀ´´´½¨Ò»¸ö¹ã¸æµ¥Ò³</span><br>
+<span style="color:#43BE4A;">ÄúÒ²¿ÉÒÔÓÃÀ´´´½¨»î¶¯µÄ¾«²ÊÐû´«Ò³</span><br>
+<span style="color:#6E9DD5;">»¹¿ÉÒÔ...? ·¢»ÓÄúµÄÏëÏó£¬´´ÔìÎÞÏÞ¾«²Ê£¡£¡£¡</span><br>
+<img src="static/image/smiley/comiis_xz/xz_3.gif" width="50"><br>
+<span style="color:#ff6600;">À´Ê×ÂíÔÆµÄ¡¶º£À«Ìì¿Õ¡·²âÊÔÏÂ£¬ÈÃÄúàË·­È«³¡£¡</span><br>
+<iframe frameborder="0" width="300" height="180" src="http://v.qq.com/iframe/player.html?vid=x0336uu7730&tiny=0&auto=0" allowfullscreen></iframe><br>
+Ï²»¶¾Í¸Ï¿ìÁªÏµ¿ËÃ×Éè¼ÆÏà¹Ø¿Í·þÁË½âÏêÇé°É ^_^<br>
+¸ÐÐ»´ó¼ÒµÄÖ§³Ö! <span style="color:#01AF63;">BY: COMIIS APP!</span><br>
+</div>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[ÓãÀÖÈ¦]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[blank]]></item>
+				<item id="param">
+					<item id="content"><![CDATA[<div style=\"text-align:center;font-size:14px;line-height:26px;padding-top:15px;padding-bottom:10px;\">
+<span style=\"color:#f00;font-size:18px;\">ÕâÀïÊÇÒ»¸öµ¥Ò³ÆµµÀ²âÊÔ</span><br>
+Ö§³ÖÈÎÒâHTML´úÂëºÍºóÌ¨DIYÄ£¿éµÈ£¬Ëæ±ãÄã·ÅÊ²Ã´<br>
+<span style=\"color:#03C5C7;\">Äú¿ÉÒÔÓÃÀ´´´½¨Ò»¸ö¹ã¸æµ¥Ò³</span><br>
+<span style=\"color:#43BE4A;\">ÄúÒ²¿ÉÒÔÓÃÀ´´´½¨»î¶¯µÄ¾«²ÊÐû´«Ò³</span><br>
+<span style=\"color:#6E9DD5;\">»¹¿ÉÒÔ...? ·¢»ÓÄúµÄÏëÏó£¬´´ÔìÎÞÏÞ¾«²Ê£¡£¡£¡</span><br>
+<img src=\"static/image/smiley/comiis_xz/xz_3.gif\" width=\"50\"><br>
+<span style=\"color:#ff6600;\">À´Ê×ÂíÔÆµÄ¡¶º£À«Ìì¿Õ¡·²âÊÔÏÂ£¬ÈÃÄúàË·­È«³¡£¡</span><br>
+<iframe frameborder=\"0\" width=\"300\" height=\"180\" src=\"http://v.qq.com/iframe/player.html?vid=x0336uu7730&tiny=0&auto=0\" allowfullscreen></iframe><br>
+Ï²»¶¾Í¸Ï¿ìÁªÏµ¿ËÃ×Éè¼ÆÏà¹Ø¿Í·þÁË½âÏêÇé°É ^_^<br>
+¸ÐÐ»´ó¼ÒµÄÖ§³Ö! <span style=\"color:#01AF63;\">BY: COMIIS APP!</span><br>
+</div>]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1545846207]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+			<item id="247">
+				<item id="bid"><![CDATA[247]]></item>
+				<item id="blockclass"><![CDATA[html_html]]></item>
+				<item id="blocktype"><![CDATA[1]]></item>
+				<item id="name"><![CDATA[ÂúÆÁÍ¼Æ¬¹ã¸æ_JRA1]]></item>
+				<item id="title"><![CDATA[]]></item>
+				<item id="classname"><![CDATA[]]></item>
+				<item id="summary"><![CDATA[<a href="#" target="_blank"><img src="source/plugin/comiis_app_portal/comiis/showimg02/img/001.jpg" width="100%" /></a>]]></item>
+				<item id="uid"><![CDATA[1]]></item>
+				<item id="username"><![CDATA[ÓãÀÖÈ¦]]></item>
+				<item id="styleid"><![CDATA[0]]></item>
+				<item id="blockstyle"><![CDATA[]]></item>
+				<item id="picwidth"><![CDATA[0]]></item>
+				<item id="picheight"><![CDATA[0]]></item>
+				<item id="target"><![CDATA[blank]]></item>
+				<item id="dateformat"><![CDATA[Y-m-d]]></item>
+				<item id="dateuformat"><![CDATA[0]]></item>
+				<item id="script"><![CDATA[banner]]></item>
+				<item id="param">
+					<item id="pic"><![CDATA[source/plugin/comiis_app_portal/comiis/showimg02/img/001.jpg]]></item>
+					<item id="url"><![CDATA[#]]></item>
+					<item id="atarget"><![CDATA[_blank]]></item>
+					<item id="width"><![CDATA[100%]]></item>
+					<item id="height"><![CDATA[]]></item>
+					<item id="text"><![CDATA[]]></item>
+					<item id="items"><![CDATA[10]]></item>
+				</item>
+				<item id="shownum"><![CDATA[10]]></item>
+				<item id="cachetime"><![CDATA[0]]></item>
+				<item id="cachetimerange"><![CDATA[0,0]]></item>
+				<item id="punctualupdate"><![CDATA[0]]></item>
+				<item id="hidedisplay"><![CDATA[0]]></item>
+				<item id="dateline"><![CDATA[1545846207]]></item>
+				<item id="notinherited"><![CDATA[0]]></item>
+				<item id="isblank"><![CDATA[0]]></item>
+			</item>
+		</item>
+		<item id="style">
+		</item>
+	</item>
+</root>
